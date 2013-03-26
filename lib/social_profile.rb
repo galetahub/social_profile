@@ -2,6 +2,9 @@
 require "social_profile/version"
 
 module SocialProfile
+  autoload :Utils, "social_profile/utils"
+  autoload :Response, "social_profile/response"
+
   module Providers
     autoload :Base, "social_profile/providers/base"
     autoload :Facebook, "social_profile/providers/facebook"

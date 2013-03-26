@@ -36,23 +36,23 @@ module SocialProfile
       end
       
       def info(key)
-        if info? && !auth_hash['info'][key].blank?
+        if info? && Utils.exists?(auth_hash['info'][key])
           auth_hash['info'][key]
         end
       end
       
       def extra(key)
-        if extra? && !auth_hash['extra'][key].blank?
+        if extra? && Utils.exists?(auth_hash['extra'][key])
           auth_hash['extra'][key]
         end
       end
       
       def extra?
-        !auth_hash['extra'].blank?
+        auth_hash['extra'] && auth_hash['extra'].is_a?(Hash)
       end
       
       def info?
-        !auth_hash['info'].blank?
+        auth_hash['info'] && auth_hash['info'].is_a?(Hash)
       end
       
       def avatar_url
@@ -94,7 +94,7 @@ module SocialProfile
       protected
 
         def parse_datetime(value)
-          return nil if value.blank? || value.to_i.zero?
+          return nil if Utils.blank?(value) || value.to_i.zero?
           Time.at(value.to_i).to_datetime
         end
     end

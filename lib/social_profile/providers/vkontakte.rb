@@ -6,7 +6,7 @@ module SocialProfile
         @picture_url ||= begin
           if auth_hash['extra'] && auth_hash['extra']['raw_info']
             photo = auth_hash['extra']['raw_info']['photo_big']
-            photo.blank? ? nil : photo
+            Utils.blank?(photo) ? nil : photo
           end
         end
       end
