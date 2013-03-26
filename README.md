@@ -18,11 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-  profile = SocialProfile.get(auth_hash)
-  profile.picture_url   # http://profile.ak.fbcdn.net/h..._4963049_s.jpg
-  profile.gender        # 0 - unknown, 1 - female, 2 - male
-  profile.profile_url   # http://www.facebook.com/develop.rails
-  profile.provider      # facebook
+``` ruby
+profile = SocialProfile.get(auth_hash)
+profile.picture_url   # http://profile.ak.fbcdn.net/h..._4963049_s.jpg
+profile.gender        # 0 - unknown, 1 - female, 2 - male
+profile.profile_url   # http://www.facebook.com/develop.rails
+profile.provider      # facebook
+```
 
 
 ## Contributing
