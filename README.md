@@ -18,6 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
+Parse auth hash:
+
 ``` ruby
 profile = SocialProfile.get(auth_hash)
 profile.picture_url   # http://profile.ak.fbcdn.net/h..._4963049_s.jpg
@@ -26,6 +28,17 @@ profile.profile_url   # http://www.facebook.com/develop.rails
 profile.provider      # facebook
 ```
 
+Post photo to social album. If album dosn't exists, it's create new one:
+
+``` ruby
+user = SocialProfile::Person.get(:facebook, uid, access_token)
+
+user.share_photo!(album_id, filepath, {
+  :album => {:title => "Site pictures"}, 
+  :photo => {:message => "Cool photo"}
+})
+
+```
 
 ## Contributing
 
@@ -34,3 +47,5 @@ profile.provider      # facebook
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+Copyright (c) 2013 Fodojo, released under the MIT license

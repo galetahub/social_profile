@@ -4,11 +4,17 @@ require "social_profile/version"
 module SocialProfile
   autoload :Utils, "social_profile/utils"
   autoload :Response, "social_profile/response"
+  autoload :Person, "social_profile/person"
 
   module Providers
     autoload :Base, "social_profile/providers/base"
     autoload :Facebook, "social_profile/providers/facebook"
     autoload :Vkontakte, "social_profile/providers/vkontakte"
+  end
+
+  module People
+    autoload :Facebook, "social_profile/people/facebook"
+    autoload :Vkontakte, "social_profile/people/vkontakte"
   end
     
   def self.get(auth_hash, options = {})
