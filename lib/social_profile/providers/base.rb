@@ -58,6 +58,14 @@ module SocialProfile
       def avatar_url
         @avatar_url ||= info('image')
       end
+
+      def picture_url
+        nil
+      end
+
+      def profile_url
+        nil
+      end
       
       def city_name
         @city_name ||= begin
@@ -74,10 +82,6 @@ module SocialProfile
         @credentials ||= (auth_hash['credentials'] || {})
       end
       
-      def profile_url
-        nil
-      end
-      
       # Возвращаемые значения: 1 - женский, 2 - мужской, 0 - без указания пола.
       def gender
         0
@@ -89,6 +93,10 @@ module SocialProfile
 
       def token_expires_at
         @token_expires_at ||= parse_datetime(credentials['expires_at'])
+      end
+
+      def birthday
+        nil
       end
 
       protected

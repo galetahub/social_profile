@@ -34,7 +34,7 @@ Post photo to social album. If album dosn't exists, it's create new one:
 user = SocialProfile::Person.get(:facebook, uid, access_token)
 
 user.share_photo!(album_id, filepath, {
-  :album => {:title => "Site pictures"}, 
+  :album => {:name => "Site pictures"}, 
   :photo => {:message => "Cool photo"}
 })
 

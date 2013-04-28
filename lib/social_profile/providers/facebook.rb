@@ -29,6 +29,14 @@ module SocialProfile
           else 0
         end
       end
+
+      def birthday
+        @birthday ||= begin
+          Date.strptime(extra('raw_info')['birthday'],'%m/%d/%Y')
+        rescue Exception => e
+          nil
+        end
+      end
       
       protected
       
