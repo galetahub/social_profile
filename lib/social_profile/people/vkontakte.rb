@@ -27,8 +27,8 @@ module SocialProfile
 
     class Album
       
-      def initialize(hash, target)
-        @hash = Array.wrap(hash["response"]).first || {}
+      def initialize(response, target)
+        @hash = normalize_hash(response)
         @target = target
       end
       
@@ -78,11 +78,19 @@ module SocialProfile
         def find_upload_url
           server = @target.photos.getUploadServer(:aid => identifier)
 
-          if server && server['response']
+          if server && server['upload_url']
+            server['upload_url']
+          elsif server && server['response']
             server['response']['upload_url']
           else
             nil
           end
+        end
+
+        def normalize_hash(hash)
+          hash = hash["response"] if hash.is_a?(Hash) && hash["response"]
+          response = Array.wrap(hash).first
+          response || {}
         end
     end
 
