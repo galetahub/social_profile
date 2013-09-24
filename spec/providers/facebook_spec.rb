@@ -22,6 +22,8 @@ describe SocialProfile::Providers::Facebook do
       @profile.picture_url.should == "http://profile.ak.fbcdn.net/hprofile-ak-prn1/41634_100000730417342_973_n.jpg"
       @profile.gender.should == 2
       @profile.profile_url.should == "http://www.facebook.com/pavel.galeta"
+      @profile.works.should == []
+      @profile.works?.should == true
     end
   end
 end

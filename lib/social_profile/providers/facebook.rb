@@ -1,4 +1,5 @@
 # encoding: utf-8
+
 module SocialProfile
   module Providers
     class Facebook < Base
@@ -37,6 +38,15 @@ module SocialProfile
           nil
         end
       end
+
+      def works?
+        raw_info? && extra('raw_info')['work'] && extra('raw_info')['work'].is_a?(Array)
+      end
+
+      def works
+        return [] unless works?
+        @works ||= extra('raw_info')['work']
+      end
       
       protected
       
@@ -50,6 +60,9 @@ module SocialProfile
           end
         end
       
+        def raw_info?
+          extra('raw_info') && extra('raw_info').is_a?(Hash)
+        end
     end
   end
 end

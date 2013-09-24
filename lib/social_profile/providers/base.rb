@@ -54,6 +54,10 @@ module SocialProfile
       def info?
         auth_hash['info'] && auth_hash['info'].is_a?(Hash)
       end
+
+      def works?
+        false
+      end
       
       def avatar_url
         @avatar_url ||= info('image')
