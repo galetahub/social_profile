@@ -1,4 +1,3 @@
-# encoding: utf-8
 require "social_profile/version"
 
 module SocialProfile
@@ -65,6 +64,11 @@ module SocialProfile
       return if tags.empty? || object.nil?
 
       object.tag!(:tags => tags)
+    end
+
+    # Get friends count
+    def friends_count(options = {})
+      raise NotImplementedError("Subclasses should implement this!")
     end
   end
 end

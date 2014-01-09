@@ -1,4 +1,3 @@
-# encoding: utf-8
 require 'spec_helper'
 
 describe SocialProfile::People::Facebook do
@@ -7,12 +6,29 @@ describe SocialProfile::People::Facebook do
   end
 
   context "facebook" do
+    before :all do 
+      # stub = stub_request(:get, FbGraph::Query.new(query).endpoint).with(
+      #   :query => {:q => query, :access_token => "abc"}, 
+      #   :headers => {"Host" => 'graph.facebook.com'}
+      # ).to_return(
+      #   :body => '{"data": [{"friend_count": 230}]}'
+      # )
+
+      FbGraph.debug!
+    end
+
     before(:each) do
       @user = SocialProfile::Person.get(:facebook, "100000730417342", "abc")
     end
 
     it "should be a facebook profile" do
       @user.should be_a(SocialProfile::People::Facebook)
+    end
+
+    it "should response to friends_count" do
+      mock_fql "SELECT friend_count FROM user WHERE uid=me()", SocialProfile.root_path.join('spec/mock_json/users/friends_count.json'), :params => {:access_token => "abc"} do
+        @user.friends_count.should > 0
+      end
     end
   end
 end
