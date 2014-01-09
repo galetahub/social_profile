@@ -26,7 +26,7 @@ describe SocialProfile::People::Facebook do
     end
 
     it "should response to friends_count" do
-      mock_fql "SELECT friend_count FROM user WHERE uid=me()", SocialProfile.root_path.join('spec/mock_json/users/friends_count.json'), :params => {:access_token => "abc"} do
+      mock_fql SocialProfile::People::Facebook::FRIENDS_FQL, SocialProfile.root_path.join('spec/mock_json/users/friends_count.json'), :params => {:access_token => "abc"} do
         @user.friends_count.should > 0
       end
     end
