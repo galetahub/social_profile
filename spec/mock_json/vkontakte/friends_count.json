@@ -1,0 +1,14 @@
+{
+  "response": [
+    {
+      "uid":"1",
+      "first_name":"Павел",
+      "last_name":"Дуров",
+      "photo":"http:\/\/cs109.vkontakte.ru\/u00001\/c_df2abf56.jpg",
+      "counters": {
+        "friends": 230,
+        "followers": 10
+      }
+    }
+  ]
+}
