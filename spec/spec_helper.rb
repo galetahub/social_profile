@@ -1,6 +1,8 @@
-# encoding: utf-8
 require "rspec"
 require "social_profile"
+require 'fb_graph/mock'
+
+include FbGraph::Mock
 
 # Load support files
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
@@ -11,6 +13,11 @@ RSpec.configure do |config|
   require 'rspec/expectations'
   config.include RSpec::Matchers
 
+  WebMock.allow_net_connect!
+
   # == Mock Framework
   config.mock_with :rspec
+
+  config.after(:all) do
+  end
 end

@@ -1,4 +1,3 @@
-# encoding: utf-8
 require "social_profile/version"
 
 module SocialProfile
@@ -17,6 +16,7 @@ module SocialProfile
       klass = case provider.to_s
         when "facebook" then People::Facebook
         when "vkontakte" then People::Vkontakte
+        when "twitter" then People::Twitter
         else Person
       end
     
@@ -65,6 +65,11 @@ module SocialProfile
       return if tags.empty? || object.nil?
 
       object.tag!(:tags => tags)
+    end
+
+    # Get friends count
+    def friends_count(options = {})
+      raise NotImplementedError("Subclasses should implement this!")
     end
   end
 end

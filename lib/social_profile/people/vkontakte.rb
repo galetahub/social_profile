@@ -1,4 +1,3 @@
-# encoding: utf-8
 require "vkontakte"
 require "httpclient"
 require "multi_json"
@@ -16,6 +15,23 @@ module SocialProfile
       def album!(options = {})
         response = user.photos.createAlbum(:title => options[:name], :description => options[:message])
         Album.new(response, user)
+      end
+
+      # Get friends count
+      def friends_count
+        @friends_count ||= fetch_friends_count
+      end
+
+      def fetch_friends_count
+        response = user.fetch(:fields => "counters")
+        response = response.first if response.is_a?(Array)
+
+        return nil unless response.is_a?(Hash)
+
+        counters = response["counters"] 
+        return nil if counters["friends"].blank? && counters["followers"].blank?
+
+        counters["friends"].to_i + counters["followers"].to_i
       end
       
       protected
