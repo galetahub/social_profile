@@ -16,6 +16,7 @@ module SocialProfile
       klass = case provider.to_s
         when "facebook" then People::Facebook
         when "vkontakte" then People::Vkontakte
+        when "twitter" then People::Twitter
         else Person
       end
     
