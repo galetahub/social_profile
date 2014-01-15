@@ -10,6 +10,7 @@ module SocialProfile
     autoload :Facebook, "social_profile/providers/facebook"
     autoload :Vkontakte, "social_profile/providers/vkontakte"
     autoload :Twitter, "social_profile/providers/twitter"
+    autoload :Instagram, "social_profile/providers/instagram"
   end
 
   module People
@@ -25,6 +26,7 @@ module SocialProfile
       when "facebook" then Providers::Facebook
       when "vkontakte" then Providers::Vkontakte
       when "twitter" then Providers::Twitter
+      when "instagram" then Providers::Instagram
       else Providers::Base
     end
     
