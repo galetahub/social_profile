@@ -69,7 +69,7 @@ module SocialProfile
 
     # Get friends count
     def friends_count(options = {})
-      raise NotImplementedError("Subclasses should implement this!")
+      nil
     end
   end
 end
