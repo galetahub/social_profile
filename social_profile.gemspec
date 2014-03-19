@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "fb_graph"
   spec.add_dependency "vkontakte"
+  spec.add_dependency "twitter"
   spec.add_dependency "httpclient"
   spec.add_dependency "multi_json"
 end

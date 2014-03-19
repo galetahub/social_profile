@@ -21,3 +21,7 @@ RSpec.configure do |config|
   config.after(:all) do
   end
 end
+
+def fixture(file)
+  File.read(SocialProfile.root_path.join('spec/mock_json', file))
+end

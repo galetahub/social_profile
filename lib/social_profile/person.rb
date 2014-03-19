@@ -2,7 +2,7 @@ require "social_profile/version"
 
 module SocialProfile
   class Person
-    attr_reader :uid, :access_token
+    attr_reader :uid, :access_token, :options
       
     def initialize(uid, access_token, options = {})
       @uid = uid
