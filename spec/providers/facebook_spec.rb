@@ -19,7 +19,7 @@ describe SocialProfile::Providers::Facebook do
     it "should parse profile" do
       @profile.name.should == "Pavel Galeta"
       @profile.email.should == "email@gmail.com"
-      @profile.picture_url.should == "http://profile.ak.fbcdn.net/hprofile-ak-prn1/t5/41634_100000730417342_973_n.jpg"
+      @profile.picture_url.should == "http://profile.ak.fbcdn.net/hprofile-ak-prn2/t5.0-1/1116992_100000730417342_336985489_n.jpg"
       @profile.gender.should == 2
       @profile.profile_url.should == "http://www.facebook.com/pavel.galeta"
       @profile.works.should == []
