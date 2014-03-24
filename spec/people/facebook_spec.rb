@@ -14,7 +14,7 @@ describe SocialProfile::People::Facebook do
       #   :body => '{"data": [{"friend_count": 230}]}'
       # )
 
-      FbGraph.debug!
+      # FbGraph.debug!
     end
 
     before(:each) do
@@ -32,11 +32,40 @@ describe SocialProfile::People::Facebook do
     end
 
     it "should response to first_post_exists?" do
-      _sql = SocialProfile::People::Facebook::FIRST_POST_SQL.gsub('{date}', '1293832800')
+      _sql = SocialProfile::People::Facebook::FIRST_POST_FQL.gsub('{date}', '1293832800')
 
       mock_fql _sql, SocialProfile.root_path.join('spec/mock_json/facebook/first_post.json'), :access_token => "abc" do
         @user.first_post_exists?(2011).should > 0
       end
+    end
+
+    it "should response to last_posts" do
+      fields = SocialProfile::People::Facebook::LAST_POSTS_FIELDS.join(",")
+
+      stub_request(:get, "https://graph.facebook.com/me/feed?access_token=abc&fields=#{fields}&limit=600").
+         to_return(:status => 200, :body => fixture("facebook/last_posts.json"))
+
+      posts = @user.last_posts(600)
+
+      posts.should be_a(Array)
+      posts.size.should == 239
+    end
+
+    it "should response to last_posts by days" do
+      fields = SocialProfile::People::Facebook::LAST_POSTS_FIELDS.join(",")
+      fields2 = fields.gsub('.fields(created_time)', '')
+
+      stub_request(:get, "https://graph.facebook.com/me/feed?access_token=abc&fields=#{fields}&limit=5").
+         to_return(:status => 200, :body => fixture("facebook/last_5_posts.json"))
+      stub_request(:get, "https://graph.facebook.com/me/feed?access_token=abc&fields=#{fields2}&limit=5&until=1394475325").
+         to_return(:status => 200, :body => fixture("facebook/last_5_posts_page_2.json"))
+      stub_request(:get, "https://graph.facebook.com/me/feed?access_token=abc&fields=#{fields2}&limit=5&until=1394439420").
+         to_return(:status => 200, :body => fixture("facebook/last_5_posts_page_3.json"))
+
+      posts = @user.last_post_by_days(10, :limit => 5, :date_end => DateTime.new(2014, 3, 15))
+
+      posts.should be_a(Array)
+      posts.size.should == 13
     end
   end
 end
