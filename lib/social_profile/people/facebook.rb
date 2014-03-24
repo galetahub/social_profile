@@ -4,6 +4,7 @@ module SocialProfile
   module People
     class Facebook < Person
       FRIENDS_FQL = "SELECT friend_count FROM user WHERE uid=me()"
+      FIRST_POST_SQL = "SELECT created_time FROM stream WHERE source_id = me() AND created_time < {date} limit 1"
 
       # Find album by id
       def fetch_album(album_id)
@@ -27,6 +28,20 @@ module SocialProfile
         return nil if response.is_a?(Hash) && response["friend_count"].blank?
 
         response["friend_count"].to_i
+      end
+
+      # Check if exists any post in current year 
+      #
+      def first_post_exists?(year)
+        timestamp = Time.new(year, 1, 1).utc.to_i
+
+        _sql = FIRST_POST_SQL.gsub('{date}', timestamp.to_s)
+        response = FbGraph::Query.new(_sql).fetch(:access_token => access_token)
+
+        response = response.first if response.is_a?(Array)
+        return nil if response.is_a?(Hash) && response["created_time"].blank?
+
+        response["created_time"].to_i
       end
       
       protected

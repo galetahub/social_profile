@@ -14,7 +14,7 @@ describe SocialProfile::People::Facebook do
       #   :body => '{"data": [{"friend_count": 230}]}'
       # )
 
-      # FbGraph.debug!
+      FbGraph.debug!
     end
 
     before(:each) do
@@ -28,6 +28,14 @@ describe SocialProfile::People::Facebook do
     it "should response to friends_count" do
       mock_fql SocialProfile::People::Facebook::FRIENDS_FQL, SocialProfile.root_path.join('spec/mock_json/facebook/friends_count.json'), :access_token => "abc" do
         @user.friends_count.should > 0
+      end
+    end
+
+    it "should response to first_post_exists?" do
+      _sql = SocialProfile::People::Facebook::FIRST_POST_SQL.gsub('{date}', '1293832800')
+
+      mock_fql _sql, SocialProfile.root_path.join('spec/mock_json/facebook/first_post.json'), :access_token => "abc" do
+        @user.first_post_exists?(2011).should > 0
       end
     end
   end
