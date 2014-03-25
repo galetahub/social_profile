@@ -1,0 +1,153 @@
+{
+  "data": [
+    {
+      "created_time": "2014-03-10T08:06:40+0000", 
+      "id": "100000730417342_731339570233717", 
+      "comments": {
+        "data": [
+          {
+            "id": "731339570233717_101462884", 
+            "from": {
+              "name": "Pavel Galeta", 
+              "id": "100000730417342"
+            }, 
+            "message": "Дякую!", 
+            "can_remove": true, 
+            "created_time": "2014-03-10T08:38:17+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MTAxMDEzMTMwNDAwMDkwOTE=", 
+            "before": "MTAxMDEzMTMwNDAwMDkwOTE="
+          }
+        }, 
+        "summary": {
+          "order": "chronological", 
+          "total_count": 1
+        }
+      }
+    }, 
+    {
+      "created_time": "2014-03-10T07:08:36+0000", 
+      "id": "100000730417342_731326470235027", 
+      "comments": {
+        "data": [
+          {
+            "id": "731326470235027_101462777", 
+            "from": {
+              "name": "Pavel Galeta", 
+              "id": "100000730417342"
+            }, 
+            "message": "Дякую!", 
+            "can_remove": true, 
+            "created_time": "2014-03-10T07:16:43+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MTAxMDEzMTMwNDAwMDkwOTE=", 
+            "before": "MTAxMDEzMTMwNDAwMDkwOTE="
+          }
+        }, 
+        "summary": {
+          "order": "chronological", 
+          "total_count": 1
+        }
+      }
+    }, 
+    {
+      "created_time": "2014-03-10T05:59:26+0000", 
+      "id": "100000730417342_731290050238669", 
+      "comments": {
+        "data": [
+          {
+            "id": "731290050238669_101462778", 
+            "from": {
+              "name": "Pavel Galeta", 
+              "id": "100000730417342"
+            }, 
+            "message": "Thanks! :)", 
+            "can_remove": true, 
+            "created_time": "2014-03-10T07:17:01+0000", 
+            "like_count": 0, 
+            "user_likes": false
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MTAxMDEzMTMwNDAwMDkwOTE=", 
+            "before": "MTAxMDEzMTMwNDAwMDkwOTE="
+          }
+        }, 
+        "summary": {
+          "order": "chronological", 
+          "total_count": 1
+        }
+      }
+    }, 
+    {
+      "created_time": "2014-03-04T11:12:40+0000", 
+      "id": "100000730417342_728158680551806", 
+      "comments": {
+        "data": [
+          {
+            "id": "728158680551806_101446195", 
+            "from": {
+              "name": "Ekaterina Galeta", 
+              "id": "100000803581985"
+            }, 
+            "message": "они с януковичем стоят друг друга", 
+            "can_remove": true, 
+            "created_time": "2014-03-04T11:58:10+0000", 
+            "like_count": 1, 
+            "user_likes": true
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MTAxMDEzMTMwNDAwMDkwOTE=", 
+            "before": "MTAxMDEzMTMwNDAwMDkwOTE="
+          }, 
+          "next": "https://graph.facebook.com/100000730417342_728158680551806/comments?limit=1&summary=1&after=MTAxMDEzMTMwNDAwMDkwOTE="
+        }, 
+        "summary": {
+          "order": "chronological", 
+          "total_count": 2
+        }
+      }
+    }, 
+    {
+      "created_time": "2014-02-28T14:17:06+0000", 
+      "shares": {
+        "count": 1
+      }, 
+      "id": "100000730417342_725962980771376", 
+      "likes": {
+        "data": [
+          {
+            "id": "100000022963160"
+          }
+        ], 
+        "paging": {
+          "cursors": {
+            "after": "MTAwMDAwMDIyOTYzMTYw", 
+            "before": "MTAwMDAwMDIyOTYzMTYw"
+          }, 
+          "next": "https://graph.facebook.com/100000730417342_725962980771376/likes?limit=1&fields=id&summary=1&after=MTAwMDAwMDIyOTYzMTYw"
+        }, 
+        "summary": {
+          "total_count": 3
+        }
+      }
+    }
+  ], 
+  "paging": {
+    "previous": "https://graph.facebook.com/100000730417342/feed?fields=comments.limit(1).summary(true),likes.limit(1).fields(id).summary(true),created_time,shares&limit=5&since=1394438800", 
+    "next": "https://graph.facebook.com/100000730417342/feed?fields=comments.limit(1).summary(true),likes.limit(1).fields(id).summary(true),created_time,shares&limit=5&until=1393597025"
+  }
+}

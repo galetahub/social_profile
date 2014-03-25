@@ -7,7 +7,7 @@ describe SocialProfile::People::Twitter do
 
   context "twitter" do
     before(:each) do
-      @user = SocialProfile::Person.get(:twitter, "123456", "abc")
+      @user = SocialProfile::Person.get(:twitter, "123456", "abc", :api_key => "111", :api_secret => "222", :token_secret => "333")
       stub_request(:post, "https://api.twitter.com/oauth2/token").with(:body => {'grant_type' => 'client_credentials'}).
         to_return(:body => fixture("twitter/token.json"), :headers => {:content_type => 'application/json; charset=utf-8'})
       stub_request(:get, "https://api.twitter.com/1.1/account/verify_credentials.json").
