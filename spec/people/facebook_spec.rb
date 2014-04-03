@@ -51,7 +51,7 @@ describe SocialProfile::People::Facebook do
       posts.size.should == 239
     end
 
-    it "should response to last_posts by days" do
+    it "should response to last_posts by days (with 3 request to facebook api)" do
       fields = SocialProfile::People::Facebook::LAST_POSTS_FIELDS.join(",")
       fields2 = fields.gsub('.fields(created_time)', '')
 

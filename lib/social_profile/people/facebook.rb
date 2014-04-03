@@ -36,7 +36,7 @@ module SocialProfile
         response["friend_count"].to_i
       end
 
-      # Check if exists any post in current year 
+      # Check if exists any post before current year 
       #
       def first_post_exists?(year)
         timestamp = Time.new(year, 1, 1).utc.to_i
@@ -45,7 +45,7 @@ module SocialProfile
         response = FbGraph::Query.new(_sql).fetch(:access_token => access_token)
 
         response = response.first if response.is_a?(Array)
-        return nil if response.is_a?(Hash) && response["created_time"].blank?
+        return nil if response.nil? || (response.is_a?(Hash) && response["created_time"].blank?)
 
         response["created_time"].to_i
       end
@@ -60,7 +60,7 @@ module SocialProfile
 
       # Get last post by days from feed with comments, shares and likes counters
       #
-      def last_post_by_days(days, options)
+      def last_post_by_days(days, options={})
         date = (options[:date_end] || Time.now) - days.days
         limit = options[:limit] || 100
 
