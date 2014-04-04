@@ -82,5 +82,15 @@ describe SocialProfile::People::Facebook do
       posts.should be_a(Array)
       posts.size.should == 44
     end
+
+    it "should get friends list" do
+      stub_request(:get, "https://graph.facebook.com/me/friends?access_token=abc&limit=100000").
+         to_return(:status => 200, :body => fixture("facebook/friends.json"))
+
+      friends = @user.friends(:limit => 100000)
+
+      friends.should be_a(Array)
+      friends.size.should == 4343
+    end
   end
 end

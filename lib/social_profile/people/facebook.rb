@@ -76,6 +76,13 @@ module SocialProfile
         posts.select { |p| p.created_time > date }
       end
 
+      # Get all friends list
+      #
+      def friends(options={})
+        limit = options[:limit] || 500000
+        user.friends(:limit => limit)
+      end
+
       protected
       
         def user
