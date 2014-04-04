@@ -64,7 +64,7 @@ module SocialProfile
         date = (options[:date_end] || Time.now) - days.days
         limit = options[:limit] || 100
 
-        posts = collection = last_posts(limit)
+        posts = collection = last_posts(limit, options)
         last_created_time = posts.last.created_time
 
         while last_created_time > date
