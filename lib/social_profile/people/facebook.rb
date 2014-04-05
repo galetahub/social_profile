@@ -64,7 +64,7 @@ module SocialProfile
         date = (options[:date_end] || Time.now) - days.days
         limit = options[:limit] || 100
 
-        posts = collection = last_posts(limit)
+        posts = collection = last_posts(limit, options)
         last_created_time = posts.last.created_time
 
         while last_created_time > date
@@ -74,6 +74,13 @@ module SocialProfile
         end
 
         posts.select { |p| p.created_time > date }
+      end
+
+      # Get all friends list
+      #
+      def friends(options={})
+        limit = options[:limit] || 500000
+        user.friends(:limit => limit)
       end
 
       protected

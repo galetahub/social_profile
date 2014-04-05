@@ -67,5 +67,30 @@ describe SocialProfile::People::Facebook do
       posts.should be_a(Array)
       posts.size.should == 13
     end
+
+    it "should get big data from last_posts" do
+      fields = ["comments.limit(1000).fields(created_time,from).summary(true)",
+                "likes.limit(1000).fields(id).summary(true)",
+                "created_time", 
+                "shares"]
+
+      stub_request(:get, "https://graph.facebook.com/me/feed?access_token=abc&fields=#{fields.join(',')}&limit=1000").
+         to_return(:status => 200, :body => fixture("facebook/last_posts_big.json"))
+
+      posts = @user.last_posts(1000, :fields => fields)
+
+      posts.should be_a(Array)
+      posts.size.should == 44
+    end
+
+    it "should get friends list" do
+      stub_request(:get, "https://graph.facebook.com/me/friends?access_token=abc&limit=100000").
+         to_return(:status => 200, :body => fixture("facebook/friends.json"))
+
+      friends = @user.friends(:limit => 100000)
+
+      friends.should be_a(Array)
+      friends.size.should == 4343
+    end
   end
 end
