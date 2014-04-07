@@ -71,16 +71,19 @@ describe SocialProfile::People::Facebook do
     it "should get big data from last_posts" do
       fields = ["comments.limit(1000).fields(created_time,from).summary(true)",
                 "likes.limit(1000).fields(id).summary(true)",
-                "created_time", 
-                "shares"]
+                "shares",
+                "status_type"]
 
       stub_request(:get, "https://graph.facebook.com/me/feed?access_token=abc&fields=#{fields.join(',')}&limit=1000").
          to_return(:status => 200, :body => fixture("facebook/last_posts_big.json"))
+      stub_request(:get, "https://graph.facebook.com/me/feed?access_token=abc&fields=#{fields.join(',')}&limit=1000&until=1394789304").
+         to_return(:status => 200, :body => fixture("facebook/last_posts_big2.json"))
 
-      posts = @user.last_posts(1000, :fields => fields)
+      posts = @user.last_post_by_days(30, :limit => 1000, :date_end => DateTime.new(2014, 4, 6), :fields => fields)
 
       posts.should be_a(Array)
-      posts.size.should == 44
+      posts.size.should == 56
+      posts.select {|p| p.raw_attributes["status_type"] == "shared_story"}.size.should == 13
     end
 
     it "should get friends list" do
