@@ -71,5 +71,10 @@ module SocialProfile
     def friends_count(options = {})
       nil
     end
+
+    # Get followers count
+    def followers_count(options = {})
+      nil
+    end
   end
 end

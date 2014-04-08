@@ -7,13 +7,6 @@ describe SocialProfile::People::Facebook do
 
   context "facebook" do
     before :all do 
-      # stub = stub_request(:get, FbGraph::Query.new(query).endpoint).with(
-      #   :query => {:q => query, :access_token => "abc"}, 
-      #   :headers => {"Host" => 'graph.facebook.com'}
-      # ).to_return(
-      #   :body => '{"data": [{"friend_count": 230}]}'
-      # )
-
       # FbGraph.debug!
     end
 
@@ -29,6 +22,13 @@ describe SocialProfile::People::Facebook do
       mock_fql SocialProfile::People::Facebook::FRIENDS_FQL, SocialProfile.root_path.join('spec/mock_json/facebook/friends_count.json'), :access_token => "abc" do
         @user.friends_count.should > 0
       end
+    end
+
+    it "should response to followers_count" do
+      stub_request(:get, "https://graph.facebook.com/me/subscribers?access_token=abc&limit=1").
+         to_return(:status => 200, :body => fixture("facebook/followers.json"))
+
+      @user.followers_count.should == 14
     end
 
     it "should response to first_post_exists?" do
