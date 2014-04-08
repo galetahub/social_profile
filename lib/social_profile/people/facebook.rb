@@ -23,8 +23,15 @@ module SocialProfile
       end
 
       # Get friends count
+      #
       def friends_count
         @friends_count ||= fetch_friends_count
+      end
+
+      # Get followers count
+      #
+      def followers_count
+        @followers_count ||= followers(:limit => 1).total_count
       end
 
       def fetch_friends_count
@@ -81,6 +88,13 @@ module SocialProfile
       def friends(options={})
         limit = options[:limit] || 500000
         user.friends(:limit => limit)
+      end
+
+      # Get all followers list
+      #
+      def followers(options={})
+        limit = options[:limit] || 500000
+        user.subscribers(:limit => limit)
       end
 
       protected
