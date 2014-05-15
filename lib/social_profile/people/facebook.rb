@@ -70,11 +70,14 @@ module SocialProfile
       def last_post_by_days(days, options={})
         date = (options[:date_end] || Time.now) - days.days
         limit = options[:limit] || 100
+        max_iteration = options[:max_iteration] || 100
+        iteration = 0
 
         posts = collection = last_posts(limit, options)
         last_created_time = posts.last.created_time
 
-        while last_created_time > date
+        while last_created_time > date && !last_created_time.blank? && iteration < max_iteration
+          iteration += 1
           collection = collection.next
           posts += collection
           last_created_time = posts.last.created_time
