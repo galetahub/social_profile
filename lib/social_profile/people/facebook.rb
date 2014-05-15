@@ -76,7 +76,7 @@ module SocialProfile
         posts = collection = last_posts(limit, options)
         last_created_time = posts.last.created_time
 
-        while last_created_time > date && !last_created_time.blank? && iteration < 100
+        while last_created_time > date && !last_created_time.blank? && iteration < max_iteration
           iteration += 1
           collection = collection.next
           posts += collection
