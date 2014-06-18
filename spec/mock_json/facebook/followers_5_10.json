@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "name": "Max Solomianyi", 
+      "id": "100000419905855"
+    }, 
+    {
+      "name": "Олег Гардаш", 
+      "id": "100001535481251"
+    }, 
+    {
+      "name": "Oleg  Pavlov", 
+      "id": "100004742075897"
+    }, 
+    {
+      "name": "Тепли Викна", 
+      "id": "100003304746675"
+    }, 
+    {
+      "name": "Rashed  Mohammad", 
+      "id": "100004427467621"
+    }
+  ], 
+  "paging": {
+    "cursors": {
+      "after": "MTAwMDA0NDI3NDY3NjIx", 
+      "before": "MTAwMDAwNDE5OTA1ODU1"
+    }, 
+    "previous": "https://graph.facebook.com/v1.0/100000730417342/subscribers?limit=5&before=MTAwMDAwNDE5OTA1ODU1", 
+    "next": "https://graph.facebook.com/v1.0/100000730417342/subscribers?limit=5&after=MTAwMDA0NDI3NDY3NjIx"
+  }, 
+  "summary": {
+    "total_count": 14
+  }
+}

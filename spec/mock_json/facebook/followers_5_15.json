@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "name": "Zyazyaveka Ad Critic", 
+      "id": "100001860144695"
+    }, 
+    {
+      "name": "Aleksandr Mykoliuk", 
+      "id": "1043306710"
+    }, 
+    {
+      "name": "Solmaz Fooladi", 
+      "id": "1413023193"
+    }
+  ], 
+  "paging": {
+    "cursors": {
+      "after": "MTQxMzAyMzE5Mw==", 
+      "before": "MTAwMDAxODYwMTQ0Njk1"
+    }, 
+    "previous": "https://graph.facebook.com/v1.0/100000730417342/subscribers?limit=5&before=MTAwMDAxODYwMTQ0Njk1"
+  }, 
+  "summary": {
+    "total_count": 14
+  }
+}
