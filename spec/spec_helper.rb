@@ -13,7 +13,7 @@ RSpec.configure do |config|
   require 'rspec/expectations'
   config.include RSpec::Matchers
 
-  WebMock.allow_net_connect!
+  # WebMock.allow_net_connect!
 
   # == Mock Framework
   config.mock_with :rspec

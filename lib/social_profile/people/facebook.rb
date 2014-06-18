@@ -89,15 +89,29 @@ module SocialProfile
       # Get all friends list
       #
       def friends(options={})
-        limit = options[:limit] || 500000
+        limit = options[:limit] || 5000
         user.friends(:limit => limit)
       end
 
       # Get all followers list
       #
       def followers(options={})
-        limit = options[:limit] || 500000
-        user.subscribers(:limit => limit)
+        limit = options[:limit] || 5000
+        fetch_all = options[:fetch_all] || false
+        iteration = 0
+
+        _followers = collection = user.subscribers(:limit => limit)
+        max_iteration = _followers.total_count / limit + 1
+
+        if fetch_all
+          while iteration < max_iteration
+            iteration += 1
+            collection = collection.next
+            _followers += collection
+          end
+        end
+
+        _followers
       end
 
       protected

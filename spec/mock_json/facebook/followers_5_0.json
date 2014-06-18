@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "name": "Sergey Kochergan", 
+      "id": "100002162037770"
+    }, 
+    {
+      "name": "Lyudmila  Bublik", 
+      "id": "100006720518271"
+    }, 
+    {
+      "name": "Victoria Zhurbas", 
+      "id": "1425672521"
+    }, 
+    {
+      "name": "Марина Николаева", 
+      "id": "100002446576144"
+    }, 
+    {
+      "name": "Alex Filatov", 
+      "id": "1198544135"
+    }
+  ], 
+  "paging": {
+    "cursors": {
+      "after": "MTE5ODU0NDEzNQ==", 
+      "before": "MTAwMDAyMTYyMDM3Nzcw"
+    }, 
+    "next": "https://graph.facebook.com/v1.0/100000730417342/subscribers?limit=5&after=MTE5ODU0NDEzNQ=="
+  }, 
+  "summary": {
+    "total_count": 14
+  }
+}
