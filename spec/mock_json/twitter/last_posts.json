@@ -1,0 +1,4326 @@
+[
+  {
+    "created_at": "Tue Jul 29 10:45:54 +0000 2014",
+    "id": 494071311883571200,
+    "id_str": "494071311883571200",
+    "text": "How to unfollow twitter folowers - My twitter was hacked and my account followed ~700 faked users. Remove... http://t.co/Vy4BLOS7eO",
+    "source": "<a href=\"http://www.tumblr.com/\" rel=\"nofollow\">Tumblr</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/Vy4BLOS7eO",
+          "expanded_url": "http://tmblr.co/ZbKeTy1MpFtOG",
+          "display_url": "tmblr.co/ZbKeTy1MpFtOG",
+          "indices": [
+            109,
+            131
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu May 16 09:10:53 +0000 2013",
+    "id": 334959125530304513,
+    "id_str": "334959125530304513",
+    "text": "Хей, друзі, приєднуйтесь! Живіть моментом разом із Pepsi – діліться, ловіть, наповнюйте, підтримуйте, досліджуйте! http://t.co/s1x0SdG1ln",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/s1x0SdG1ln",
+          "expanded_url": "http://www.pepsimoments.com/invitations/2iUz3x6jiWGtdgp6Yiaz",
+          "display_url": "pepsimoments.com/invitations/2i…",
+          "indices": [
+            115,
+            137
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Tue Jan 22 16:42:47 +0000 2013",
+    "id": 293760633797754880,
+    "id_str": "293760633797754880",
+    "text": "I've nominated http://t.co/bZSrawnP as \"Startup of the year\" in the TNW Ukraine Startup Awards #USA http://t.co/odE9873g",
+    "source": "<a href=\"http://thenextweb.com/boost\" rel=\"nofollow\">TNW Boost</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "USA",
+          "indices": [
+            95,
+            99
+          ]
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/bZSrawnP",
+          "expanded_url": "http://www.tshirtabout.me",
+          "display_url": "tshirtabout.me",
+          "indices": [
+            15,
+            35
+          ]
+        },
+        {
+          "url": "http://t.co/odE9873g",
+          "expanded_url": "http://tnw.to/ukraineawards",
+          "display_url": "tnw.to/ukraineawards",
+          "indices": [
+            100,
+            120
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Tue Oct 16 12:00:27 +0000 2012",
+    "id": 258175572507770881,
+    "id_str": "258175572507770881",
+    "text": "Velkopopovický Kozel збирає друзів http://t.co/JLObw5wx",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/JLObw5wx",
+          "expanded_url": "http://dostavka.kozel.ua/invitation/bd51f6c2f20714f0639cf87b427fd855/#.UH1MT_w2jxc.twitter",
+          "display_url": "dostavka.kozel.ua/invitation/bd5…",
+          "indices": [
+            35,
+            55
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Tue Oct 09 20:05:13 +0000 2012",
+    "id": 255760851330560000,
+    "id_str": "255760851330560000",
+    "text": "Wow! Totally redesigned @bitbucket! Unlimited private git and hg repos, 5 users free &amp; in-line commenting. #git #hg http://t.co/WdKkSZL2",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "git",
+          "indices": [
+            111,
+            115
+          ]
+        },
+        {
+          "text": "hg",
+          "indices": [
+            116,
+            119
+          ]
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/WdKkSZL2",
+          "expanded_url": "http://ow.ly/egtr5",
+          "display_url": "ow.ly/egtr5",
+          "indices": [
+            120,
+            140
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "bitbucket",
+          "name": "Atlassian Bitbucket",
+          "id": 174379786,
+          "id_str": "174379786",
+          "indices": [
+            24,
+            34
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu Aug 30 08:38:23 +0000 2012",
+    "id": 241092491011555328,
+    "id_str": "241092491011555328",
+    "text": "I love Dropbox because because I want more free space! http://t.co/PgTJdCeP",
+    "source": "<a href=\"http://www.dropbox.com\" rel=\"nofollow\">Dropbox </a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/PgTJdCeP",
+          "expanded_url": "http://db.tt/ueVuTpvA",
+          "display_url": "db.tt/ueVuTpvA",
+          "indices": [
+            55,
+            75
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Jul 23 18:08:02 +0000 2012",
+    "id": 227465106995421186,
+    "id_str": "227465106995421186",
+    "text": "Call for Talents! Account managers needed. – Интернет-агентство AIMBULANCE http://t.co/Za8MDGda via @AIMBULANCE",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/Za8MDGda",
+          "expanded_url": "http://www.aimbulance.com/posts/266-call-for-talents-account-managers-needed",
+          "display_url": "aimbulance.com/posts/266-call…",
+          "indices": [
+            75,
+            95
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "AIMBULANCE",
+          "name": "AIMBULANCE",
+          "id": 242730985,
+          "id_str": "242730985",
+          "indices": [
+            100,
+            111
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu Jun 07 13:55:50 +0000 2012",
+    "id": 210731798236368897,
+    "id_str": "210731798236368897",
+    "text": "Свадьба на чердаке on the @Behance Network: http://t.co/o9RJTXgH",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/o9RJTXgH",
+          "expanded_url": "http://bit.ly/JPAnqY",
+          "display_url": "bit.ly/JPAnqY",
+          "indices": [
+            44,
+            64
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "Behance",
+          "name": "Behance",
+          "id": 9313022,
+          "id_str": "9313022",
+          "indices": [
+            26,
+            34
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Sun May 27 17:15:40 +0000 2012",
+    "id": 206795822166315009,
+    "id_str": "206795822166315009",
+    "text": "My top 3 apps of the week in @hojoki's newsfeed: #Basecamp (251), #Dropbox (65), #GoogleDrive&amp;Docs (16). http://t.co/91ucz4pN",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Basecamp",
+          "indices": [
+            49,
+            58
+          ]
+        },
+        {
+          "text": "Dropbox",
+          "indices": [
+            66,
+            74
+          ]
+        },
+        {
+          "text": "GoogleDrive",
+          "indices": [
+            81,
+            93
+          ]
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/91ucz4pN",
+          "expanded_url": "http://hojoki.com",
+          "display_url": "hojoki.com",
+          "indices": [
+            109,
+            129
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "hojoki",
+          "name": "Hojoki",
+          "id": 86628099,
+          "id_str": "86628099",
+          "indices": [
+            29,
+            36
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Tue May 08 07:23:13 +0000 2012",
+    "id": 199761356801581057,
+    "id_str": "199761356801581057",
+    "text": "Ищем интерна-программиста – Интернет-агентство AIMBULANCE http://t.co/OMFPduiO via @AIMBULANCE",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/OMFPduiO",
+          "expanded_url": "http://www.aimbulance.com/posts/265-ischem-interna-programmista",
+          "display_url": "aimbulance.com/posts/265-isch…",
+          "indices": [
+            58,
+            78
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "AIMBULANCE",
+          "name": "AIMBULANCE",
+          "id": 242730985,
+          "id_str": "242730985",
+          "indices": [
+            83,
+            94
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Tue Apr 24 10:30:42 +0000 2012",
+    "id": 194735108912197632,
+    "id_str": "194735108912197632",
+    "text": "Analytics Intern Needed – Интернет-агентство AIMBULANCE http://t.co/EUO7xniw via @AIMBULANCE",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/EUO7xniw",
+          "expanded_url": "http://www.aimbulance.com/posts/264-analytics-intern-needed",
+          "display_url": "aimbulance.com/posts/264-anal…",
+          "indices": [
+            56,
+            76
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "AIMBULANCE",
+          "name": "AIMBULANCE",
+          "id": 242730985,
+          "id_str": "242730985",
+          "indices": [
+            81,
+            92
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "sr"
+  },
+  {
+    "created_at": "Thu Apr 19 13:58:05 +0000 2012",
+    "id": 192975357408849920,
+    "id_str": "192975357408849920",
+    "text": "Вакансия - Web designer – Интернет-агентство AIMBULANCE http://t.co/GEj0IqUj via @AIMBULANCE",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/GEj0IqUj",
+          "expanded_url": "http://www.aimbulance.com/posts/263-vakansiya-web-designer",
+          "display_url": "aimbulance.com/posts/263-vaka…",
+          "indices": [
+            56,
+            76
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "AIMBULANCE",
+          "name": "AIMBULANCE",
+          "id": 242730985,
+          "id_str": "242730985",
+          "indices": [
+            81,
+            92
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "bg"
+  },
+  {
+    "created_at": "Thu Apr 19 12:11:48 +0000 2012",
+    "id": 192948613301796865,
+    "id_str": "192948613301796865",
+    "text": "Deliver beautiful Rails apps with @railsthemes! http://t.co/US5IN5Ue",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/US5IN5Ue",
+          "expanded_url": "http://railsthemes.com/?kid=8T0C",
+          "display_url": "railsthemes.com/?kid=8T0C",
+          "indices": [
+            48,
+            68
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "RailsThemes",
+          "name": "RailsThemes.com",
+          "id": 499957896,
+          "id_str": "499957896",
+          "indices": [
+            34,
+            46
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Mar 30 20:26:22 +0000 2012",
+    "id": 185825317301137408,
+    "id_str": "185825317301137408",
+    "text": "+1 Liker - моя нова відзнака на #PepsiLikerzzz! Тепер я – частина найкрутішої тусовки року. Приєднуйтесь! http://t.co/uki6M7tq",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PepsiLikerzzz",
+          "indices": [
+            32,
+            46
+          ]
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/uki6M7tq",
+          "expanded_url": "http://www.pepsilikerz.com/",
+          "display_url": "pepsilikerz.com",
+          "indices": [
+            106,
+            126
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Mon Mar 12 13:27:14 +0000 2012",
+    "id": 179196855186501632,
+    "id_str": "179196855186501632",
+    "text": "Ищем PHP-программиста и html-верстальщика – Интернет-агентство AIMBULANCE http://t.co/nHtokAfI via @AIMBULANCE",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/nHtokAfI",
+          "expanded_url": "http://www.aimbulance.com/posts/262-ischem-php-programmista-i-html-verstalsc",
+          "display_url": "aimbulance.com/posts/262-isch…",
+          "indices": [
+            74,
+            94
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "AIMBULANCE",
+          "name": "AIMBULANCE",
+          "id": 242730985,
+          "id_str": "242730985",
+          "indices": [
+            99,
+            110
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Mon Feb 13 15:35:28 +0000 2012",
+    "id": 169082268684533761,
+    "id_str": "169082268684533761",
+    "text": "Ищем UX-интерна – Интернет-агентство AIMBULANCE http://t.co/7Twl1qP4 via @AIMBULANCE",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/7Twl1qP4",
+          "expanded_url": "http://www.aimbulance.com/posts/261-ischem-ux-interna",
+          "display_url": "aimbulance.com/posts/261-isch…",
+          "indices": [
+            48,
+            68
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "AIMBULANCE",
+          "name": "AIMBULANCE",
+          "id": 242730985,
+          "id_str": "242730985",
+          "indices": [
+            73,
+            84
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "bg"
+  },
+  {
+    "created_at": "Tue Jan 17 08:31:35 +0000 2012",
+    "id": 159191121451417602,
+    "id_str": "159191121451417602",
+    "text": "Ruby wrapper for startmobile sms service - This gem provide the easy way to send and check a single sms with... http://t.co/S2wKkGLJ",
+    "source": "<a href=\"http://www.tumblr.com/\" rel=\"nofollow\">Tumblr</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/S2wKkGLJ",
+          "expanded_url": "http://tmblr.co/ZbKeTyEvj0kG",
+          "display_url": "tmblr.co/ZbKeTyEvj0kG",
+          "indices": [
+            112,
+            132
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Tue Jan 17 08:21:55 +0000 2012",
+    "id": 159188686104305664,
+    "id_str": "159188686104305664",
+    "text": "Watching Private Pub on RailsCasts http://t.co/P2mCebwR via @railscasts",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/P2mCebwR",
+          "expanded_url": "http://railscasts.com/episodes/316-private-pub",
+          "display_url": "railscasts.com/episodes/316-p…",
+          "indices": [
+            35,
+            55
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "railscasts",
+          "name": "RailsCasts",
+          "id": 22086312,
+          "id_str": "22086312",
+          "indices": [
+            60,
+            71
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Nov 19 17:58:00 +0000 2011",
+    "id": 137952781230276608,
+    "id_str": "137952781230276608",
+    "text": "Революционная формула борьбы с ленью. 100% гарантия! | Ruby on Rails c нуля! http://t.co/x4BIilQw",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/x4BIilQw",
+          "expanded_url": "http://rubydev.ru/2011/11/revolyucionnaya-formula-borby-s-lenyu-100-garantiya/",
+          "display_url": "rubydev.ru/2011/11/revoly…",
+          "indices": [
+            77,
+            97
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Mon Nov 14 16:22:22 +0000 2011",
+    "id": 136116772905549824,
+    "id_str": "136116772905549824",
+    "text": "Select album photos likes from Facebook by FQL query - http://t.co/OX32a6kz",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/OX32a6kz",
+          "expanded_url": "http://superp.tumblr.com/post/12791735110/select-album-photos-likes-from-facebook-by-fql-query",
+          "display_url": "superp.tumblr.com/post/127917351…",
+          "indices": [
+            55,
+            75
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Nov 11 12:36:52 +0000 2011",
+    "id": 134972860262391808,
+    "id_str": "134972860262391808",
+    "text": "Client's feedback on our work - AIMBULANCE – Интернет-агентство AIMBULANCE http://t.co/mRuUL23K via @AIMBULANCE",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/mRuUL23K",
+          "expanded_url": "http://www.aimbulance.com/posts/252-client-s-feedback-on-our-work",
+          "display_url": "aimbulance.com/posts/252-clie…",
+          "indices": [
+            75,
+            95
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "AIMBULANCE",
+          "name": "AIMBULANCE",
+          "id": 242730985,
+          "id_str": "242730985",
+          "indices": [
+            100,
+            111
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Nov 04 09:38:52 +0000 2011",
+    "id": 132391351533830144,
+    "id_str": "132391351533830144",
+    "text": "Нова акція для любителів халяви TWITTER_MANIA. http://t.co/VQMSpNYn via @cyfrolab",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/VQMSpNYn",
+          "expanded_url": "http://cyfrolab.com",
+          "display_url": "cyfrolab.com",
+          "indices": [
+            47,
+            67
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "Cyfrolab",
+          "name": "Cyfrolab Photobooks",
+          "id": 131114827,
+          "id_str": "131114827",
+          "indices": [
+            72,
+            81
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Mon Oct 31 09:02:21 +0000 2011",
+    "id": 130932611051823104,
+    "id_str": "130932611051823104",
+    "text": "'Aweb Blog' отримав ще один голос 'за' на конкурсі BUBA 2011! http://t.co/3XveSHe4",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/3XveSHe4",
+          "expanded_url": "http://watcher.com.ua/buba/aweb-blog/",
+          "display_url": "watcher.com.ua/buba/aweb-blog/",
+          "indices": [
+            62,
+            82
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Sat Oct 08 11:14:36 +0000 2011",
+    "id": 122630970120736768,
+    "id_str": "122630970120736768",
+    "text": "Голосуйте за Сімейну команду - нехай потраплять на Євро-2012! Приєднуйтесь до змагань за призи від McDonalds! http://t.co/u1eP7YSN",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/u1eP7YSN",
+          "expanded_url": "http://www.mcdonaldseurokids2012.com.ua/works/619",
+          "display_url": "mcdonaldseurokids2012.com.ua/works/619",
+          "indices": [
+            110,
+            130
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Fri Oct 07 12:03:35 +0000 2011",
+    "id": 122280910426079232,
+    "id_str": "122280910426079232",
+    "text": "Ищем web-designer-а – Интернет-агентство AIMBULANCE http://t.co/YZfR7jt4 via @AIMBULANCE",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/YZfR7jt4",
+          "expanded_url": "http://www.aimbulance.com/posts/251-ischem-web-designer-a",
+          "display_url": "aimbulance.com/posts/251-isch…",
+          "indices": [
+            52,
+            72
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "AIMBULANCE",
+          "name": "AIMBULANCE",
+          "id": 242730985,
+          "id_str": "242730985",
+          "indices": [
+            77,
+            88
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Wed Oct 05 18:35:59 +0000 2011",
+    "id": 121654886529118208,
+    "id_str": "121654886529118208",
+    "text": "Я проти переведення годинників, тому що від цього більше шкоди, аніж економії! Скажи, що думаєш на http://t.co/d0KQZhOE #McGodyna",
+    "source": "<a href=\"http://godyna.mcdonalds.ua/\" rel=\"nofollow\">Час прокидатися</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "McGodyna",
+          "indices": [
+            120,
+            129
+          ]
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/d0KQZhOE",
+          "expanded_url": "http://godyna.mcdonalds.ua",
+          "display_url": "godyna.mcdonalds.ua",
+          "indices": [
+            99,
+            119
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Wed Sep 14 07:38:23 +0000 2011",
+    "id": 113879251496878080,
+    "id_str": "113879251496878080",
+    "text": "McDonalds Coffee Campaign Fav Participants – Интернет-агентство AIMBULANCE http://t.co/jM3KWGX via @AIMBULANCE",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/jM3KWGX",
+          "expanded_url": "http://www.aimbulance.com/posts/249-ulyubleni-uchasniki-kampaniyi-mcdonalds",
+          "display_url": "aimbulance.com/posts/249-ulyu…",
+          "indices": [
+            75,
+            94
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "AIMBULANCE",
+          "name": "AIMBULANCE",
+          "id": 242730985,
+          "id_str": "242730985",
+          "indices": [
+            99,
+            110
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Sep 07 12:48:33 +0000 2011",
+    "id": 111420589926912000,
+    "id_str": "111420589926912000",
+    "text": "http://t.co/HZGQ5pg",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/HZGQ5pg",
+          "expanded_url": "http://coffee.mcdonalds.ua/collages/yjpqhku",
+          "display_url": "coffee.mcdonalds.ua/collages/yjpqh…",
+          "indices": [
+            0,
+            19
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "und"
+  },
+  {
+    "created_at": "Thu Aug 25 09:10:23 +0000 2011",
+    "id": 106654645648240640,
+    "id_str": "106654645648240640",
+    "text": "Are you ready to Kick Asses? Young Creatives Required! – Интернет-агентство AIMBULANCE http://t.co/O6HuWbC via @AIMBULANCE",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/O6HuWbC",
+          "expanded_url": "http://www.aimbulance.com/posts/248-are-you-ready-to-kick-asses-young-creati",
+          "display_url": "aimbulance.com/posts/248-are-…",
+          "indices": [
+            87,
+            106
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "AIMBULANCE",
+          "name": "AIMBULANCE",
+          "id": 242730985,
+          "id_str": "242730985",
+          "indices": [
+            111,
+            122
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Tue Aug 09 09:10:53 +0000 2011",
+    "id": 100856565770354688,
+    "id_str": "100856565770354688",
+    "text": "Блиц-опрос: Что представляет собой украинский рынок usability-услуг? http://t.co/cxoeFRY via @ain_ua",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/cxoeFRY",
+          "expanded_url": "http://ain.ua/2011/08/09/55262",
+          "display_url": "ain.ua/2011/08/09/552…",
+          "indices": [
+            69,
+            88
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "ain_ua",
+          "name": "AIN.UA",
+          "id": 103841558,
+          "id_str": "103841558",
+          "indices": [
+            93,
+            100
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Fri Aug 05 17:08:03 +0000 2011",
+    "id": 99527094878486528,
+    "id_str": "99527094878486528",
+    "text": "hate social train. electrichka must die!",
+    "source": "<a href=\"http://mobile.twitter.com\" rel=\"nofollow\">Mobile Web</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu Jul 28 13:12:34 +0000 2011",
+    "id": 96568732188549121,
+    "id_str": "96568732188549121",
+    "text": "test http://t.co/OEkM89g via @mcdonalds",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/OEkM89g",
+          "expanded_url": "http://www.mcdonaldseurokids2012.com.ua/challenges/1/works/98",
+          "display_url": "mcdonaldseurokids2012.com.ua/challenges/1/w…",
+          "indices": [
+            5,
+            24
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "McDonalds",
+          "name": "McDonald's",
+          "id": 71026122,
+          "id_str": "71026122",
+          "indices": [
+            29,
+            39
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Jul 27 15:08:56 +0000 2011",
+    "id": 96235628718604288,
+    "id_str": "96235628718604288",
+    "text": "Голосуйте за Сімейну команду по лінку. Дубль 2 - http://t.co/OEkM89g via @mcdonalds",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/OEkM89g",
+          "expanded_url": "http://www.mcdonaldseurokids2012.com.ua/challenges/1/works/98",
+          "display_url": "mcdonaldseurokids2012.com.ua/challenges/1/w…",
+          "indices": [
+            49,
+            68
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "McDonalds",
+          "name": "McDonald's",
+          "id": 71026122,
+          "id_str": "71026122",
+          "indices": [
+            73,
+            83
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Mon Jul 25 10:49:43 +0000 2011",
+    "id": 95445619073757185,
+    "id_str": "95445619073757185",
+    "text": "Голосуйте за команду - нехай потраплять на Євро-2012! Приєднуйтесь до змагань за призи від McDonalds! http://t.co/OEkM89g via @mcdonalds",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/OEkM89g",
+          "expanded_url": "http://www.mcdonaldseurokids2012.com.ua/challenges/1/works/98",
+          "display_url": "mcdonaldseurokids2012.com.ua/challenges/1/w…",
+          "indices": [
+            102,
+            121
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "McDonalds",
+          "name": "McDonald's",
+          "id": 71026122,
+          "id_str": "71026122",
+          "indices": [
+            126,
+            136
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Thu Jun 09 08:36:28 +0000 2011",
+    "id": 78742243971833857,
+    "id_str": "78742243971833857",
+    "text": "Angry Birds вживую! http://t.co/W05GC5Y via @yumaxi",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/W05GC5Y",
+          "expanded_url": "http://www.smartvideos.ru/angry-birds-vzhivuyu/",
+          "display_url": "smartvideos.ru/angry-birds-vz…",
+          "indices": [
+            20,
+            39
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "Yumaxi",
+          "name": "Max Yurin",
+          "id": 19471165,
+          "id_str": "19471165",
+          "indices": [
+            44,
+            51
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Wed Apr 06 18:01:17 +0000 2011",
+    "id": 55691559471034369,
+    "id_str": "55691559471034369",
+    "text": "Я считаю что все будет хорошо после 2012 года! http://t.co/WTmeuUD",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/WTmeuUD",
+          "expanded_url": "http://endornot.com/not",
+          "display_url": "endornot.com/not",
+          "indices": [
+            47,
+            66
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Sat Mar 26 15:49:21 +0000 2011",
+    "id": 51672093376528384,
+    "id_str": "51672093376528384",
+    "text": "Publish stream in Facebook & Twitter with OmniAuth - First of all, include OmniAuth to your rails app by... http://tumblr.com/xkp1vyg27f",
+    "source": "<a href=\"http://www.tumblr.com/\" rel=\"nofollow\">Tumblr</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Mar 18 08:29:18 +0000 2011",
+    "id": 48662248809443328,
+    "id_str": "48662248809443328",
+    "text": "McDonald's: Первые получают вознаграждение - http://t.co/WNDSGK1 via @adme_ua",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/WNDSGK1",
+          "expanded_url": "http://ua.adme.ru/mcdonalds153090/mcdonalds-pervye-poluchayut-voznagrazhdenie-aimbulance-59805/",
+          "display_url": "ua.adme.ru/mcdonalds15309…",
+          "indices": [
+            45,
+            64
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "adme_ua",
+          "name": "Oleg Bolyuk",
+          "id": 42691334,
+          "id_str": "42691334",
+          "indices": [
+            69,
+            77
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Thu Mar 17 11:50:00 +0000 2011",
+    "id": 48350366009536512,
+    "id_str": "48350366009536512",
+    "text": "Моє враження від МакСніданку:  http://snidanok.mcdonalds.ua/impressions/evbext",
+    "source": "<a href=\"http://snidanok.mcdonalds.ua\" rel=\"nofollow\">McDonald's Snidanok</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 1,
+    "favorite_count": 1,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Tue Mar 01 09:51:35 +0000 2011",
+    "id": 42522361576161280,
+    "id_str": "42522361576161280",
+    "text": "Самая крутая вакансия в этом году http://j.mp/fyVwG8",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Tue Mar 01 09:22:11 +0000 2011",
+    "id": 42514961540464640,
+    "id_str": "42514961540464640",
+    "text": "Шукаємо Пепсі Мена! http://t.co/AuIt90z via @pepsiukraine",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/AuIt90z",
+          "expanded_url": "http://blog.pepsi.ua/posts/23-shukaemo-pepsi-mena",
+          "display_url": "blog.pepsi.ua/posts/23-shuka…",
+          "indices": [
+            20,
+            39
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "pepsiukraine",
+          "name": "Pepsi Ukraine",
+          "id": 112799322,
+          "id_str": "112799322",
+          "indices": [
+            44,
+            57
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Mon Feb 28 13:34:50 +0000 2011",
+    "id": 42216156576092160,
+    "id_str": "42216156576092160",
+    "text": "Rails 2 routes redirect - Редирект странички средствами Rails: #routes.rb map.articles '/articles',... http://tumblr.com/xkp1mxm134",
+    "source": "<a href=\"http://www.tumblr.com/\" rel=\"nofollow\">Tumblr</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "routes",
+          "indices": [
+            63,
+            70
+          ]
+        }
+      ],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "bg"
+  },
+  {
+    "created_at": "Sat Feb 26 10:01:09 +0000 2011",
+    "id": 41437602804535296,
+    "id_str": "41437602804535296",
+    "text": "Олівцями не малюють? http://t.co/px57SB9 via @pepsiukraine",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/px57SB9",
+          "expanded_url": "http://blog.pepsi.ua/posts/13-a-scho-ti-robish-z-olivtsyami",
+          "display_url": "blog.pepsi.ua/posts/13-a-sch…",
+          "indices": [
+            21,
+            40
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "pepsiukraine",
+          "name": "Pepsi Ukraine",
+          "id": 112799322,
+          "id_str": "112799322",
+          "indices": [
+            45,
+            58
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Thu Feb 17 10:07:28 +0000 2011",
+    "id": 38177704113086464,
+    "id_str": "38177704113086464",
+    "text": "Caching Views is Not the View’s Job! - Хорошая статья о том, как правильно кэшировать фрагменты (и не... http://tumblr.com/xkp1ja5sux",
+    "source": "<a href=\"http://www.tumblr.com/\" rel=\"nofollow\">Tumblr</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Mon Feb 14 13:51:04 +0000 2011",
+    "id": 37146811793674240,
+    "id_str": "37146811793674240",
+    "text": "The best Google Chrome extension!!! http://bit.ly/h4vxOo",
+    "source": "<a href=\"http://bitly.com\" rel=\"nofollow\">bitly bitlink</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Feb 12 08:12:57 +0000 2011",
+    "id": 36336946305445888,
+    "id_str": "36336946305445888",
+    "text": "\"Я тебя люблю\" - IT-шная версия http://j.mp/hOip7y",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Fri Feb 11 09:26:35 +0000 2011",
+    "id": 35993088677650432,
+    "id_str": "35993088677650432",
+    "text": "Aimbulance – новое цифровое агентство выходцев из Brainberry | AIN.UA http://t.co/k7uDcnT via @ain_ua",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/k7uDcnT",
+          "expanded_url": "http://ain.ua/2011/02/11/42629",
+          "display_url": "ain.ua/2011/02/11/426…",
+          "indices": [
+            70,
+            89
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "ain_ua",
+          "name": "AIN.UA",
+          "id": 103841558,
+          "id_str": "103841558",
+          "indices": [
+            94,
+            101
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Tue Feb 01 21:23:02 +0000 2011",
+    "id": 32549508516683776,
+    "id_str": "32549508516683776",
+    "text": "Перепутал замороженную петрушку с мятой. Теперь ем мятный чай с курицей, морковкой и картофелем.",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Thu Jan 20 16:04:41 +0000 2011",
+    "id": 28120739655712769,
+    "id_str": "28120739655712769",
+    "text": "Let's boycott meetings on January 19th. Find out why meetings are toxic, and join the anti-meeting movement! http://t.co/tcd8X7M",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/tcd8X7M",
+          "expanded_url": "http://BoycottAMeetingDay.com",
+          "display_url": "BoycottAMeetingDay.com",
+          "indices": [
+            109,
+            128
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Jan 19 09:48:03 +0000 2011",
+    "id": 27663568279179264,
+    "id_str": "27663568279179264",
+    "text": "AXE Rise Up - прокидайся та вмикайся! Пройди ранковий тест на уважність! #AXE http://t.co/9VA8fUk",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "AXE",
+          "indices": [
+            73,
+            77
+          ]
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/9VA8fUk",
+          "expanded_url": "http://www.axe.ua/",
+          "display_url": "axe.ua",
+          "indices": [
+            78,
+            97
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Sat Jan 08 18:35:53 +0000 2011",
+    "id": 23810135428177920,
+    "id_str": "23810135428177920",
+    "text": "Спасибо, Мари! С наступившими и проходящими праздниками тебя :) Ну, и... кроликового счастья в Новом Году ) http://j.mp/hw5HBu",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Sat Dec 25 10:18:24 +0000 2010",
+    "id": 18611509814894592,
+    "id_str": "18611509814894592",
+    "text": "Судный день. http://j.mp/e0JxDc",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Thu Dec 16 13:32:18 +0000 2010",
+    "id": 15398817033621504,
+    "id_str": "15398817033621504",
+    "text": "Proxy your local web-server and make it publicly available over the internet http://t.co/Knz51kQ via @proxylocal",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/Knz51kQ",
+          "expanded_url": "http://proxylocal.com/",
+          "display_url": "proxylocal.com",
+          "indices": [
+            77,
+            96
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "proxylocal",
+          "name": "ProxyLocal",
+          "id": 223576280,
+          "id_str": "223576280",
+          "indices": [
+            101,
+            112
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu Dec 09 17:14:17 +0000 2010",
+    "id": 12917962864332800,
+    "id_str": "12917962864332800",
+    "text": "I uploaded a YouTube video -- olympus-pen fashion photo http://youtu.be/4Uy2_-XSeMM?a",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "vi"
+  },
+  {
+    "created_at": "Wed Dec 08 09:57:22 +0000 2010",
+    "id": 12445624628682753,
+    "id_str": "12445624628682753",
+    "text": "Распродажа в iCase.ua http://j.mp/fAdTA0",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Thu Dec 02 09:17:02 +0000 2010",
+    "id": 10261147903074304,
+    "id_str": "10261147903074304",
+    "text": "Жилищный кодекс http://j.mp/hSzCbe",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Tue Nov 23 09:46:43 +0000 2010",
+    "id": 7007126639607808,
+    "id_str": "7007126639607808",
+    "text": "Новый налоговый кодекс в Украине http://j.mp/ein0xq",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Mon Nov 15 13:14:07 +0000 2010",
+    "id": 4160217352765440,
+    "id_str": "4160217352765440",
+    "text": "Резюме » Блог Сергея Понтуса http://t.co/94B2C87",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/94B2C87",
+          "expanded_url": "http://pontus.com.ua/resume/",
+          "display_url": "pontus.com.ua/resume/",
+          "indices": [
+            29,
+            48
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Thu Nov 11 16:26:12 +0000 2010",
+    "id": 2759005696954368,
+    "id_str": "2759005696954368",
+    "text": "Хочу туда очень-очень сильно! http://bit.ly/c1dz4b",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Mon Nov 08 19:26:49 +0000 2010",
+    "id": 1717295223144448,
+    "id_str": "1717295223144448",
+    "text": "Хочу обратно в свою дикую бухточку http://j.mp/axmZxb",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Sat Nov 06 17:47:44 +0000 2010",
+    "id": 967583763275776,
+    "id_str": "967583763275776",
+    "text": "Анти-гордость моего города http://j.mp/djYywA",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Fri Nov 05 20:40:25 +0000 2010",
+    "id": 648654297767936,
+    "id_str": "648654297767936",
+    "text": "Осень. Дождь. Депрессия. http://j.mp/9AAM46",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Thu Nov 04 12:43:34 +0000 2010",
+    "id": 29665022961,
+    "id_str": "29665022961",
+    "text": "Brainberry запустила сервіc для управління затратами компанії EZCosts http://t.co/mLv24Mu via @ain_ua",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/mLv24Mu",
+          "expanded_url": "http://ain.ua/2010/11/04/35488",
+          "display_url": "ain.ua/2010/11/04/354…",
+          "indices": [
+            70,
+            89
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "ain_ua",
+          "name": "AIN.UA",
+          "id": 103841558,
+          "id_str": "103841558",
+          "indices": [
+            94,
+            101
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Mon Oct 25 11:55:20 +0000 2010",
+    "id": 28683309690,
+    "id_str": "28683309690",
+    "text": "Запустились! http://j.mp/cL5rX4",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Wed Oct 13 20:12:09 +0000 2010",
+    "id": 27272727906,
+    "id_str": "27272727906",
+    "text": "Аналогично. Спасли 2 стакана хорватского вина. Сижу вот теперь и жизни радуюсь =) http://j.mp/9L691w",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Wed Oct 13 20:06:34 +0000 2010",
+    "id": 27272357511,
+    "id_str": "27272357511",
+    "text": "Хватит работать - пора домой! http://j.mp/bYyZCd",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Sun Oct 10 11:14:43 +0000 2010",
+    "id": 26928350584,
+    "id_str": "26928350584",
+    "text": "@mmmdaaa1 В статистике этого видео четко показано от куда переходы.\nlj-toys  э...(YouTube http://youtu.be/kTw-JDh1VfY?a)",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "screen_name": "mmmdaaa1",
+          "name": "mohommad abos",
+          "id": 1589486718,
+          "id_str": "1589486718",
+          "indices": [
+            0,
+            9
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Tue Sep 28 12:00:31 +0000 2010",
+    "id": 25777663949,
+    "id_str": "25777663949",
+    "text": "Танцюють Всі vs Luck out club http://j.mp/dxO6qz",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Mon Sep 27 08:55:05 +0000 2010",
+    "id": 25670078814,
+    "id_str": "25670078814",
+    "text": "Sikuli – технология автоматизации пользовательского интерфейса с помощью скриншотов: http://t.co/FH5901M",
+    "source": "<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "url": "http://t.co/FH5901M",
+          "expanded_url": "http://wp.me/p14DYj-x",
+          "display_url": "wp.me/p14DYj-x",
+          "indices": [
+            85,
+            104
+          ]
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Thu Sep 23 13:51:35 +0000 2010",
+    "id": 25308628428,
+    "id_str": "25308628428",
+    "text": "I hate it http://j.mp/bjScVI",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 20 12:27:50 +0000 2010",
+    "id": 25020531840,
+    "id_str": "25020531840",
+    "text": "Та же музыка, тот же танец, только в 100 раз круче:\nyoutube.com/watch?v=_Rt4ge...(YouTube http://youtu.be/wKcSkgbOgaQ?a)",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Mon Sep 20 12:25:46 +0000 2010",
+    "id": 25020393853,
+    "id_str": "25020393853",
+    "text": "Мною оформлена подписка на канал пользователя SuberGubish на YouTube. http://www.youtube.com/user/SuberGubish?feature=autoshare",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Mon Sep 20 12:24:04 +0000 2010",
+    "id": 25020282088,
+    "id_str": "25020282088",
+    "text": "Мне понравилось видео YouTube -- Guman -- luck out club http://youtu.be/_Rt4geRDCpI?a",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Mon Sep 20 12:24:03 +0000 2010",
+    "id": 25020281637,
+    "id_str": "25020281637",
+    "text": "Видео YouTube добавлено мной в избранное -- Guman -- luck o... http://youtu.be/_Rt4geRDCpI?a",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Fri Sep 17 07:02:41 +0000 2010",
+    "id": 24737748006,
+    "id_str": "24737748006",
+    "text": "Пообщались http://j.mp/cNwiWd",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Thu Sep 16 14:34:33 +0000 2010",
+    "id": 24668950334,
+    "id_str": "24668950334",
+    "text": "Віршик з дитинства http://j.mp/bnh6uB",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Mon Sep 13 05:19:33 +0000 2010",
+    "id": 24357022020,
+    "id_str": "24357022020",
+    "text": "Надо же такому приснится! http://j.mp/cP8ST4",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Sat Sep 11 08:41:34 +0000 2010",
+    "id": 24179834942,
+    "id_str": "24179834942",
+    "text": "Уехал в Мироновку",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Fri Sep 10 07:23:15 +0000 2010",
+    "id": 24085167353,
+    "id_str": "24085167353",
+    "text": "Иду на рекорд :) http://j.mp/9uk6Zs",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Thu Sep 09 11:14:52 +0000 2010",
+    "id": 24000025061,
+    "id_str": "24000025061",
+    "text": "Принес на работу Nintendo Wii http://j.mp/8XtnT5",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Thu Sep 09 08:34:32 +0000 2010",
+    "id": 23992154887,
+    "id_str": "23992154887",
+    "text": "Я стал дядей! http://j.mp/cZbZ88",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Wed Sep 08 16:09:57 +0000 2010",
+    "id": 23927107706,
+    "id_str": "23927107706",
+    "text": "пью вино на работе",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Wed Sep 08 09:19:47 +0000 2010",
+    "id": 23899329732,
+    "id_str": "23899329732",
+    "text": "Мураши http://j.mp/99Q9zY",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Tue Sep 07 09:30:39 +0000 2010",
+    "id": 23223226225,
+    "id_str": "23223226225",
+    "text": "Извините. Я провел 5 чудесных лет в этом болоте, и мне такой пейзаж уже аппетит не портит =) http://j.mp/cZzSZ3",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Sun Sep 05 17:27:40 +0000 2010",
+    "id": 23075641412,
+    "id_str": "23075641412",
+    "text": "Купили соковыжималку. Тестируем. http://j.mp/bydGon",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Sun Sep 05 14:31:59 +0000 2010",
+    "id": 23062708679,
+    "id_str": "23062708679",
+    "text": "Стимул http://j.mp/azdyn0",
+    "source": "<a href=\"http://www.livejournal.com/\" rel=\"nofollow\">LiveJournal.com</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Fri Sep 03 12:03:11 +0000 2010",
+    "id": 22881000006,
+    "id_str": "22881000006",
+    "text": "Зал на Олимпийском :)(YouTube http://youtu.be/4xml4mn_dAI?a)",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "bg"
+  },
+  {
+    "created_at": "Sat Aug 28 13:50:35 +0000 2010",
+    "id": 22354187641,
+    "id_str": "22354187641",
+    "text": "Сенсация! Дома работается хуже, чем на работе!",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Fri Aug 27 12:13:19 +0000 2010",
+    "id": 22261627809,
+    "id_str": "22261627809",
+    "text": "первый раз пришел на работу в туфлях, шлепки поставил на полочку",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Wed Aug 25 19:33:44 +0000 2010",
+    "id": 22113546714,
+    "id_str": "22113546714",
+    "text": "Видео YouTube добавлено мной в избранное -- Приключения Моб... http://youtu.be/kTw-JDh1VfY?a",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Wed Aug 25 19:33:44 +0000 2010",
+    "id": 22113546154,
+    "id_str": "22113546154",
+    "text": "Мне понравилось видео YouTube -- Приключения Мобилочки http://youtu.be/kTw-JDh1VfY?a",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Fri Aug 20 12:33:24 +0000 2010",
+    "id": 21660573505,
+    "id_str": "21660573505",
+    "text": "Первый раз за два месяца пришел на работу в штанах...",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Tue Aug 17 16:01:38 +0000 2010",
+    "id": 21413973375,
+    "id_str": "21413973375",
+    "text": "My Twifficiency score is 57%. Whats yours? http://twifficiency.com/",
+    "source": "<a href=\"http://twifficiency.com/\" rel=\"nofollow\">Twifficiency</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Tue Aug 17 15:47:13 +0000 2010",
+    "id": 21412916336,
+    "id_str": "21412916336",
+    "text": "@Kerchanka \nПонравилось и еще как!\nОчень позитивный и добрый мультик, для нача...(YouTube http://youtu.be/kTw-JDh1VfY?a)",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "screen_name": "Kerchanka",
+          "name": "Ekaterina",
+          "id": 239115860,
+          "id_str": "239115860",
+          "indices": [
+            0,
+            10
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Tue Aug 17 13:29:36 +0000 2010",
+    "id": 21403129469,
+    "id_str": "21403129469",
+    "text": "Супер!\nМой мульт не сравнивается с этим ))))\nyoutube.com/watch?v=kTw-JDh1VfY(YouTube http://youtu.be/CiU3GU-zT9Q?a)",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "uk"
+  },
+  {
+    "created_at": "Tue Aug 17 08:58:55 +0000 2010",
+    "id": 21388586519,
+    "id_str": "21388586519",
+    "text": "Мне понравилось видео YouTube -- Приключения Мобилочки http://youtu.be/kTw-JDh1VfY?a",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Mon Aug 16 10:24:24 +0000 2010",
+    "id": 21304133977,
+    "id_str": "21304133977",
+    "text": "круть! )(YouTube http://youtu.be/kTw-JDh1VfY?a)",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Mon Aug 16 09:59:04 +0000 2010",
+    "id": 21303001046,
+    "id_str": "21303001046",
+    "text": "Видео YouTube добавлено мной в избранное -- Приключения Моб... http://youtu.be/kTw-JDh1VfY?a",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Mon Aug 16 09:56:50 +0000 2010",
+    "id": 21302900147,
+    "id_str": "21302900147",
+    "text": "Мне понравилось видео YouTube -- Приключения Мобилочки http://youtu.be/kTw-JDh1VfY?a",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Fri Aug 13 20:41:39 +0000 2010",
+    "id": 21093921441,
+    "id_str": "21093921441",
+    "text": "в aлeксaндрии тожe жaрко.",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Fri Aug 13 08:03:52 +0000 2010",
+    "id": 21046751823,
+    "id_str": "21046751823",
+    "text": "Мною оформлена подписка на канал пользователя Rutk0vsky на YouTube. http://www.youtube.com/user/Rutk0vsky?feature=autoshare",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Sun Jun 20 20:43:47 +0000 2010",
+    "id": 16643653761,
+    "id_str": "16643653761",
+    "text": "[ LG LED monitor campaign ] Поздравляю всех хабровчан с этой замечательной открыткой!\nНа ней изобр http://sincere.lge.com/1012679",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Fri Jun 11 04:27:12 +0000 2010",
+    "id": 15904351188,
+    "id_str": "15904351188",
+    "text": "Мне понравилось видео YouTube -- RailsConf 2010:  David Heinemeier H... http://youtu.be/b0iKYRKtAsA?a",
+    "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Thu Jun 03 07:04:02 +0000 2010",
+    "id": 15308872766,
+    "id_str": "15308872766",
+    "text": "Моя история о прыщах http://bit.ly/arCaG0",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": true,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Tue Jun 01 13:04:53 +0000 2010",
+    "id": 15176334590,
+    "id_str": "15176334590",
+    "text": "В Google Reader можно подписаться на все отображаемые подписки.\nЗачем?! Что бы смотреть все кашей?",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Tue Jun 01 09:26:12 +0000 2010",
+    "id": 15166654163,
+    "id_str": "15166654163",
+    "text": "Оказывается я в Твиттере  аж 150 587 663-тый юзер. \nRoR рулит! )",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  },
+  {
+    "created_at": "Tue Jun 01 09:18:10 +0000 2010",
+    "id": 15166369071,
+    "id_str": "15166369071",
+    "text": "Сегодня Большой день!\nПервый день лета + мой первый твит.",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 150587663,
+      "id_str": "150587663"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "ru"
+  }
+]
