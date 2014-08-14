@@ -1,0 +1,42 @@
+{
+  "response": {
+    "count": 3,
+    "items": [
+      {
+        "id": 656,
+        "from_id": 8071814,
+        "date": 1349525960,
+        "text": "не ну это уже какая-то запредельная интеллигенция!))",
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1
+        }
+      },
+      {
+        "id": 657,
+        "from_id": 2592709,
+        "date": 1349548992,
+        "text": "[id8071814|Максим], ботан і в Африці ботан! ))",
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1
+        },
+        "reply_to_user": 8071814,
+        "reply_to_comment": 656
+      },
+      {
+        "id": 658,
+        "from_id": 8071814,
+        "date": 1349549269,
+        "text": "нет, менно - интеллигент;))",
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1
+        }
+      }
+    ]
+  }
+}

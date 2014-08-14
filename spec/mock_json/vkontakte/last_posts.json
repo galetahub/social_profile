@@ -1,0 +1,4279 @@
+{
+  "response": {
+    "count": 219,
+    "items": [
+      {
+        "id": 722,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1400255657,
+        "post_type": "post",
+        "text": "Хавканашару!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //jackpot.kf..._source=vkontakte",
+              "title": "СмачнийджекпотПолковникаСандерса.",
+              "description": "ЗмагаюсьзапризвідКFC.Приєднуйтесьідопоможітьменівиграти!",
+              "image_src": "https: //pp.vk.me/...0/0u132KCo8SQ.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 721,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1396543144,
+        "post_type": "post",
+        "text": "LadyGagaApplause(Official)",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "https: //ello.fodo...ists/22?social=vk",
+              "title": "LadyGagaApplause(Official)",
+              "description": "test",
+              "image_src": "https: //pp.vk.me/...7/2MXP4DxMfZk.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 700,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1368695424,
+        "post_type": "post",
+        "text": "Хей, друзі, приєднуйтесь!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.pepsim..._medium=vkontakte",
+              "title": "Хей,друзі,приєднуйтесь!",
+              "description": "ЖивітьмоментомразомізPepsi–діліться,ловіть,наповнюйте,підтримуйте,досліджуйте!",
+              "image_src": "https: //pp.vk.me/...1/3XCeIOfbNqM.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 671,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1359069004,
+        "post_type": "post",
+        "text": "Cool!",
+        "copy_history": [
+          {
+            "id": 571,
+            "owner_id": -11331664,
+            "from_id": -11331664,
+            "date": 1359054620,
+            "post_type": "post",
+            "text": "ХорошиеновостидлялюбителейвкуснойигорячейпиццыАдриано!РадысообщитьВаморасширениизоныбесплатнойдоставки!ТеперьжителиДарницкогоиДнепровскогорайоновмогутоценитьнепревзойденныйвкуспиццыиролловотAdrianoсдоставкойвсего30-40минут!",
+            "attachments": [
+              {
+                "type": "photo",
+                "photo": {
+                  "id": 297180438,
+                  "album_id": -7,
+                  "owner_id": -11331664,
+                  "user_id": 100,
+                  "photo_75": "https: //pp.vk.me/...3/sXCdCV4PmOo.jpg",
+                  "photo_130": "https: //pp.vk.me/...4/ZUQY0LooV1E.jpg",
+                  "photo_604": "https: //pp.vk.me/...5/JDFlv-3yA5M.jpg",
+                  "photo_807": "https: //pp.vk.me/...6/QhfewjvUjxM.jpg",
+                  "photo_1280": "https: //pp.vk.me/...7/PJWJ2HCEAks.jpg",
+                  "width": 526,
+                  "height": 880,
+                  "text": "",
+                  "date": 1359054620,
+                  "post_id": 571,
+                  "access_key": "8a16f76ed9c7aba333"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 2,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 666,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1354909173,
+        "post_type": "post",
+        "text": "Налетаем!",
+        "copy_history": [
+          {
+            "id": 294172542,
+            "owner_id": -11331664,
+            "from_id": -11331664,
+            "date": 1354885165,
+            "post_type": "photo",
+            "text": "",
+            "attachments": [
+              {
+                "type": "photo",
+                "photo": {
+                  "id": 294172542,
+                  "album_id": -7,
+                  "owner_id": -11331664,
+                  "user_id": 100,
+                  "photo_75": "https: //pp.vk.me/...e/wQPgp0i_Hdw.jpg",
+                  "photo_130": "https: //pp.vk.me/...f/T0VqtAYJ5Cs.jpg",
+                  "photo_604": "https: //pp.vk.me/...0/ywLV7TmtX6k.jpg",
+                  "photo_807": "https: //pp.vk.me/...1/2GsFr38PRZs.jpg",
+                  "photo_1280": "https: //pp.vk.me/...2/aPfrsipksl4.jpg",
+                  "photo_2560": "https: //pp.vk.me/...3/yram9W2Yyy0.jpg",
+                  "width": 1182,
+                  "height": 1528,
+                  "text": "",
+                  "date": 1354885165,
+                  "post_id": 522,
+                  "access_key": "a5c59abcdd94809423"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 665,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1354814992,
+        "post_type": "post",
+        "text": "Присоединяйтеськмоемукораблю!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.facebo...data=invitation-5",
+              "title": "Присоединяйтеськмоемукораблю!",
+              "description": "Выбирайтесебенастоящееморскоепрозвищеивступайтевлегендарнуюбитвусоскукой-­&#8208;выиграемсеребряноесокровищеКапитана!",
+              "image_src": "https: //pp.vk.me/...f/kqIW_1Q_ER4.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 662,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1353065584,
+        "post_type": "post",
+        "text": "Втебе2вірнівідповідіувікторині«Що?Де?Коли?».Принаймні,тизнаєш,«що»і«де»,тащейвбиваєшдвохзайців: ірезультатхороший,іботанікомніхтоненазве!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.pepsil...utm_campaign=Quiz",
+              "title": "КлублюбителівПепсі-Коли",
+              "description": "КлублюбителівПепсі-Коли,PepsiLikerzzz",
+              "image_src": "https: //pp.vk.me/...3/gGJA4n39GXE.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "api"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 661,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1352376038,
+        "post_type": "post",
+        "text": "Призинашару.",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //beer.obolo...gJhwLPszj97ipQBuf",
+              "title": "20роківразомзпивомОболонь",
+              "description": "",
+              "image_src": "https: //pp.vk.me/...5/JQ6yx7eugG0.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 660,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1350658928,
+        "post_type": "post",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 507,
+            "owner_id": -11331664,
+            "from_id": -11331664,
+            "date": 1350651664,
+            "post_type": "post",
+            "text": "РадысообщитьорасширениименюAdriano!ТеперьВыможетезаказыватьвкусныероллыисуши,приготовленныесВЫСОКОКАЧЕСТВЕННЫХпродуктов,однимизлучшихвКиевесуши-мастером!Заказывайте,наслаждайтесь,оставляйтеотзывы!)Суважением,командаAdrianoPizza!",
+            "attachments": [
+              {
+                "type": "link",
+                "link": {
+                  "url": "http: //adriano.com.ua/categories/sushi",
+                  "title": "пиццерияAdriano",
+                  "description": "ПиццавКиеве(044)237-16-16.ЗаказидоставкапиццыпоКиеву.Салаты,Напитки,Фрименю,Паставассортименте.Adrianoпиццериясдоставкой.Минимальныйзаказсбесплатнойдоставкой70грн",
+                  "image_src": "https: //pp.vk.me/...c/Zst6xxHn54E.jpg"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 2,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 659,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1350388790,
+        "post_type": "post",
+        "text": "Velkopopovick&#253;Kozelзбираєдрузів",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //dostavka.k.../#.UH1MMNiXGDo.vk",
+              "title": "Velkopopovick&#253;Kozelзбираєдрузів",
+              "description": "Запроси5друзів-іВелопоштарізВелкопоповіцебезкоштовнопривезутьпивопрямотобідодому!",
+              "image_src": "https: //pp.vk.me/...d/SkNfzKzZ-LM.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 655,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1349475107,
+        "post_type": "post",
+        "text": "",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "photo",
+            "photo": {
+              "id": 290498375,
+              "album_id": -7,
+              "owner_id": 2592709,
+              "photo_75": "https: //pp.vk.me/...5/jM5ksRLZ110.jpg",
+              "photo_130": "https: //pp.vk.me/...6/2RK71uZ-9mU.jpg",
+              "photo_604": "https: //pp.vk.me/...7/9Q9mEfK7kQM.jpg",
+              "photo_807": "https: //pp.vk.me/...8/Is3NFzEp0GU.jpg",
+              "photo_1280": "https: //pp.vk.me/...9/UFIkcKtF_j0.jpg",
+              "width": 1280,
+              "height": 850,
+              "text": "Длятих,хторідконасбачить;)",
+              "date": 1349475107,
+              "lat": 50.463954,
+              "long": 30.60247,
+              "access_key": "62ea232400459ba6d7"
+            }
+          },
+          {
+            "type": "photos_list",
+            "photos_list": [
+              "2592709_290498375"
+            ]
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 3,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 7,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 653,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1346739091,
+        "post_type": "post",
+        "text": "Анти-Сёмин.Он-лайнпетицияглавномутренеру'Динамо'(Киев)ЮриюПавловичуСёмину",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //antisemin.com.ua/",
+              "title": "Анти-Сёмин.Он-лайнпетицияглавномутренеру'Динамо'(Киев)ЮриюПавловичуСёмину",
+              "description": "",
+              "image_src": "https: //pp.vk.me/...a/aPiHGVcPEKw.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 651,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1342598666,
+        "post_type": "post",
+        "text": "ГолосуйтезаоткрыткуизГрузии!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //gruzia.com...ostcard/5e44b110/",
+              "title": "ГолосуйтезаоткрыткуизГрузии!",
+              "description": "ЭтаоткрыткадолжнавыигратьуикендвБатуми–голосуйте!Создайтесвою-ивыиграйтебутылкувинакаждыйдень",
+              "image_src": "https: //pp.vk.me/...0/REv9PjoBvhs.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 649,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1340287928,
+        "post_type": "post",
+        "text": "Пивасикнашару!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.kozelbeer.com.ua/challenge",
+              "title": "Доменеїдетрадиційнечеськепиво!",
+              "description": "ЯберуучастьвакціївідVelkopopovick&#253;Kozelімаюнагодуотриматиодинз5пивнихнаборівщодня!Приєднуйтесьіви!",
+              "image_src": "https: //pp.vk.me/...-2/x_e1c5e1a8.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 648,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1339489124,
+        "post_type": "post",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 4432,
+            "owner_id": -22923541,
+            "from_id": -22923541,
+            "date": 1339446512,
+            "post_type": "post",
+            "text": "Безсумніву,кадрдня: )",
+            "attachments": [
+              {
+                "type": "photo",
+                "photo": {
+                  "id": 284554139,
+                  "album_id": -7,
+                  "owner_id": -22923541,
+                  "user_id": 100,
+                  "photo_75": "https: //pp.vk.me/...0/2W3v2F07L0k.jpg",
+                  "photo_130": "https: //pp.vk.me/...1/-ok-2WylbCY.jpg",
+                  "photo_604": "https: //pp.vk.me/...2/MFXz5qL3pGk.jpg",
+                  "photo_807": "https: //pp.vk.me/...3/VpQQLJi6ZRU.jpg",
+                  "width": 640,
+                  "height": 352,
+                  "text": "",
+                  "date": 1339446514,
+                  "post_id": 4432,
+                  "access_key": "e86053e6701db1cc7d"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 3,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 646,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1338993632,
+        "post_type": "post",
+        "text": "ЄврокемпінгнаТрухановому,абоЯкпідкластисвинюшведськимфанам",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //kyiv.pravd...ns/4fcf3581f087b/",
+              "title": "ЄврокемпінгнаТрухановому,абоЯкпідкластисвинюшведськимфанам",
+              "description": "Те,щопобачатьтуристинелишездивуєїх,айзапам’ятаєтьсянавсежиття.Бруднийпляж,перекопанаямково-горбистазонакемпінга,неохайнозбитізтирсоплитилітнідушові,відсутністьмедчастини,куписміття–осьщоможнапобачитиуєврокемпінгуза2днідозаїдупершихуболівальників.",
+              "image_src": "https: //pp.vk.me/...-2/x_8c8649ae.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 1,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 644,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1338456952,
+        "post_type": "post",
+        "text": "Яненуждаюсьввашейзащите",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //infoporn.o...y_zashchite/51206",
+              "title": "Яненуждаюсьввашейзащите",
+              "description": "ЯнешпионинеперебежчикизГаличины.Ябольшийдончанин,чеммнеэтогохотелосьбы.Нояненуждаюсьввашейзащите,потомучтосамоебольшоезловУкраине,откоторогояхотелбызащититься–этовысами.",
+              "image_src": "https: //pp.vk.me/...-2/x_34788c64.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 2,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 1,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 643,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1337072791,
+        "post_type": "post",
+        "text": "CitroёnDS4вличноераспоряжениена2дня",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //autonews.a...ie-na-2-dnya.html",
+              "title": "CitroёnDS4вличноераспоряжениена2дня",
+              "description": "КомпанияCitroёnУкраинапредлагаетпользователямсоциальнойсетиFacebookлюбопытныйспособполучитьCitroёnDS4дляпроведениясвоеобразногодвухдневноготест..."
+            }
+          }
+        ],
+        "post_source": {
+          "link": {
+            "url": "http: //autonews.a...ie-na-2-dnya.html",
+            "title": "CitroёnDS4вличноераспоряжениена2дня",
+            "description": "КомпанияCitroёnУкраинапредлагаетпользователямсоциальнойсетиFacebookлюбопытныйспособполучитьCitroёnDS4дляпроведениясвоеобразногодвухдневноготест..."
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 641,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1336461852,
+        "post_type": "post",
+        "text": "Welcomewww.aimbulance.com/posts/265-ischem-interna-programmista",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.aimbul...erna-programmista",
+              "title": "Ищеминтерна-программиста",
+              "description": "Унасноваявакансяврамкахнашейинтерн-программы-мыищеминтерна-программиста.Чтополучитэтотсчастливчикилисчастливчики)): бесплатноеобучениепрограммированиюнаплатформеR...",
+              "image_src": "https: //pp.vk.me/...-2/x_010b22f5.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 640,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1335341353,
+        "post_type": "post",
+        "text": "AnalyticsInternNeeded",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.aimbul...ics-intern-needed",
+              "title": "AnalyticsInternNeeded",
+              "description": "ПоповнюємонашукомандунапрямкуаналітикиташукаємоІнтерна.Щовиотримаєте: Безкоштовнітренінгитанавчаннязвеб-аналітикитаконтекстно-медійноїрекламиСтажроботивцифро...",
+              "image_src": "https: //pp.vk.me/...-2/x_c251c0a4.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 639,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1334928384,
+        "post_type": "post",
+        "text": "Справжнійдруг",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.pepsilikerz.com/",
+              "title": "Справжнійдруг",
+              "description": "ВмененовавідзнаканаPepsiLikerzzz–ямаю500взаємнихдрузів!Взагалі,такемалокомувдається.Спробуйтесамі!",
+              "image_src": "https: //pp.vk.me/...-2/x_096c39a3.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 638,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1332166505,
+        "post_type": "post",
+        "text": "счастлив;)",
+        "can_delete": 1,
+        "friends_only": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 3,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 637,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1331799226,
+        "post_type": "post",
+        "text": "ПиццаСелянская",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //adriano.co...ts/58-selyanskaya",
+              "title": "ПиццаСелянская",
+              "description": "сыр,соус,салями,ветчина,сосиски,чеснок,огурцы,петрушка,специи"
+            }
+          }
+        ],
+        "post_source": {
+          "link": {
+            "url": "http: //adriano.co...ts/58-selyanskaya",
+            "title": "ПиццаСелянская",
+            "description": "сыр,соус,салями,ветчина,сосиски,чеснок,огурцы,петрушка,специи"
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 621,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1331285981,
+        "post_type": "post",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 1878,
+            "owner_id": 5935286,
+            "from_id": 5935286,
+            "date": 1331213644,
+            "post_type": "post",
+            "text": "Комтугеза!",
+            "attachments": [
+              {
+                "type": "link",
+                "link": {
+                  "url": "http: //www.luckou...iya-privedi-druga",
+                  "title": "Акция'Приведидруга'отстудиитанцаLuckOutClub",
+                  "description": "Акция'Приведидруга'отстудиитанцаLuckOutClub",
+                  "image_src": "https: //pp.vk.me/...-2/x_3946a731.jpg"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 618,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1330700297,
+        "post_type": "post",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 8612,
+            "owner_id": -17380992,
+            "from_id": -17380992,
+            "date": 1330697433,
+            "post_type": "post",
+            "text": "1000ящиківPepsi+1розійшлисьменшніжзатридні!ВітаємонайспритнішихзтусовкиPepsiLikerzzz!Алеце—тількипочаток,бовсікрутіактивності—попереду!Пронихмирозповімодещопізніше.Staytuned!",
+            "attachments": [
+              {
+                "type": "photo",
+                "photo": {
+                  "id": 280104158,
+                  "album_id": -7,
+                  "owner_id": -17380992,
+                  "user_id": 100,
+                  "photo_75": "https: //pp.vk.me/...14/s_b96167d1.jpg",
+                  "photo_130": "https: //pp.vk.me/...14/m_3965c329.jpg",
+                  "photo_604": "https: //pp.vk.me/...14/x_3673e9ac.jpg",
+                  "width": 562,
+                  "height": 143,
+                  "text": "",
+                  "date": 1330697435,
+                  "post_id": 8612,
+                  "access_key": "f452d384a476a9d7ff"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 1,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 617,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1330417607,
+        "post_type": "post",
+        "text": "Ктохочетящикпепси?",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //goo.gl/HCJaF",
+              "title": "ПриєднуйсядоPepsiLikerzzz",
+              "description": "ВступайтевмоютусовкунаPepsiLikerzzz-виграємоящикPepsi+1!",
+              "image_src": "https: //pp.vk.me/...-2/x_3e8df758.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 615,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1328653127,
+        "post_type": "post",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 787,
+            "owner_id": -2137980,
+            "from_id": -2137980,
+            "date": 1328644232,
+            "post_type": "post",
+            "text": "Будемрады,еслиВыстанетечастьюнашегоколлектива",
+            "signer_id": 9774099,
+            "attachments": [
+              {
+                "type": "photo",
+                "photo": {
+                  "id": 277782043,
+                  "album_id": -7,
+                  "owner_id": -2137980,
+                  "user_id": 100,
+                  "photo_75": "https: //pp.vk.me/...14/s_789507fd.jpg",
+                  "photo_130": "https: //pp.vk.me/...14/m_d289ab12.jpg",
+                  "photo_604": "https: //pp.vk.me/...14/x_8141820d.jpg",
+                  "photo_807": "https: //pp.vk.me/...14/y_e16347b9.jpg",
+                  "width": 807,
+                  "height": 569,
+                  "text": "",
+                  "date": 1328644235,
+                  "post_id": 787,
+                  "access_key": "a0838225bc5278e2ad"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 613,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1327653424,
+        "post_type": "post",
+        "text": "Cпециалистыпонедвижимости",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //esquire.ru/mausoleum",
+              "title": "Cпециалистыпонедвижимости",
+              "description": "БывшиерядовыепервойротыКремлевскогополкарассказываютобособенностяхнесениякараульнойслужбывозлетелавождямировогопролетариатаВладимираУльянова."
+            }
+          }
+        ],
+        "post_source": {
+          "link": {
+            "url": "http: //esquire.ru/mausoleum",
+            "title": "Cпециалистыпонедвижимости",
+            "description": "БывшиерядовыепервойротыКремлевскогополкарассказываютобособенностяхнесениякараульнойслужбывозлетелавождямировогопролетариатаВладимираУльянова."
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 612,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1327575404,
+        "post_type": "post",
+        "text": "Justdoit!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "photo",
+            "photo": {
+              "id": 277113620,
+              "album_id": -7,
+              "owner_id": 2592709,
+              "photo_75": "https: //pp.vk.me/...14/s_10de2dbc.jpg",
+              "photo_130": "https: //pp.vk.me/...14/m_29a7b516.jpg",
+              "photo_604": "https: //pp.vk.me/...14/x_4fceda72.jpg",
+              "photo_807": "https: //pp.vk.me/...14/y_6364bd69.jpg",
+              "photo_1280": "https: //pp.vk.me/...14/z_bc7d549a.jpg",
+              "width": 960,
+              "height": 722,
+              "text": "",
+              "date": 1327575363,
+              "post_id": 612,
+              "access_key": "87265621cbfea91df7"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 5,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 610,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1326500983,
+        "post_type": "post",
+        "text": "Долгоискалтакоерадио!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //nekto.me/p...a#.TxDLoJ0bqn8.vk",
+              "title": "Пианорама-круглосуточноефортепианноерадио",
+              "description": "",
+              "image_src": "https: //pp.vk.me/...-2/x_ea697bbe.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 608,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1326136753,
+        "post_type": "post",
+        "text": "Чудоелка-гербарий,выдержка1год1месяц.Спрошедшимивсехпраздниками!;)",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "photo",
+            "photo": {
+              "id": 276129775,
+              "album_id": -7,
+              "owner_id": 2592709,
+              "photo_75": "https: //pp.vk.me/...14/s_42d37165.jpg",
+              "photo_130": "https: //pp.vk.me/...14/m_0614566d.jpg",
+              "photo_604": "https: //pp.vk.me/...14/x_b807bcd2.jpg",
+              "photo_807": "https: //pp.vk.me/...14/y_1137cb92.jpg",
+              "photo_1280": "https: //pp.vk.me/...14/z_28324abc.jpg",
+              "photo_2560": "https: //pp.vk.me/...14/w_e72965fc.jpg",
+              "text": "",
+              "date": 1326136685,
+              "post_id": 608,
+              "access_key": "ba3ff0877cdd92c4bc"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 605,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1325791298,
+        "post_type": "post",
+        "text": "МойопытудаленнойработывRailsware",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //leonid.she...aboty-v-railsware",
+              "title": "МойопытудаленнойработывRailsware",
+              "description": "Рассказогорячейнынетемеудаленнойработы"
+            }
+          }
+        ],
+        "post_source": {
+          "link": {
+            "url": "http: //leonid.she...aboty-v-railsware",
+            "title": "МойопытудаленнойработывRailsware",
+            "description": "Рассказогорячейнынетемеудаленнойработы"
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 595,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1324855161,
+        "post_type": "post",
+        "text": "",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "photo",
+            "photo": {
+              "id": 275016167,
+              "album_id": -6,
+              "owner_id": 2592709,
+              "photo_75": "https: //pp.vk.me/...-6/s_d26a038c.jpg",
+              "photo_130": "https: //pp.vk.me/...-6/m_51689aa4.jpg",
+              "photo_604": "https: //pp.vk.me/...-6/x_90085b3c.jpg",
+              "photo_807": "https: //pp.vk.me/...-6/y_7ea8e631.jpg",
+              "photo_1280": "https: //pp.vk.me/...-6/z_0e279817.jpg",
+              "photo_2560": "https: //pp.vk.me/...-6/w_9a979a65.jpg",
+              "text": "",
+              "date": 1324855162,
+              "post_id": 595,
+              "access_key": "80b10a0a75e41a65d6"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk",
+          "data": "profile_photo"
+        },
+        "comments": {
+          "count": 6,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 18,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 590,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1323605236,
+        "post_type": "post",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 273392523,
+            "owner_id": -28606470,
+            "from_id": -28606470,
+            "date": 1323553097,
+            "post_type": "photo",
+            "text": "",
+            "attachments": [
+              {
+                "type": "photo",
+                "photo": {
+                  "id": 273392523,
+                  "album_id": -7,
+                  "owner_id": -28606470,
+                  "user_id": 100,
+                  "photo_75": "https: //pp.vk.me/...14/s_4db2d360.jpg",
+                  "photo_130": "https: //pp.vk.me/...14/m_ce6e71b4.jpg",
+                  "photo_604": "https: //pp.vk.me/...14/x_12cf62d4.jpg",
+                  "text": "",
+                  "date": 1323553097,
+                  "post_id": 46056,
+                  "access_key": "36ee3618cec943f64d"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 586,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1322253326,
+        "post_type": "post",
+        "text": "Эпическийтреш-хоррорскотомhttp: //agent.mail.ru/voip?seedr",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "video",
+            "video": {
+              "id": 161560610,
+              "owner_id": 2592709,
+              "title": "Очеммолчиткот?",
+              "duration": 66,
+              "description": "ВидеозвоноквMail.RuАгентезасталврасплохвразгарвечеринки.Чтожебудет?Смотритероликhttp: //agent.mail.ru/voip?seedr",
+              "date": 1322253326,
+              "views": 18,
+              "comments": 0,
+              "photo_130": "https: //pp.vk.me/...eo/s_e2241062.jpg",
+              "photo_320": "https: //pp.vk.me/...eo/l_e61a2060.jpg",
+              "access_key": "38949e5b893dc49875"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "api"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 584,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1321725533,
+        "post_type": "post",
+        "text": "Боремсясленью!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //rubydev.ru...yu-100-garantiya/",
+              "title": "Революционнаяформулаборьбысленью.100%гарантия!|RubyonRailscнуля!",
+              "description": "Нетболеезакаленныхвразговорахоленилюдейчемсамилентяи.Однилюбятоскорблять",
+              "image_src": "https: //pp.vk.me/...-2/x_2f9b9656.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 583,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1321538421,
+        "post_type": "post",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 36889,
+            "owner_id": -28606470,
+            "from_id": -28606470,
+            "date": 1321536608,
+            "post_type": "post",
+            "text": "УповноваженийВерховноїрадиУкраїнизправлюдиниНінаКарпачовапривіталачорнобильцівпідКабміном.",
+            "attachments": [
+              {
+                "type": "photo",
+                "photo": {
+                  "id": 271785766,
+                  "album_id": -7,
+                  "owner_id": -28606470,
+                  "user_id": 100,
+                  "photo_75": "https: //pp.vk.me/...14/s_b10cdfe5.jpg",
+                  "photo_130": "https: //pp.vk.me/...14/m_4d6d5f03.jpg",
+                  "photo_604": "https: //pp.vk.me/...14/x_3f130f20.jpg",
+                  "photo_807": "https: //pp.vk.me/...14/y_242528e2.jpg",
+                  "text": "",
+                  "date": 1321536608,
+                  "post_id": 36889,
+                  "access_key": "69c5e850638e5bf308"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 3,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 2,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 582,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1321517806,
+        "post_type": "post",
+        "text": "Дабстеп«по-украински»вдебютномрелизеMinikinналейблеBassMe",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //news.topdj...ce=home_multiline",
+              "title": "Дабстеп«по-украински»вдебютномрелизеMinikinналейблеBassMe",
+              "description": "PrayForLoveEPпредставляетсобойсамыйнастоящийдабстеп«по-украински»налейблеBassMe.КомментариямиделятсяWladie(радиоРекорд)иKotra(лейблKvitnu)"
+            }
+          }
+        ],
+        "post_source": {
+          "link": {
+            "url": "http: //news.topdj...ce=home_multiline",
+            "title": "Дабстеп«по-украински»вдебютномрелизеMinikinналейблеBassMe",
+            "description": "PrayForLoveEPпредставляетсобойсамыйнастоящийдабстеп«по-украински»налейблеBassMe.КомментариямиделятсяWladie(радиоРекорд)иKotra(лейблKvitnu)"
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 581,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1321466912,
+        "post_type": "post",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 250,
+            "owner_id": 72173765,
+            "from_id": 72173765,
+            "date": 1321460057,
+            "post_type": "post",
+            "text": "ПройдитепутьсАлександромРоднянским",
+            "attachments": [
+              {
+                "type": "link",
+                "link": {
+                  "url": "http: //walkwithgiants.com.ua/",
+                  "title": "ПройдитепутьсАлександромРоднянским",
+                  "description": "УзнайисториюАлександраРоднянского"
+                }
+              }
+            ],
+            "post_source": {
+              "link": {
+                "url": "http: //walkwithgiants.com.ua/",
+                "title": "ПройдитепутьсАлександромРоднянским",
+                "description": "УзнайисториюАлександраРоднянского"
+              },
+              "type": "widget",
+              "data": "like"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "link": {
+            "url": "http: //walkwithgiants.com.ua/",
+            "title": "ПройдитепутьсАлександромРоднянским",
+            "description": "УзнайисториюАлександраРоднянского"
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 2,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 577,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1321352340,
+        "post_type": "post",
+        "text": "BASSMe01: Minikin'PrayforLove'EPisOUTToday!!!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //bassme.org...in-pray-for-love/",
+              "title": "BASSMe01: Minikin'PrayforLove'EPisOUTToday!!!",
+              "description": "ARTIST: Minikin\"TITLE\": PrayforloveEPCATNO: BASSME01\"LABEL\": BassMeRecordsRELEASEDATE: 15.11.11\"FORMATS\": DigitalDownloadONELINE: Heavybassmusicon140bpm\"Cover\": KatyaMillerAllinfo,photos,bookingscontact: info@bassme.org\"Label\": www.bassme.orgwww.facebook.com/bassmenowwww.youtube.com/user/BASSMENOWAr..."
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 575,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1321016874,
+        "post_type": "post",
+        "text": "AIMBULANCE-client'sfeedback",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "video",
+            "video": {
+              "id": 161457316,
+              "owner_id": 2592709,
+              "title": "AIMBULANCE-client'sfeedback",
+              "duration": 233,
+              "description": "Отзывынашихклиентовонашейработе.Оченьприятно,ажмурашкипокоже.",
+              "date": 1321016877,
+              "views": 6,
+              "comments": 1,
+              "photo_130": "https: //pp.vk.me/...eo/s_fe3bcaa2.jpg",
+              "photo_320": "https: //pp.vk.me/...eo/l_116eb4bc.jpg",
+              "access_key": "d63fe90b62528529b8"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 1,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 573,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1320779145,
+        "post_type": "post",
+        "text": "Видійсноактивні?Покажітьнам!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.mcdona...ivni-pokazhit-nam",
+              "title": "Видійсноактивні?Покажітьнам!",
+              "description": "<p>Запрошуємовсікомандивзятиучастьуновійрубриці!</p>"
+            }
+          }
+        ],
+        "post_source": {
+          "link": {
+            "url": "http: //www.mcdona...ivni-pokazhit-nam",
+            "title": "Видійсноактивні?Покажітьнам!",
+            "description": "<p>Запрошуємовсікомандивзятиучастьуновійрубриці!</p>"
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 571,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1320606690,
+        "post_type": "post",
+        "text": "Ятанцуюкрутойзомби-танец!Поддержитеменя,ияполучу5000грнналегендарнуювечеринку.",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.monste..._source=vkontakte",
+              "title": "",
+              "description": ""
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 570,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1320439117,
+        "post_type": "post",
+        "text": "Обережно,лайно!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.pravda...011/11/4/6731858/",
+              "title": "Обережно,лайно!",
+              "description": "Публікуючицюбрехню,авторявносподівався,щоценеможнабудеспростувати-аджерозмовавідбуваласяврежимібездиктофонів.Алевменеєпоганіновинидляадміністраціїпрезидента.",
+              "image_src": "https: //pp.vk.me/...-2/x_98bb86a0.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 2,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 1,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 569,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1320402324,
+        "post_type": "post",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 33497,
+            "owner_id": -28606470,
+            "from_id": -28606470,
+            "date": 1320356648,
+            "post_type": "post",
+            "text": "",
+            "attachments": [
+              {
+                "type": "photo",
+                "photo": {
+                  "id": 270832048,
+                  "album_id": 138519370,
+                  "owner_id": -28606470,
+                  "user_id": 16435206,
+                  "photo_75": "https: //pp.vk.me/...70/s_0c6fac13.jpg",
+                  "photo_130": "https: //pp.vk.me/...70/m_92544209.jpg",
+                  "photo_604": "https: //pp.vk.me/...70/x_8253a660.jpg",
+                  "photo_807": "https: //pp.vk.me/...70/y_1f2606e1.jpg",
+                  "text": "",
+                  "date": 1320356267,
+                  "access_key": "1a071f5e28a9ddf476"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 2,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 1,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 568,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1320402249,
+        "post_type": "post",
+        "text": "",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //vk.com/captainmorganukraine",
+              "title": "CaptainMorganUkraine",
+              "description": "Я-КапитанМорган,илюбаявечеринкасомнойстановитсялегендарной.Пейтесумом-приказКапитана!Япризываювсехкапитановстатьчастьюмоейуниверсальнойкоманды: http: //vkontakte.ru/captainmorganua",
+              "image_src": "https: //pp.vk.me/...70/d_9338a134.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 567,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1320344044,
+        "post_type": "post",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 34,
+            "owner_id": -19836299,
+            "from_id": -19836299,
+            "date": 1320328787,
+            "post_type": "post",
+            "text": "Воттакоманда,котораясейчасзанимаетпервоеместовлегендарнойзомби-битвеMonsterParty.Унеепочти250голосов.Впечатляет,ноненастолько,чтобыкапитулировать.Присоединяйтесь,переходяпоссылке,указаннойниже",
+            "attachments": [
+              {
+                "type": "photo",
+                "photo": {
+                  "id": 270232634,
+                  "album_id": -7,
+                  "owner_id": -19836299,
+                  "user_id": 100,
+                  "photo_75": "https: //pp.vk.me/...14/s_59ae6011.jpg",
+                  "photo_130": "https: //pp.vk.me/...14/m_319102e5.jpg",
+                  "photo_604": "https: //pp.vk.me/...14/x_e80fc157.jpg",
+                  "photo_807": "https: //pp.vk.me/...14/y_8849946d.jpg",
+                  "text": "",
+                  "date": 1320328789,
+                  "post_id": 34,
+                  "access_key": "ee0656353f4410a578"
+                }
+              },
+              {
+                "type": "link",
+                "link": {
+                  "url": "http: //www.monster-party.com.ua/",
+                  "title": "КапитанзахватилХэллоуин!",
+                  "description": "Эй,друзья,неплохобынамоторватьсяпополной!Зомби-танцыи5000грнналегендарнуювечеринку.Поздравляйтедрузей-приказКапитана!",
+                  "image_src": "https: //pp.vk.me/...-2/x_8117e4e8.jpg"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 565,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1320051750,
+        "post_type": "post",
+        "text": "'AwebBlog'отримавщеодинголос'за'!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //watcher.com.ua/buba/aweb-blog/",
+              "title": "'AwebBlog'отримавщеодинголос'за'!",
+              "description": "Підтримайсвійулюбленийблогнащорічномуконкурсіукраїнськихблогів"
+            }
+          }
+        ],
+        "post_source": {
+          "link": {
+            "url": "http: //watcher.com.ua/buba/aweb-blog/",
+            "title": "'AwebBlog'отримавщеодинголос'за'!",
+            "description": "Підтримайсвійулюбленийблогнащорічномуконкурсіукраїнськихблогів"
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 564,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1320006743,
+        "post_type": "post",
+        "text": "Ятанцуюкрутойзомби-танец!Поддержитеменя,ияполучу5000грнналегендарнуювечеринку.",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.monste..._source=vkontakte",
+              "title": "КапитанзахватилХэллоуин!",
+              "description": "Поздравляйдрузейзомби-открыткой,выигрывай5000грниотрывайсяпополной!",
+              "image_src": "https: //pp.vk.me/...-2/x_48c004da.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 563,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1319571353,
+        "post_type": "post",
+        "text": "",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //vk.com/event31477608",
+              "title": "Пора!",
+              "description": "Доброевремясуток,Друзья!Поравстретиться!Какникак-прошло2годаХмесяцаиХХдней.Начинаемобсуждение-комукогдаудобно,форматмероприятия.Дляразогреваиначалаобсуждения-моевиденье: 1.Дляобеспечениямаксимальногок-валюдей-обсуждаемдолгосрасстановко..",
+              "image_src": "https: //vk.com/images/community_100.gif"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 556,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1319547248,
+        "post_type": "post",
+        "text": "СмотритеХэллоуинужезавтрав20-15на1+1",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.monste..._source=vkontakte",
+              "title": "КапитанзахватилХэллоуин!",
+              "description": "Поздравляйдрузейзомби-открыткой,выигрывай5000грниотрывайсяпополной!"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 4,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 3,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 555,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1319542692,
+        "post_type": "post",
+        "text": "",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //vk.com/nightcinema",
+              "title": "НочьКинопремьеротANGAR(partVI)",
+              "description": "Друзья,праздникиотАнгаранезакончатсядлявасникогдаиследующаяночьКиноПремьертомуподтвержджение!ТРИкино-хитазаОДНУночь-этонеединственное,чтонравитсявамунас,нетакли?Важенсамдухивпечатления,аихмывамужточнообеспечим.Дополняткартинубесплатныекоктей..",
+              "image_src": "https: //pp.vk.me/...2/7SvE9OqcevI.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 554,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1319488027,
+        "post_type": "post",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 672,
+            "owner_id": -23292210,
+            "from_id": -23292210,
+            "date": 1319464992,
+            "post_type": "post",
+            "text": "Превратидрузейвмонстров!АкциякХэллоуину",
+            "attachments": [
+              {
+                "type": "link",
+                "link": {
+                  "url": "http: //nashkiev.u...-kak-sleduet.html",
+                  "title": "Превратидрузейвмонстров!|Интернет-журнал«НашКиев»",
+                  "description": "Хэллоуин,наверное,самыйпротиворечивыйпраздниквмире.Всякаянечистьнаулицывыходит,людейпугает,здоровыевпринципелюдивырезаютвтыквахзловещиеулыбкиидеткивкостюмахразныхсуществтребуютсладости.Вобщем,страннаяночь...",
+                  "image_src": "https: //pp.vk.me/...-2/x_2bcfcb15.jpg"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 2,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 2,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 553,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1319465308,
+        "post_type": "post",
+        "text": "Ястанцевалкрутойзомби-танец!Поддержитеменя,ияполучу5000налегендарнуювечеринку.",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.monste..._source=vkontakte",
+              "title": "КапитанзахватилХэллоуин!",
+              "description": "Поздравляйдрузейзомби-открыткой,выигрывай5000грниотрывайсяпополной!",
+              "image_src": "https: //pp.vk.me/...-2/x_16de3e35.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 552,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1318952460,
+        "post_type": "post",
+        "text": "УкраїнапротиЯнуковича!Підтримай!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //yanukovichu.net/",
+              "title": "УкраїнапротиЯнуковича!Підтримай!",
+              "description": "ЯпротиЯнуковича!Янебоюся!"
+            }
+          }
+        ],
+        "post_source": {
+          "link": {
+            "url": "http: //yanukovichu.net/",
+            "title": "УкраїнапротиЯнуковича!Підтримай!",
+            "description": "ЯпротиЯнуковича!Янебоюся!"
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 551,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1318856961,
+        "post_type": "post",
+        "text": "",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //vk.com/captainmorganua",
+              "title": "CaptainMorganУкраина",
+              "description": "Я-КапитанМорган,илюбаявечеринкасомнойстановитсялегендарной!Яхочу,чтобывысделалимузыкугромче,собралисвоюкоманду,занялиисходныепозицииивозгордилисьтем,чтоподнимаетепарусавместесомной!Япризываювсехкапитановстатьчастьюмоейуниверсальнойкоманды-присоеди..",
+              "image_src": "https: //pp.vk.me/...99/d_f6c0fc4b.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 2,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 546,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1318782785,
+        "post_type": "post",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 161062145,
+            "owner_id": -28606470,
+            "from_id": -28606470,
+            "date": 1318626865,
+            "post_type": "video",
+            "text": "",
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 161062145,
+                  "owner_id": -28606470,
+                  "title": "Богословська'здала'Януковича",
+                  "duration": 44,
+                  "description": "",
+                  "date": 1318626865,
+                  "views": 5099,
+                  "comments": 111,
+                  "photo_130": "https: //pp.vk.me/...eo/s_799ac5f6.jpg",
+                  "photo_320": "https: //pp.vk.me/...eo/l_d00a8049.jpg",
+                  "access_key": "ac0dece15aec448599"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 3,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 1,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 541,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1318322869,
+        "post_type": "post",
+        "text": "тустань",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.mcdona....com.ua/works/490",
+              "title": "тустань",
+              "description": "Явіддавсвійголосзасімейнукомандутустань–хочу,щобсамеїхдитинавийшланаполеУЄФАЄВРО2012.Голосуйтезанихабостворітьвашукоманду!"
+            }
+          }
+        ],
+        "post_source": {
+          "link": {
+            "url": "http: //www.mcdona....com.ua/works/490",
+            "title": "тустань",
+            "description": "Явіддавсвійголосзасімейнукомандутустань–хочу,щобсамеїхдитинавийшланаполеУЄФАЄВРО2012.Голосуйтезанихабостворітьвашукоманду!"
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 540,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1318256709,
+        "post_type": "post",
+        "text": "Платон-ЧЕМПИОН!!!!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.mcdona....com.ua/works/627",
+              "title": "Платон-ЧЕМПИОН!!!!",
+              "description": "ЯвіддавсвійголосзасімейнукомандуПлатон-ЧЕМПИОН!!!!–хочу,щобсамеїхдитинавийшланаполеУЄФАЄВРО2012.Голосуйтезанихабостворітьвашуспортивн..."
+            }
+          }
+        ],
+        "post_source": {
+          "link": {
+            "url": "http: //www.mcdona....com.ua/works/627",
+            "title": "Платон-ЧЕМПИОН!!!!",
+            "description": "ЯвіддавсвійголосзасімейнукомандуПлатон-ЧЕМПИОН!!!!–хочу,щобсамеїхдитинавийшланаполеУЄФАЄВРО2012.Голосуйтезанихабостворітьвашуспортивн..."
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 539,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1317854012,
+        "post_type": "post",
+        "text": "ПиццаХот-дог",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //adriano.co...oducts/48-hot-dog",
+              "title": "ПиццаХот-дог",
+              "description": "Вназваниипиццыужезаложенастрижка,всемзнакомоговкусаХот-Дога,пиццаготовитсянаосновегорчично-томатногосоусасдобавлениемсосисок,ломтиковкартошк..."
+            }
+          }
+        ],
+        "post_source": {
+          "link": {
+            "url": "http: //adriano.co...oducts/48-hot-dog",
+            "title": "ПиццаХот-дог",
+            "description": "Вназваниипиццыужезаложенастрижка,всемзнакомоговкусаХот-Дога,пиццаготовитсянаосновегорчично-томатногосоусасдобавлениемсосисок,ломтиковкартошк..."
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 538,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1317839853,
+        "post_type": "post",
+        "text": "Я,ПавелГалета,протипереведеннягодинників!Стреси,хвороби,розладзвичногографікутаекономічнівтративідзниженняпрацездатностінаселенняневартімізерноїекономії!Висловисяйтинаhttp: //godyna.mcdonalds.uaviahttp: //vkontakte.ru/mcdonaldsfc",
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "api"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 536,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1317740718,
+        "post_type": "post",
+        "text": "ОхранаАзаровабьетмашины,неуступившиедорогукортежу,-СМИ",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //focus.ua/politics/202499",
+              "title": "ОхранаАзаровабьетмашины,неуступившиедорогукортежу,-СМИ",
+              "description": "Охранапремьер-министраУкраиныНиколаяАзароваразбиваетзеркаламашин,которыенеуспеваютсъехатьсдорогивовремядвижениякортежа"
+            }
+          }
+        ],
+        "post_source": {
+          "link": {
+            "url": "http: //focus.ua/politics/202499",
+            "title": "ОхранаАзаровабьетмашины,неуступившиедорогукортежу,-СМИ",
+            "description": "Охранапремьер-министраУкраиныНиколаяАзароваразбиваетзеркаламашин,которыенеуспеваютсъехатьсдорогивовремядвижениякортежа"
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 1,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 535,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1317059644,
+        "post_type": "post",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 497,
+            "owner_id": -27298362,
+            "from_id": -27298362,
+            "date": 1317052347,
+            "post_type": "post",
+            "text": "качаембесплатнопоссылке: bassme.org/free-download/2011/09/autonomic-my-nu-leng-midnight",
+            "attachments": [
+              {
+                "type": "link",
+                "link": {
+                  "url": "http: //www.youtub...tch?v=umBG3gZSIBk",
+                  "title": "MyNuLeng-Midnight[HD]|Free|",
+                  "description": "-=[Information]=-\"Artist\": MyNuLeng\"Track\": MidnightAlbumLabel: -,MindStepMusicFormCatalogueNo°: DigitalRelease,-Downloadthetrack@: http: //mindstepmusic.com/online/free-downloadsContactInfo: \"http\": //soundcloud.com/mynuleng\"http\": //www.facebook.com/pages/My-Nu-Leng/172627649426022Wallpaper------------------------------------------------------------------NOCOPYRIGHTINFRINGEMENTINTENDED!Uploadedmusicisonlymeanttobestreamedpromotedforallartists.Ifyouseeyourtrackhereandyoudon'twantittobeavailableonYouTube,messagemeIwillremoveit.",
+                  "image_src": "https: //pp.vk.me/...-2/x_377f4625.jpg"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 534,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1316853634,
+        "post_type": "post",
+        "text": "Зарабатыватьналайках?!Легко!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //seedr.ru/i/EV",
+              "title": "Seedr: сервиспозитивныхрекламныхконтактов",
+              "description": "Seedr—этосервис,гдепользователизарабатываютнаразмещениибрендированногоконтентавсоциальныхсетях,абрендыоплачиваютрекламутольковтомслучае,еслионапонравилась.",
+              "image_src": "https: //pp.vk.me/...-2/x_2c61ca98.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 531,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1316786615,
+        "post_type": "post",
+        "text": "ЭтожеЧлек!!??Последнийразяеговиделнавторомкурсе: )",
+        "can_delete": 1,
+        "friends_only": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "photo",
+            "photo": {
+              "id": 268697981,
+              "album_id": -10,
+              "owner_id": 2592709,
+              "photo_75": "https: //pp.vk.me/...14/s_f83d63d9.jpg",
+              "photo_130": "https: //pp.vk.me/...14/m_c53ffa20.jpg",
+              "photo_604": "https: //pp.vk.me/...14/x_b25f73e1.jpg",
+              "photo_807": "https: //pp.vk.me/...14/y_d7d1b9ad.jpg",
+              "text": "",
+              "date": 1316786609,
+              "post_id": 531,
+              "access_key": "82cac6fce86a4e285f"
+            }
+          },
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //nightlife....b-guide-exclusive",
+              "title": "SaxonClubGuide-exclusive",
+              "description": "SaxonClubGuide-exclusive",
+              "image_src": "https: //pp.vk.me/...-2/x_0e54292c.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 529,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1316415760,
+        "post_type": "post",
+        "text": "красотка!))",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //coffee.mcd.../collages/hxkrhqc",
+              "title": "Ооогооо,якбадьоритьлатезісвіжомеленоїкави!!!",
+              "description": "Ащосвіжомеленакавазробитьзтобою?Клацайналінктаотримайулюбленийнапійбезкоштовно!",
+              "image_src": "https: //pp.vk.me/...-2/x_ad4d4384.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 1,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 2,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 528,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1316097905,
+        "post_type": "post",
+        "text": "теперьуюзераестьличныйпрофайл,гдеможнопосмотретьвсезагруженныефоткиhttp: //coffee.mcdonalds.ua/profile",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //coffee.mcd...4241?code=ykgvfme",
+              "title": "Ооогооо,якбадьоритьлатезісвіжомеленоїкави!!!",
+              "description": "Ащосвіжомеленакавазробитьзтобою?Клацайналінктаотримайулюбленийнапійбезкоштовно!",
+              "image_src": "https: //pp.vk.me/...-2/x_67d3270d.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 526,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1315404231,
+        "post_type": "post",
+        "text": "Жесть",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //ain.ua/2011/09/07/58280",
+              "title": "ОткрытоеписьмоДенисаОлейниковаПрезидентуУкраиныВикторуЯнуковичу",
+              "description": "",
+              "image_src": "https: //pp.vk.me/...-2/x_a1366d49.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 525,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1315399681,
+        "post_type": "post",
+        "text": "Ооогооо,якбадьоритьлатезісвіжомеленоїкави!!!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //coffee.mcd.../collages/yjpqhku",
+              "title": "Ооогооо,якбадьоритьлатезісвіжомеленоїкави!!!",
+              "description": "Ащосвіжомеленакавазробитьзтобою?Клацайналінктаотримайулюбленийнапійбезкоштовно!"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 524,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1315247386,
+        "post_type": "post",
+        "text": "Ооогооо,якбадьоритьлатезісвіжомеленоїкави!!!coffee.mcdonalds.uaАщосвіжомеленакавазробитьзтобою?Клацайналінктаотримайулюбленийнапійбезкоштовно!ЮХУ!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //coffee.mcd.../collages/ykgvfme",
+              "title": "Ооогооо,якбадьоритьлатезісвіжомеленоїкави!!!",
+              "description": "Ащосвіжомеленакавазробитьзтобою?Клацайналінктаотримайулюбленийнапійбезкоштовно!",
+              "image_src": "https: //pp.vk.me/...-2/x_349baf85.jpg"
+            }
+          },
+          {
+            "type": "note",
+            "note": {
+              "id": 11531424,
+              "owner_id": 2592709,
+              "comments": 0,
+              "read_comments": 0,
+              "date": 1315247389,
+              "title": "Ооогооо,якбадьоритьлатезісвіжомеленоїкави!!!",
+              "view_url": "https: //m.vk.com/...7e0a5d88d9b8e089a"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 523,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1315231264,
+        "post_type": "post",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 1339,
+            "owner_id": 5935286,
+            "from_id": 5935286,
+            "date": 1315230253,
+            "post_type": "post",
+            "text": "Ооогооо,якбадьоритьсвіжомеленеамерикано!!!",
+            "attachments": [
+              {
+                "type": "link",
+                "link": {
+                  "url": "http: //coffee.mcd.../collages/faemfku",
+                  "title": "Ооогооо,якбадьоритьсвіжомеленеамерикано!!!",
+                  "description": "Ащосвіжомеленакавазробитьзтобою?Клацайналінктаотримайулюбленийнапійбезкоштовно!",
+                  "image_src": "https: //pp.vk.me/...-2/x_453bc967.jpg"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 522,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1314281971,
+        "post_type": "post",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 6759,
+            "owner_id": -17380992,
+            "from_id": -17380992,
+            "date": 1314268260,
+            "post_type": "post",
+            "text": "Освіжидругавфонтані",
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 160864387,
+                  "owner_id": -17380992,
+                  "title": "Освіжидругавфонтані",
+                  "duration": 159,
+                  "description": "Сержзабажавскупатиподругу.Катявзяласяйомудопомогти.Юлянепобояласястатисмішною.Амизнялисюжет,проте,яктрійцяпереможцівfacebook-випробування'Освіжисвогодруга'реалізуваласвоюідеюнавиграні2000гривень.",
+                  "date": 1314268260,
+                  "views": 17,
+                  "comments": 4,
+                  "photo_130": "https: //pp.vk.me/...eo/s_59305023.jpg",
+                  "photo_320": "https: //pp.vk.me/...eo/l_79360489.jpg",
+                  "access_key": "3ffaf6b15d1fee81ba"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 2,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 521,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1313475575,
+        "post_type": "post",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 1935,
+            "owner_id": 5932730,
+            "from_id": 5932730,
+            "date": 1313447159,
+            "post_type": "post",
+            "text": "пиццерияAdriano",
+            "attachments": [
+              {
+                "type": "link",
+                "link": {
+                  "url": "http: //adriano.com.ua/",
+                  "title": "пиццерияAdriano",
+                  "description": "ПиццавКиеве(044)237-16-16.ЗаказидоставкапиццыпоКиеву.Салаты,Напитки,Фрименю,Паставассортименте.Adrianoпиццериясдоставкой.Минимальныйзаказ..."
+                }
+              }
+            ],
+            "post_source": {
+              "link": {
+                "url": "http: //adriano.com.ua/",
+                "title": "пиццерияAdriano",
+                "description": "ПиццавКиеве(044)237-16-16.ЗаказидоставкапиццыпоКиеву.Салаты,Напитки,Фрименю,Паставассортименте.Adrianoпиццериясдоставкой.Минимальныйзаказ..."
+              },
+              "type": "widget",
+              "data": "like"
+            }
+          }
+        ],
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "link": {
+            "url": "http: //adriano.com.ua/",
+            "title": "пиццерияAdriano",
+            "description": "ПиццавКиеве(044)237-16-16.ЗаказидоставкапиццыпоКиеву.Салаты,Напитки,Фрименю,Паставассортименте.Adrianoпиццериясдоставкой.Минимальныйзаказ..."
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 512,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1311862200,
+        "post_type": "post",
+        "text": "[id6391852|Дмитрий], неговоригоп,поканеперепрыгнешь))Всечтоговорятпрограммеры,ноещенесделали-туфта))",
+        "reply_owner_id": 6391852,
+        "reply_post_id": 564,
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 6,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 506,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1309369253,
+        "post_type": "post",
+        "text": "[id6391852|Дмитрий], realt.aviso.ua/ad-Residential-Apartments-Let-Kyiv-XXcategoryZ11XXofferZ3XXidZ83f0f57f-f1b4-4843-9975-dc3f078d7c29http: //realt.aviso.ua/ad-Residential-Apartments-Let-Kyiv-XXcategoryZ11XXofferZ3XXidZ9a798e0c-35b7-4286-86aa-175064617a59realt.aviso.ua/ad-Residential-Apartments-Let-Kyiv-XXcategoryZ11XXofferZ3XXidZdbe486e0-50dd-467e-a7f6-59a68a8dae0a",
+        "reply_owner_id": 6391852,
+        "reply_post_id": 538,
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 2,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 499,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1306867893,
+        "post_type": "post",
+        "text": "кого?[id6391852|Дмитрий],",
+        "reply_owner_id": 6391852,
+        "reply_post_id": 511,
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 1,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 497,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1306787171,
+        "post_type": "post",
+        "text": "Лайкайте,друзья!)",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //newc4.citr...b4bf58e879ac04282",
+              "title": "ЯучаствуювНОВЫЙCITROЁNC4GrandPrix",
+              "description": "УчаствуйвГран-при,гдененужнобытьпрофессиональнымгонщиком.ПолучиновыйCITROЁNC4вполноераспоряжениена4месяцаилиодиниз1000призов.",
+              "image_src": "https: //pp.vk.me/...-2/x_14488529.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 495,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1306316745,
+        "post_type": "post",
+        "text": "ВесёлыйфаСАДИК",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.pepsi....enges/1/ideas/608",
+              "title": "ВесёлыйфаСАДИК",
+              "description": "Серыекирпичныезагончики'алярекреационныебеседки'иоблущенноездание-этонесортировочнаяинесклад,этостандартныйдетскийсадик.Видеоздесь-http: //vimeo.com/24124002Мояидеясостоитвтом,чтобыдатьимвизуальныйбагажвпечатленийнабудущее-разрисоватьдетскиесадикивгороде.",
+              "image_src": "https: //pp.vk.me/...-2/x_e8f39c09.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 491,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1303471944,
+        "post_type": "post",
+        "text": "Листдушевно-обдарованому",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.pravda...11/04/21/6125410/",
+              "title": "Листдушевно-обдарованому",
+              "description": "Продавецьіз12-годинногоробочогоднябезпосередньозайнятийроботоюгодину-півтори.Іншийчасвонавяже,читаєйтакеінше.Алеоформитиначвертьставки-автоматичнопопастипідперевірку.(рос)"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 486,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1302112640,
+        "post_type": "post",
+        "text": "протестируйте,пожалуйста,сайтец.всебагииошибкипишитемне)",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //endornot.com/not",
+              "title": "Друзья!Всебудетхорошо!",
+              "description": "Япроголосовалзаточтовсебудетхорошопосле2012г.наhttp: //endornot.com",
+              "image_src": "https: //pp.vk.me/...-2/x_da751cb6.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 4,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 483,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1301168801,
+        "post_type": "post",
+        "text": "Акція'Мійсніданок'вMcDonald's",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //snidanok.mcdonalds.ua/contests",
+              "title": "Акція'Мійсніданок'вMcDonald's",
+              "description": "McDonald'sпригощаєкавоютасмачнимисніданками!ОбираєшулюбленукавутаотримуєшїїуподарунокабоскладаєшсвійМакСніданок,збираєш10like-ісертифікатна25грнтвій.Смачноготабадьорогоранку!",
+              "image_src": "https: //pp.vk.me/...-2/x_10d25bcf.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 482,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1300799340,
+        "post_type": "post",
+        "text": "",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //vk.com/dyvni_ludi",
+              "title": "Театр'ДИВНІЛЮДИ'|ТеатрафишаспектаклиКиев",
+              "description": "Афиша,видео,новоститеатра.&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;&#8201;Время,потерянноесудовольствием,несчитаетсяпотерянным!Дж.ЛеннонФорматнашеготеатраэторазговорныйжанрвкоторомпредставленареальность,скоторойежедневносталк..",
+              "image_src": "https: //pp.vk.me/...d/qD-1fjqPQ3Y.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 1,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 480,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1300304520,
+        "post_type": "post",
+        "text": "Акція'Мійсніданок'вMcDonald'ssnidanok.mcdonalds.uaMcDonald'sпригощаєкавоютасмачнимисніданками!ОбираєшулюбленукавутаотримуєшїїуподарунокабоскладаєшсвійМакСніданок,збираєш10like-ісертифікатна25грнтвій.Смачноготабадьорогоранку!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //snidanok.mcdonalds.ua/contests",
+              "title": "КаваісніданкиНАШАРУ!McDonald'sпригощає,яконтролюю;)",
+              "description": "McDonald'sпригощаєкавоютасмачнимисніданками!ОбираєшулюбленукавутаотримуєшїїуподарунокабоскладаєшсвійМакСніданок,збираєш10like-ісертифікатна25грнтвій.Смачноготабадьорогоранку!",
+              "image_src": "https: //pp.vk.me/...-2/x_10d25bcf.jpg"
+            }
+          },
+          {
+            "type": "note",
+            "note": {
+              "id": 11025229,
+              "owner_id": 2592709,
+              "comments": 0,
+              "read_comments": 0,
+              "date": 1300304523,
+              "title": "КаваісніданкиНАШАРУ!McDonald'sпригощає,яконтролюю;)",
+              "view_url": "https: //m.vk.com/...ec885d88e152a3877"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 417,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1298971375,
+        "post_type": "post",
+        "text": "ШукаємоПепсіМена!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //blog.pepsi...ukaemo-pepsi-mena",
+              "title": "ШукаємоПепсіМена!",
+              "description": "Розшукуєтьсяособистість,якапредставитьактивнумолодьУкраїниіпосилитькомандупроектуPepsiRefreshProject."
+            }
+          }
+        ],
+        "post_source": {
+          "link": {
+            "url": "http: //blog.pepsi...ukaemo-pepsi-mena",
+            "title": "ШукаємоПепсіМена!",
+            "description": "Розшукуєтьсяособистість,якапредставитьактивнумолодьУкраїниіпосилитькомандупроектуPepsiRefreshProject."
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 3,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 412,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1297416429,
+        "post_type": "post",
+        "text": "Aimbulance–новоецифровоеагентствовыходцевизBrainberry|AIN.UA",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //ain.ua/201...tm_medium=twitter",
+              "title": "Aimbulance–новоецифровоеагентствовыходцевизBrainberry|AIN.UA",
+              "description": ""
+            }
+          }
+        ],
+        "post_source": {
+          "link": {
+            "url": "http: //ain.ua/201...tm_medium=twitter",
+            "title": "Aimbulance–новоецифровоеагентствовыходцевизBrainberry|AIN.UA",
+            "description": ""
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 2,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 405,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1295430809,
+        "post_type": "post",
+        "text": "AXERiseUp-прокидайсятавмикайся!Пройдиранковийтестнауважність!www.axe.uAXERiseUpФишкатеста-номертелефона,которыйдевушкаоставляетиграющемувконце.Понемуможнопозвонить,поболтатьсдевушкойи,еслиповезет,получитьотнееММСсфоткойеегрудиисвоимименемнаней.",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.axe.ua/morning-test/",
+              "title": "AXERiseUp-прокидайсятавмикайся!Пройдиранковийтестнауважність!",
+              "description": "AXERiseUp",
+              "image_src": "https: //pp.vk.me/...-2/x_c7888fd8.jpg"
+            }
+          },
+          {
+            "type": "note",
+            "note": {
+              "id": 10723807,
+              "owner_id": 2592709,
+              "comments": 3,
+              "read_comments": 3,
+              "date": 1295430809,
+              "title": "AXERiseUp-прокидайсятавмикайся!Пройдиранковийтестнауважність!",
+              "view_url": "https: //m.vk.com/...92bd5d88297ce6d27"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 3,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 394,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1293632332,
+        "post_type": "post",
+        "text": "Толковыхменеджеровнехватает!",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //pontus.com...herov-ne-hvataet/",
+              "title": "Толковыхменеджеровнехватает!",
+              "description": "Последнийгод,как-тозачастиликомненаящикписьмаподобногохарактера: УважаемыйСергей,Какрекрутментконсультант,обращаюськВамкаккспециалистусвязанномусITсферой.Унасоткр..."
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 384,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1293181507,
+        "post_type": "post",
+        "text": "Ребята!Проголосуйтепожалуйстазамоюработу-оченьхочусебеАндроида=)",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //samsung-ga...petition/work/45/",
+              "title": "КонкурсфотовідSamsung: : ДосліджуймісторазомзSamsungGalaxy",
+              "description": ""
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 4,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 2,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 383,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1293020440,
+        "post_type": "post",
+        "text": "'Гордость'-Конкурс'ДосліджуймісторазомзSamsungGalaxy'",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //samsung-ga...petition/work/45/",
+              "title": "'Гордость'-Конкурс'ДосліджуймісторазомзSamsungGalaxy'",
+              "description": ""
+            }
+          }
+        ],
+        "post_source": {
+          "link": {
+            "url": "http: //samsung-ga...petition/work/45/",
+            "title": "'Гордость'-Конкурс'ДосліджуймісторазомзSamsungGalaxy'",
+            "description": ""
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 378,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1292935260,
+        "post_type": "post",
+        "text": "Гдекупитьнедорогие,нокачественныеконькивпределах400грн?",
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 5,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 376,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1292245598,
+        "post_type": "post",
+        "text": "ПозорСТБ",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //www.online...pko/petition.html",
+              "title": "ТребованиекРуководствуканалаСТБ-ОнлайнПетиция",
+              "description": "ОнлайнПетицииРуНета.Местогдеможнобесплатносоздатьиподписатьнароднуюпетициюнаважнуютему",
+              "image_src": "https: //pp.vk.me/...-2/x_bae76884.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 374,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1290436970,
+        "post_type": "post",
+        "text": "ПиццаГавайська–пиццерия«Adriano»",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //adriano.co...oducts/4-gavayska",
+              "title": "ПиццаГавайська–пиццерия«Adriano»",
+              "description": "сыр,соус,курица,ананас,специи,ПиццавКиеве(044)237-16-16.ЗаказидоставкапиццыпоКиеву.Салаты,Напитки,Фрименю,Паставассортименте.Adrianoпиццериясдоставкой.Минимальныйзаказсбесплатнойдоставкой70грн"
+            }
+          }
+        ],
+        "post_source": {
+          "link": {
+            "url": "http: //adriano.co...oducts/4-gavayska",
+            "title": "ПиццаГавайська–пиццерия«Adriano»",
+            "description": "сыр,соус,курица,ананас,специи,ПиццавКиеве(044)237-16-16.ЗаказидоставкапиццыпоКиеву.Салаты,Напитки,Фрименю,Паставассортименте.Adrianoпиццериясдоставкой.Минимальныйзаказсбесплатнойдоставкой70грн"
+          },
+          "type": "widget",
+          "data": "like"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 371,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1290429703,
+        "post_type": "post",
+        "text": "afisha.tochka.net-хреновієбанатиікидали.",
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 3,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 370,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1289492229,
+        "post_type": "post",
+        "text": "Хочутуда",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //afisha.toc...6fb4957505225ec3d",
+              "title": "Виграйквиткина30SecondstoMars!-Tochka.net",
+              "description": "",
+              "image_src": "https: //pp.vk.me/...-2/x_2c06ab98.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 365,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1289161704,
+        "post_type": "post",
+        "text": "Сашакрасавчик!))",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //itc.ua/vid...ee_pc_1018p_49031",
+              "title": "ASUSEeePC1018P",
+              "description": "Компьютеры-Нетбуки,ноутбуки,лэптопы,стационарныеПК,компьютерыисерверы.Новости,Интервью.Блоги.Обзоры.Подкасты.Видео.Тесты.Сравнения.Статьи.",
+              "image_src": "https: //pp.vk.me/...-2/x_65c3d0dd.jpg"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 4,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 2,
+          "user_likes": 1,
+          "can_like": 0,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 364,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1289152528,
+        "post_type": "post",
+        "text": "Ливерпульначинаетрадовать!)Ливерпуль-Челси2: 0.Торесоформилдубль",
+        "can_delete": 1,
+        "can_pin": 1,
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 363,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1288732657,
+        "post_type": "post",
+        "text": "Вбандане-КонкурсViasatNature",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //promo.vias...cd07fd26684eeaf,0",
+              "title": "Вбандане-КонкурсViasatNature",
+              "description": ""
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 358,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1288032132,
+        "post_type": "post",
+        "text": "Голосуйтезанаш(Мироновский)недостроенныйкомплекс",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //samsung-ga...petition/work/45/",
+              "title": "КонкурсфотовідSamsung: : ДосліджуймісторазомзSamsungGalaxy",
+              "description": ""
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 357,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1288032042,
+        "post_type": "post",
+        "text": "",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "photo",
+            "photo": {
+              "id": 187785731,
+              "album_id": -6,
+              "owner_id": 2592709,
+              "photo_75": "https: //pp.vk.me/...-6/s_7aeb9180.jpg",
+              "photo_130": "https: //pp.vk.me/...-6/m_5b2e23aa.jpg",
+              "photo_604": "https: //pp.vk.me/...-6/x_00b96d98.jpg",
+              "photo_807": "https: //pp.vk.me/...-6/y_8bae98df.jpg",
+              "photo_1280": "https: //pp.vk.me/...-6/z_4cb1276c.jpg",
+              "text": "",
+              "date": 1288032043,
+              "post_id": 357,
+              "access_key": "c9847aa36e21dc4dec"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 5,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 349,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1285250038,
+        "post_type": "post",
+        "text": "IhatePrivatBank",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "link",
+            "link": {
+              "url": "http: //galeta-pav...al.com/15386.html",
+              "title": "IhatePrivatBank",
+              "description": "Ihatethisbankverymuch"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 2,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      }
+    ]
+  }
+}
