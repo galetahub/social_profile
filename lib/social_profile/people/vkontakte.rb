@@ -79,7 +79,7 @@ module SocialProfile
 
         params.merge!(options)
 
-        user.likes.getList(params)  
+        user.wall.getComments(params)  
       end
 
       # Get all photos comments
