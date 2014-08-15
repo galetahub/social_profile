@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
 
   spec.add_dependency "fb_graph", '~> 2.7.16'
-  spec.add_dependency "vkontakte", '~> 0.0.4'
+  spec.add_dependency "vkontakte", '~> 0.0.5'
   spec.add_dependency "twitter", '~> 5.11.0'
   spec.add_dependency "httpclient"
   spec.add_dependency "multi_json"

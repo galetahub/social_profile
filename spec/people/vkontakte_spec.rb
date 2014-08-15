@@ -19,6 +19,8 @@ describe SocialProfile::People::Vkontakte do
          to_return(:status => 200, :body => fixture("vkontakte/likes_photo_290498375.json"))
       stub_request(:get, "https://api.vk.com/method/wall.getComments?access_token=abc&count=100&need_likes=1&offset=0&owner_id=2592709&post_id=655&preview_length=0").
          to_return(:status => 200, :body => fixture("vkontakte/comments_post_655.json"))
+      stub_request(:get, "https://api.vk.com/method/photos.getAllComments?access_token=abc&count=100&need_likes=1&offset=0&owner_id=2592709&uid=2592709").
+         to_return(:status => 200, :body => fixture("vkontakte/comments_photos.json"))
     end
 
     it "should be a vkontakte profile" do
