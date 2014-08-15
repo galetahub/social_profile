@@ -33,6 +33,69 @@ module SocialProfile
 
         counters["friends"].to_i + counters["followers"].to_i
       end
+
+      # Get last limited posts from user_timeline, max 100 by query
+      #
+      def last_posts(options = {})
+        params = { 
+          :owner_id => user.identifier,
+          :count => 100, 
+          :filter => "owner", 
+          :offset => 0
+        }
+
+        params.merge!(options)
+
+        user.wall.get(params)  
+      end
+
+      # Get object likes (post, comment, photo, audio, video, note, photo_comment, video_comment, topic_comment, sitepage)
+      #
+      def object_likes(uid, options = {})
+        params = { 
+          :owner_id => user.identifier,
+          :count => 1000, 
+          :type => "post", 
+          :item_id => uid,
+          :offset => 0
+        }
+
+        params.merge!(options)
+
+        user.likes.getList(params)  
+      end
+
+      # Get post comments
+      #
+      def post_comments(uid, options = {})
+        params = { 
+          :owner_id => user.identifier,
+          :count => 100, 
+          :preview_length => 0, 
+          :need_likes => 1,
+          :post_id => uid,
+          :offset => 0
+        }
+
+        params.merge!(options)
+
+        user.wall.getComments(params)  
+      end
+
+      # Get all photos comments
+      #
+      def photos_comments(options = {})
+        params = { 
+          :owner_id => user.identifier,
+          :count => 100, 
+          :need_likes => 1,
+          :offset => 0
+        }
+
+        params.merge!(options)
+
+        user.photos.getAllComments(params)  
+      end
       
       protected
       
