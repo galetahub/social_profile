@@ -96,11 +96,51 @@ module SocialProfile
 
         user.photos.getAllComments(params)  
       end
+
+      # Get all friends list
+      #
+      def friends(options={})
+        options = {
+          :count => 5000,
+          :offset => 0,
+          :fields => "domain"
+        }.merge(options)
+
+        fetch_all_method_items(:fetch_friends, options)
+      end
+
+      # Get all followers list
+      #
+      def followers(options={})
+        options = {
+          :count => 1000,
+          :offset => 0,
+          :fields => "screen_name"
+        }.merge(options)
+
+        fetch_all_method_items(:fetch_followers, options)
+      end
       
       protected
       
         def user
           @user ||= ::Vkontakte::App::User.new(uid, :access_token => access_token)
+        end
+
+        def fetch_all_method_items(name, options)
+          response = user.send(name, options)
+
+          _items = response["items"]
+          iteration = (response["count"].to_i / _items.size.to_f).ceil
+
+          iteration.times do |index|
+            next if index == 0
+            
+            options[:offset] += options[:count]
+            _items += user.send(name, options)["items"]
+          end
+
+          _items
         end
     end
 

@@ -1,0 +1,67 @@
+{
+  "response": {
+    "count": 30,
+    "items": [
+      {
+        "id": 179717240,
+        "first_name": "Екатерина",
+        "last_name": "Коваль",
+        "screen_name": "odyag.modnyashkam"
+      },
+      {
+        "id": 133937075,
+        "first_name": "Алексей",
+        "last_name": "Волынец",
+        "deactivated": "deleted"
+      },
+      {
+        "id": 147029629,
+        "first_name": "Ирина",
+        "last_name": "Ялта",
+        "deactivated": "banned"
+      },
+      {
+        "id": 159471619,
+        "first_name": "Алла",
+        "last_name": "Коваль",
+        "screen_name": "id159471619"
+      },
+      {
+        "id": 171306854,
+        "first_name": "Танечка",
+        "last_name": "Иванова",
+        "deactivated": "banned"
+      },
+      {
+        "id": 150102691,
+        "first_name": "Евгения",
+        "last_name": "Данилец",
+        "screen_name": "id150102691"
+      },
+      {
+        "id": 152912416,
+        "first_name": "Марина",
+        "last_name": "Тищенко",
+        "screen_name": "id152912416"
+      },
+      {
+        "id": 157246224,
+        "first_name": "Inneska",
+        "last_name": "Larinova",
+        "screen_name": "id157246224"
+      },
+      {
+        "id": 131703594,
+        "first_name": "Lavra",
+        "last_name": "Gallery",
+        "screen_name": "lavragallery"
+      },
+      {
+        "id": 154967945,
+        "first_name": "Карина",
+        "last_name": "Кузьменко",
+        "deactivated": "banned"
+      }
+    ]
+  }
+}
