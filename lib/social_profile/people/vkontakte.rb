@@ -84,6 +84,8 @@ module SocialProfile
       # Get object likes (post, comment, photo, audio, video, note, photo_comment, video_comment, topic_comment, sitepage)
       #
       def object_likes(uid, options = {})
+        fetch_all = options.delete(:fetch_all)
+
         params = { 
           :owner_id => user.identifier,
           :count => 1000, 
@@ -91,15 +93,21 @@ module SocialProfile
           :item_id => uid,
           :offset => 0
         }
-
         params.merge!(options)
+        
+        if fetch_all
+          return fetch_all_method_items("likes.getList", params)
+        end
 
-        user.likes.getList(params)  
+
+        user.likes.getList(params)
       end
 
       # Get post comments
       #
       def post_comments(uid, options = {})
+        fetch_all = options.delete(:fetch_all)
+
         params = { 
           :owner_id => user.identifier,
           :count => 100, 
@@ -108,10 +116,33 @@ module SocialProfile
           :post_id => uid,
           :offset => 0
         }
-
         params.merge!(options)
 
+        if fetch_all
+          return fetch_all_method_items("wall.getComments", params)
+        end
+
         user.wall.getComments(params)  
+      end
+
+      # Get post shares
+      #
+      def post_shares(uid, options = {})
+        fetch_all = options.delete(:fetch_all)
+
+        params = { 
+          :owner_id => user.identifier,
+          :count => 1000, 
+          :post_id => uid,
+          :offset => 0
+        }
+        params.merge!(options)
+
+        if fetch_all
+          return fetch_all_method_items("wall.getReposts", params)
+        end
+
+        user.wall.getReposts(params)  
       end
 
       # Get all photos comments
@@ -160,7 +191,8 @@ module SocialProfile
         end
 
         def fetch_all_method_items(name, options)
-          response = user.send(name, options)
+          methods = name.to_s.split(".")
+          response = methods.size == 2 ? user.send(methods[0]).send(methods[1], options) : user.send(name, options)
 
           _items = response["items"]
           iteration = (response["count"].to_i / _items.size.to_f).ceil

@@ -1,0 +1,1373 @@
+{
+  "response": {
+    "items": [
+      {
+        "id": 537,
+        "from_id": 26813943,
+        "to_id": 26813943,
+        "date": 1372950827,
+        "post_type": "copy",
+        "text": "павпвапвап",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 0
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 39,
+        "from_id": 97689450,
+        "to_id": 97689450,
+        "date": 1372158753,
+        "post_type": "copy",
+        "text": "sdfsdf",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 0
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 539,
+        "from_id": 144098954,
+        "to_id": 144098954,
+        "date": 1360997209,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 1,
+          "can_post": 1,
+          "list": [
+            {
+              "id": 660,
+              "from_id": 66748,
+              "date": 1364246829,
+              "text": "sadfasdfasdf",
+              "reply_to_user": 144098954,
+              "reply_to_comment": 539
+            }
+          ]
+        },
+        "likes": {
+          "count": 1,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 13741,
+        "from_id": 66058954,
+        "to_id": 66058954,
+        "date": 1362610058,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 0
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 7533,
+        "from_id": 187787716,
+        "to_id": 187787716,
+        "date": 1365240541,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 0
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 2039,
+        "from_id": 12794478,
+        "to_id": 12794478,
+        "date": 1360179205,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 1746,
+        "from_id": 173069577,
+        "to_id": 173069577,
+        "date": 1360145044,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 0
+        },
+        "likes": {
+          "count": 3,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 1,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 347,
+        "from_id": -40707749,
+        "to_id": -40707749,
+        "date": 1368714949,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 216,
+        "from_id": -54667732,
+        "to_id": -54667732,
+        "date": 1373221723,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 217,
+        "from_id": -54667732,
+        "to_id": -54667732,
+        "date": 1373221723,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 218,
+        "from_id": -54667732,
+        "to_id": -54667732,
+        "date": 1373221723,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 219,
+        "from_id": -54667732,
+        "to_id": -54667732,
+        "date": 1373221723,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 220,
+        "from_id": -54667732,
+        "to_id": -54667732,
+        "date": 1373221723,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 221,
+        "from_id": -54667732,
+        "to_id": -54667732,
+        "date": 1373221723,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 222,
+        "from_id": -54667732,
+        "to_id": -54667732,
+        "date": 1373221723,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 223,
+        "from_id": -54667732,
+        "to_id": -54667732,
+        "date": 1373221723,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 224,
+        "from_id": -54667732,
+        "to_id": -54667732,
+        "date": 1373221723,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 225,
+        "from_id": -54667732,
+        "to_id": -54667732,
+        "date": 1373221924,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 226,
+        "from_id": -54667732,
+        "to_id": -54667732,
+        "date": 1373221924,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 227,
+        "from_id": -54667732,
+        "to_id": -54667732,
+        "date": 1373221924,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      },
+      {
+        "id": 228,
+        "from_id": -54667732,
+        "to_id": -54667732,
+        "date": 1373221924,
+        "post_type": "copy",
+        "text": "",
+        "copy_history": [
+          {
+            "id": 3675,
+            "post_type": "post",
+            "owner_id": 66748,
+            "date": 1357996182,
+            "text": "Решил склеить все, что попало в объектив на прошлой неделе",
+            "from_id": 66748,
+            "attachments": [
+              {
+                "type": "video",
+                "video": {
+                  "id": 164385929,
+                  "owner_id": 66748,
+                  "title": "in 60 seconds",
+                  "duration": 60,
+                  "description": "",
+                  "date": 1357995796,
+                  "views": 1890,
+                  "comments": 3,
+                  "photo_130": "http://cs6061.vk....eo/s_55e89b79.jpg",
+                  "photo_320": "http://cs6061.vk....eo/l_33d02060.jpg",
+                  "photo_640": "http://cs6061.vk....eo/y_e6b2eb74.jpg",
+                  "access_key": "06c6c3ddaad63c3365"
+                }
+              }
+            ],
+            "post_source": {
+              "type": "vk"
+            }
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 0,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 0,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 1
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      }
+    ],
+    "profiles": [
+      {
+        "id": 66748,
+        "first_name": "Oleg",
+        "last_name": "Illarionov",
+        "sex": 2,
+        "screen_name": "illarionov",
+        "photo": "http://cs408416.v...9/cywFXbA2TvA.jpg",
+        "photo_medium_rec": "http://cs408416.v...8/d2Yqzdob1Mk.jpg",
+        "online": 1
+      },
+      {
+        "id": 2314852,
+        "first_name": "Irina",
+        "last_name": "Denezhkina",
+        "sex": 1,
+        "screen_name": "apiwoman",
+        "photo": "http://cs11432.vk...e/iVy-cd362Yg.jpg",
+        "photo_medium_rec": "http://cs11432.vk...d/Gx2hYSCQwnk.jpg",
+        "online": 0
+      },
+      {
+        "id": 12794478,
+        "first_name": "Svetlana",
+        "last_name": "Zyuzko",
+        "sex": 1,
+        "screen_name": "id12794478",
+        "photo": "http://cs425616.v...4/fYAH3wU1088.jpg",
+        "photo_medium_rec": "http://cs425616.v...3/skeoMlYaKPU.jpg",
+        "online": 0
+      },
+      {
+        "id": 26813943,
+        "first_name": "Dmitry",
+        "last_name": "Goryachev",
+        "sex": 2,
+        "screen_name": "dariusakafest",
+        "photo": "http://cs322122.v...7/vPZa6XTTLHY.jpg",
+        "photo_medium_rec": "http://cs322122.v...6/eESIosrqGLI.jpg",
+        "online": 0
+      },
+      {
+        "id": 66058954,
+        "first_name": "Valentina",
+        "last_name": "Semerok",
+        "sex": 1,
+        "screen_name": "id66058954",
+        "photo": "http://cs311223.v...f/cnbQF7p_Bdg.jpg",
+        "photo_medium_rec": "http://cs311223.v...e/eiImN-CMg0M.jpg",
+        "online": 0
+      },
+      {
+        "id": 97689450,
+        "first_name": "Oleg",
+        "last_name": "Olegovich",
+        "sex": 2,
+        "screen_name": "id97689450",
+        "photo": "http://cs201.vk.m...50/e_437d6deb.jpg",
+        "photo_medium_rec": "http://cs201.vk.m...50/d_f9f849d3.jpg",
+        "online": 0
+      },
+      {
+        "id": 124021139,
+        "first_name": "Alexander",
+        "last_name": "Vavilov",
+        "sex": 2,
+        "screen_name": "id124021139",
+        "photo": "http://cs306512.v...2/8VA8TDKtiVY.jpg",
+        "photo_medium_rec": "http://cs306512.v...1/h1VfO_khtrE.jpg",
+        "online": 0
+      },
+      {
+        "id": 144098954,
+        "first_name": "Yulia",
+        "last_name": "Biktimirova",
+        "sex": 1,
+        "screen_name": "id144098954",
+        "photo": "http://cs9256.vk....9/tGOvGKu5k3s.jpg",
+        "photo_medium_rec": "http://cs9256.vk....8/wdSh0XC2haE.jpg",
+        "online": 0
+      },
+      {
+        "id": 145991071,
+        "first_name": "Daniil",
+        "last_name": "Semyonov",
+        "sex": 2,
+        "screen_name": "meowqaz",
+        "photo": "http://cs406431.v...9/uU64K8R_i9Y.jpg",
+        "photo_medium_rec": "http://cs406431.v...8/f9Lc6BH5UyM.jpg",
+        "online": 0
+      },
+      {
+        "id": 173069577,
+        "first_name": "Diman",
+        "last_name": "Ananin",
+        "sex": 2,
+        "screen_name": "id173069577",
+        "photo": "http://cs307800.v...f/-_yXMhMz9M4.jpg",
+        "photo_medium_rec": "http://cs307800.v...e/LVsiUbV4MrM.jpg",
+        "online": 0
+      },
+      {
+        "id": 187787716,
+        "first_name": "Ruslan",
+        "last_name": "Yudin",
+        "sex": 2,
+        "screen_name": "rusudin",
+        "photo": "http://cs402325.v...5/EfmQp8ou88A.jpg",
+        "photo_medium_rec": "http://cs402325.v...4/k7ywMR1UokQ.jpg",
+        "online": 1
+      },
+      {
+        "id": 197164392,
+        "first_name": "Kostya",
+        "last_name": "Brodsky",
+        "sex": 2,
+        "screen_name": "mrfizikzis",
+        "photo": "http://cs416917.v...f/TF8S6_pXFtg.jpg",
+        "photo_medium_rec": "http://cs416917.v...e/_DV7LE3irz4.jpg",
+        "online": 0
+      }
+    ],
+    "groups": [
+      {
+        "id": 43365797,
+        "name": "Репосты",
+        "screen_name": "qwewp",
+        "is_closed": 0,
+        "is_admin": 0,
+        "is_member": 0,
+        "type": "group",
+        "photo_50": "http://cs403318.v...e/veo3XsbNZQg.jpg",
+        "photo_100": "http://cs403318.v...d/8VdINXD7xBo.jpg",
+        "photo_200": "http://cs403318.v...8/QcNXwaa4qC8.jpg"
+      },
+      {
+        "id": 40707749,
+        "name": "test",
+        "screen_name": "club40707749",
+        "is_closed": 0,
+        "is_admin": 0,
+        "is_member": 0,
+        "type": "group",
+        "photo_50": "https://vk.com/images/community_50.gif",
+        "photo_100": "https://vk.com/images/community_100.gif",
+        "photo_200": "https://vk.com/images/question_a.gif"
+      },
+      {
+        "id": 54667732,
+        "name": "Необыкновенное",
+        "screen_name": "qrhsa35u",
+        "is_closed": 0,
+        "is_admin": 0,
+        "is_member": 0,
+        "type": "page",
+        "photo_50": "http://cs413229.v...5/I7qwiFkC7Uc.jpg",
+        "photo_100": "http://cs413229.v...4/vIN9Q_fhKeM.jpg",
+        "photo_200": "http://cs413229.v...1/hWDUq72cH0Y.jpg"
+      }
+    ]
+  }
+}
