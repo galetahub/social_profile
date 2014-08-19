@@ -37,9 +37,6 @@ module SocialProfile
       # Get last limited posts from user_timeline, max 100 by query
       #
       def last_posts(options = {})
-        days = options.delete(:days)
-        date_end = options.delete(:date_end)
-
         params = { 
           :owner_id => user.identifier,
           :count => 100, 
@@ -49,28 +46,7 @@ module SocialProfile
 
         params.merge!(options)
 
-        response = user.wall.get(params)
-        _items = response["items"]
-
-        if days
-          date = (date_end || Time.now) - days.days
-          iteration = (response["count"].to_i / _items.size.to_f).ceil
-          last_date = _items.last ? Time.at(_items.last["date"].to_i).to_datetime : nil
-
-          iteration.times do |index|
-            next if index == 0
-
-            params[:offset] += params[:count]
-            _items += user.wall.get(params)["items"]
-
-            last_date = _items.last ? Time.at(_items.last["date"].to_i).to_datetime : nil
-            break if last_date.blank? || last_date < date
-          end if !last_date.blank? && last_date > date
-
-          return _items.select { |item| Time.at(item["date"].to_i).to_datetime > date }
-        end
-        
-        _items
+        fetch_all_method_items_with_days("wall.get", params)
       end
 
       # Get last posts by N days from user_timeline
@@ -157,7 +133,15 @@ module SocialProfile
 
         params.merge!(options)
 
-        user.photos.getAllComments(params)  
+        fetch_all_method_items_with_days("photos.getAllComments", params)
+      end
+
+      # Get all photos comments by days
+      #
+      def photos_comments_by_days(days, options = {})
+        options = { :days => days }.merge(options)
+
+        photos_comments(options)
       end
 
       # Get all friends list
@@ -201,9 +185,39 @@ module SocialProfile
             next if index == 0
 
             options[:offset] += options[:count]
-            _items += user.send(name, options)["items"]
+            _items += (methods.size == 2 ? user.send(methods[0]).send(methods[1], options) : user.send(name, options))["items"]
           end
 
+          _items
+        end
+
+        def fetch_all_method_items_with_days(name, options)
+          days = options.delete(:days)
+          date_end = options.delete(:date_end)
+
+          methods = name.to_s.split(".")
+          response = methods.size == 2 ? user.send(methods[0]).send(methods[1], options) : user.send(name, options)
+
+          _items = response["items"]
+
+          if days
+            date = (date_end || Time.now) - days.days
+            iteration = (response["count"].to_i / _items.size.to_f).ceil
+            last_date = _items.last ? Time.at(_items.last["date"].to_i).to_datetime : nil
+
+            iteration.times do |index|
+              next if index == 0
+
+              options[:offset] += options[:count]
+              _items += (methods.size == 2 ? user.send(methods[0]).send(methods[1], options) : user.send(name, options))["items"]
+
+              last_date = _items.last ? Time.at(_items.last["date"].to_i).to_datetime : nil
+              break if last_date.blank? || last_date < date
+            end if !last_date.blank? && last_date > date
+
+            return _items.select { |item| Time.at(item["date"].to_i).to_datetime > date }
+          end
+          
           _items
         end
     end

@@ -88,7 +88,11 @@ describe SocialProfile::People::Vkontakte do
     end
 
     it "should response to photos_comments" do
-      @user.photos_comments["items"].size.should == 100
+      @user.photos_comments.size.should == 100
+    end
+
+    it "should response to photos_comments with days" do
+      @user.photos_comments(:days => 30).size.should == 0
     end
 
     it "should fetch all friends" do
