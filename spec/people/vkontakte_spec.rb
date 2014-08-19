@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require 'spec_helper'
 
 describe SocialProfile::People::Vkontakte do
@@ -36,7 +38,25 @@ describe SocialProfile::People::Vkontakte do
     end
 
     it "should response to last_posts" do
-      @user.last_posts["items"].size.should == 100
+      @user.last_posts.size.should == 100
+    end
+
+    it "should response to last_post_by_days by 30 days" do
+      @user.last_post_by_days(30).size.should == 0
+    end
+
+    it "should response to last_post_by_days by 30 days with date_end options" do
+      @user.last_post_by_days(30, :date_end => DateTime.new(2014, 5, 17)).size.should == 1
+    end
+
+    it "should response to last_post_by_days by 2119 days" do
+      stub_request(:get, "https://api.vk.com/method/wall.get?access_token=abc&count=100&filter=owner&offset=100&owner_id=2592709").
+        to_return(:status => 200, :body => fixture("vkontakte/last_posts_2.json"))
+
+      posts = @user.last_post_by_days(2119, :date_end => DateTime.new(2014, 8, 19))
+
+      posts.size.should == 175
+      posts.last["text"].should == "хочеш узнать про меня побольше? введи в google ник super_p."
     end
 
     it "should response to object_likes" do

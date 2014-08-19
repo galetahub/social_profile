@@ -37,6 +37,9 @@ module SocialProfile
       # Get last limited posts from user_timeline, max 100 by query
       #
       def last_posts(options = {})
+        days = options.delete(:days)
+        date_end = options.delete(:date_end)
+
         params = { 
           :owner_id => user.identifier,
           :count => 100, 
@@ -46,8 +49,37 @@ module SocialProfile
 
         params.merge!(options)
 
-        user.wall.get(params)  
+        response = user.wall.get(params)
+        _items = response["items"]
+
+        if days
+          date = (date_end || Time.now) - days.days
+          iteration = (response["count"].to_i / _items.size.to_f).ceil
+          last_date = _items.last ? Time.at(_items.last["date"].to_i).to_datetime : nil
+
+          iteration.times do |index|
+            next if index == 0
+
+            params[:offset] += params[:count]
+            _items += user.wall.get(params)["items"]
+
+            last_date = _items.last ? Time.at(_items.last["date"].to_i).to_datetime : nil
+            break if last_date.blank? || last_date < date
+          end if !last_date.blank? && last_date > date
+
+          return _items.select { |item| Time.at(item["date"].to_i).to_datetime > date }
+        end
+        
+        _items
       end
+
+      # Get last posts by N days from user_timeline
+      #
+      def last_post_by_days(days, options = {})
+        options = { :days => days }.merge(options)
+
+        last_posts(options)
+      end      
 
       # Get object likes (post, comment, photo, audio, video, note, photo_comment, video_comment, topic_comment, sitepage)
       #
@@ -135,7 +167,7 @@ module SocialProfile
 
           iteration.times do |index|
             next if index == 0
-            
+
             options[:offset] += options[:count]
             _items += user.send(name, options)["items"]
           end
