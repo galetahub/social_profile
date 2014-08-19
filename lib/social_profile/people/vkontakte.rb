@@ -179,6 +179,8 @@ module SocialProfile
           response = methods.size == 2 ? user.send(methods[0]).send(methods[1], options) : user.send(name, options)
 
           _items = response["items"]
+          return [] if _items.blank?
+
           iteration = (response["count"].to_i / _items.size.to_f).ceil
 
           iteration.times do |index|
@@ -199,6 +201,7 @@ module SocialProfile
           response = methods.size == 2 ? user.send(methods[0]).send(methods[1], options) : user.send(name, options)
 
           _items = response["items"]
+          return [] if _items.blank?
 
           if days
             date = (date_end || Time.now) - days.days
