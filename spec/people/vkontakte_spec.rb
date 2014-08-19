@@ -21,6 +21,10 @@ describe SocialProfile::People::Vkontakte do
          to_return(:status => 200, :body => fixture("vkontakte/comments_post_655.json"))
       stub_request(:get, "https://api.vk.com/method/photos.getAllComments?access_token=abc&count=100&need_likes=1&offset=0&owner_id=2592709&uid=2592709").
          to_return(:status => 200, :body => fixture("vkontakte/comments_photos.json"))
+      stub_request(:get, "https://api.vk.com/method/friends.get?access_token=abc&count=5000&fields=domain&offset=0&user_id=2592709").
+         to_return(:status => 200, :body => fixture("vkontakte/friends.json"))
+      stub_request(:get, "https://api.vk.com/method/users.getFollowers?access_token=abc&count=1000&fields=screen_name&offset=0&user_id=2592709").
+         to_return(:status => 200, :body => fixture("vkontakte/followers.json"))
     end
 
     it "should be a vkontakte profile" do
@@ -46,6 +50,23 @@ describe SocialProfile::People::Vkontakte do
 
     it "should response to photos_comments" do
       @user.photos_comments["items"].size.should == 100
+    end
+
+    it "should fetch all friends" do
+      @user.friends.size.should == 208
+    end
+
+    it "should fetch all followers" do
+      @user.followers.size.should == 30
+    end
+
+    it "should fetch all followers with iteration by 20 items in step" do
+      stub_request(:get, "https://api.vk.com/method/users.getFollowers?access_token=abc&count=20&fields=screen_name&offset=0&user_id=2592709").
+         to_return(:status => 200, :body => fixture("vkontakte/followers_20.json"))
+      stub_request(:get, "https://api.vk.com/method/users.getFollowers?access_token=abc&count=20&fields=screen_name&offset=20&user_id=2592709").
+         to_return(:status => 200, :body => fixture("vkontakte/followers_20_2.json"))
+         
+      @user.followers(:count => 20).size.should == 30
     end
   end
 end
