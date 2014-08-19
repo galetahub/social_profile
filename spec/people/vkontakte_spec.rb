@@ -27,6 +27,8 @@ describe SocialProfile::People::Vkontakte do
          to_return(:status => 200, :body => fixture("vkontakte/friends.json"))
       stub_request(:get, "https://api.vk.com/method/users.getFollowers?access_token=abc&count=1000&fields=screen_name&offset=0&user_id=2592709").
          to_return(:status => 200, :body => fixture("vkontakte/followers.json"))
+      stub_request(:get, "https://api.vk.com/method/wall.getReposts?access_token=abc&count=1000&offset=0&owner_id=2592709&post_id=3675").
+         to_return(:status => 200, :body => fixture("vkontakte/shares_post_3675.json"))
     end
 
     it "should be a vkontakte profile" do
@@ -64,12 +66,33 @@ describe SocialProfile::People::Vkontakte do
       @user.object_likes("290498375", :type => "photo")["items"].size.should == 17
     end
 
+    it "should response to object_likes with fetch_all" do
+      @user.object_likes("655", :fetch_all => true).size.should == 7
+      @user.object_likes("290498375", :type => "photo", :fetch_all => true).size.should == 17
+    end
+
     it "should response to post_comments" do
       @user.post_comments("655")["items"].size.should == 3
     end
 
+    it "should response to post_comments with fetch_all" do
+      @user.post_comments("655", :fetch_all => true).size.should == 3
+    end
+
+    it "should response to post_shares" do
+      @user.post_shares("3675")["items"].size.should == 21
+    end
+
+    it "should response to post_shares with fetch_all" do
+      @user.post_shares("3675", :fetch_all => true).size.should == 21
+    end
+
     it "should response to photos_comments" do
-      @user.photos_comments["items"].size.should == 100
+      @user.photos_comments.size.should == 100
+    end
+
+    it "should response to photos_comments with days" do
+      @user.photos_comments(:days => 30).size.should == 0
     end
 
     it "should fetch all friends" do
