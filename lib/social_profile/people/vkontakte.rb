@@ -200,6 +200,8 @@ module SocialProfile
           methods = name.to_s.split(".")
           response = methods.size == 2 ? user.send(methods[0]).send(methods[1], options) : user.send(name, options)
 
+          return [] if response.blank? || !response.is_a?(Hash)
+
           _items = response["items"]
           return [] if _items.blank?
 
