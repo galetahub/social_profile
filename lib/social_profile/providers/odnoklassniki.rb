@@ -3,8 +3,7 @@
 module SocialProfile
   module Providers
     class Odnoklassniki < Base
-      # http://developers.facebook.com/docs/reference/api/#pictures
-      #    
+      
       def picture_url
         @picture_url ||= begin
           url = info('image').gsub("photoType=4", "photoType=3")
