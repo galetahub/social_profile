@@ -29,6 +29,8 @@ describe SocialProfile::People::Vkontakte do
          to_return(:status => 200, :body => fixture("vkontakte/followers.json"))
       stub_request(:get, "https://api.vk.com/method/wall.getReposts?access_token=abc&count=1000&offset=0&owner_id=2592709&post_id=3675").
          to_return(:status => 200, :body => fixture("vkontakte/shares_post_3675.json"))
+      stub_request(:get, "https://api.vk.com/method/wall.getById?access_token=abc&extended=1&posts=2592709_655").
+         to_return(:status => 200, :body => fixture("vkontakte/post.json"))
     end
 
     it "should be a vkontakte profile" do
@@ -110,6 +112,11 @@ describe SocialProfile::People::Vkontakte do
          to_return(:status => 200, :body => fixture("vkontakte/followers_20_2.json"))
          
       @user.followers(:count => 20).size.should == 30
+    end
+
+    it "should fetch post by id" do
+      response = @user.get_post("2592709_655")
+      response["items"].first["comments"]["count"].should == 3
     end
   end
 end

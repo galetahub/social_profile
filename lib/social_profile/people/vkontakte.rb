@@ -167,6 +167,17 @@ module SocialProfile
 
         fetch_all_method_items(:fetch_followers, options)
       end
+
+      # Get post by id
+      #
+      def get_post(post_uid, options={})
+        options = {
+          :posts => post_uid,
+          :extended => 1
+        }.merge(options)
+
+        user.wall.getById(options)
+      end
       
       protected
       
