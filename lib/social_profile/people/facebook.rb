@@ -11,6 +11,12 @@ module SocialProfile
         "created_time",
         "shares"
       ]
+      POST_FIELDS = [
+        "comments.fields(created_time).limit(1).summary(true)", 
+        "likes.limit(1).fields(id).summary(true)",
+        "created_time",
+        "shares"
+      ]
 
       # Find album by id
       def fetch_album(album_id)
@@ -114,6 +120,14 @@ module SocialProfile
         end
 
         _followers
+      end
+
+      # Get post from feed with comments, shares and likes counters
+      #
+      def fetch_post(post_uid, options = {})
+        fields = options[:fields] || POST_FIELDS
+
+        ::FbGraph::Post.fetch(post_uid, :fields => fields.join(","), :access_token => access_token)    
       end
 
       protected

@@ -1,0 +1,74 @@
+{
+  "response": {
+    "items": [
+      {
+        "id": 655,
+        "from_id": 2592709,
+        "owner_id": 2592709,
+        "date": 1349475107,
+        "post_type": "post",
+        "text": "",
+        "can_delete": 1,
+        "can_pin": 1,
+        "attachments": [
+          {
+            "type": "photo",
+            "photo": {
+              "id": 290498375,
+              "album_id": -7,
+              "owner_id": 2592709,
+              "photo_75": "https://pp.vk.me/...5/jM5ksRLZ110.jpg",
+              "photo_130": "https://pp.vk.me/...6/2RK71uZ-9mU.jpg",
+              "photo_604": "https://pp.vk.me/...7/9Q9mEfK7kQM.jpg",
+              "photo_807": "https://pp.vk.me/...8/Is3NFzEp0GU.jpg",
+              "photo_1280": "https://pp.vk.me/...9/UFIkcKtF_j0.jpg",
+              "width": 1280,
+              "height": 850,
+              "text": "Для тих, хто рідко нас бачить ;)",
+              "date": 1349475107,
+              "lat": 50.463954,
+              "long": 30.60247,
+              "access_key": "62ea232400459ba6d7"
+            }
+          },
+          {
+            "type": "photos_list",
+            "photos_list": [
+              "2592709_290498375"
+            ]
+          }
+        ],
+        "post_source": {
+          "type": "vk"
+        },
+        "comments": {
+          "count": 3,
+          "can_post": 1
+        },
+        "likes": {
+          "count": 7,
+          "user_likes": 0,
+          "can_like": 1,
+          "can_publish": 0
+        },
+        "reposts": {
+          "count": 0,
+          "user_reposted": 0
+        }
+      }
+    ],
+    "profiles": [
+      {
+        "id": 2592709,
+        "first_name": "Павел",
+        "last_name": "Галета",
+        "sex": 2,
+        "screen_name": "pavel.galeta",
+        "photo_50": "https://pp.vk.me/...09/e_a3716437.jpg",
+        "photo_100": "https://pp.vk.me/...09/d_847b328d.jpg",
+        "online": 1
+      }
+    ],
+    "groups": []
+  }
+}
