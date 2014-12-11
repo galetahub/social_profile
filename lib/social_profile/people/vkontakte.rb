@@ -178,6 +178,16 @@ module SocialProfile
 
         user.wall.getById(options)
       end
+
+      # Get mutual friends (options target_uids is required)
+      #
+      def mutual_friends(options={})
+        response = user.friends.getMutual(options)
+
+        return {} unless response.is_a?(Array)
+        
+        response.inject({}) {|h, a| h.merge!(a["id"].to_s => a["common_count"]) }
+      end
       
       protected
       

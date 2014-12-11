@@ -17,6 +17,7 @@ module SocialProfile
         "created_time",
         "shares"
       ]
+      MUTUAL_FRIENDS = "SELECT uid, mutual_friend_count FROM user WHERE uid IN(SELECT uid2 FROM friend WHERE uid1=me()) ORDER BY mutual_friend_count"
 
       # Find album by id
       def fetch_album(album_id)
@@ -128,6 +129,16 @@ module SocialProfile
         fields = options[:fields] || POST_FIELDS
 
         ::FbGraph::Post.fetch(post_uid, :fields => fields.join(","), :access_token => access_token)    
+      end
+
+      # Get friends list with mutual friends counter
+      #
+      def mutual_friends(options={})
+        response = FbGraph::Query.new(MUTUAL_FRIENDS).fetch(:access_token => access_token)
+
+        return {} unless response.is_a?(Array)
+        
+        response.inject({}) {|h, a| h.merge!(a["uid"] => a["mutual_friend_count"]) }
       end
 
       protected

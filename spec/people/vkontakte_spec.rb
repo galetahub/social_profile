@@ -118,5 +118,13 @@ describe SocialProfile::People::Vkontakte do
       response = @user.get_post("2592709_655")
       response["items"].first["comments"]["count"].should == 3
     end
+
+    it "should get mutual_friends" do
+      stub_request(:get, /friends\.getMutual/).
+         to_return(:status => 200, :body => fixture("vkontakte/mutual_friends.json"))
+         
+      _hash = @user.mutual_friends(:target_uids => "seperated_ids")
+      _hash.size.should == 206
+    end
   end
 end
