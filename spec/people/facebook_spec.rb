@@ -120,5 +120,14 @@ describe SocialProfile::People::Facebook do
       friends.should be_a(Array)
       friends.size.should == 4343
     end
+
+    it "should get mutual friends" do
+      mock_fql SocialProfile::People::Facebook::MUTUAL_FRIENDS, SocialProfile.root_path.join('spec/mock_json/facebook/mutual_friends.json'), :access_token => "abc" do
+        mutual_friends = @user.mutual_friends
+
+        mutual_friends.should be_a(Hash)
+        mutual_friends.size.should == 251
+      end
+    end
   end
 end
