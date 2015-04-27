@@ -38,7 +38,7 @@ module SocialProfile
       # Get followers count
       #
       def followers_count
-        @followers_count ||= followers(:limit => 1).total_count
+        @followers_count ||= followers(:limit => 1).size
       end
 
       def fetch_friends_count
