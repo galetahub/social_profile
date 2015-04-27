@@ -105,6 +105,9 @@ module SocialProfile
       # Get all followers list
       #
       def followers(options={})
+        # Not avaiable since 30.04.2015
+        return []
+
         limit = options[:limit] || 5000
         fetch_all = options[:fetch_all] || false
         iteration = 0
