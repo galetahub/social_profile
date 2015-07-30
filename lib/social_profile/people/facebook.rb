@@ -81,7 +81,7 @@ module SocialProfile
         iteration = 0
 
         posts = collection = last_posts(limit, options)
-        return [] if posts.blank?
+        return [] if posts.blank? || posts.last.created_time.nil?
         
         last_created_time = posts.last.created_time
 

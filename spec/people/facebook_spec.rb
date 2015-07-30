@@ -28,21 +28,21 @@ describe SocialProfile::People::Facebook do
       stub_request(:get, "https://graph.facebook.com/me/subscribers?access_token=abc&limit=1").
          to_return(:status => 200, :body => fixture("facebook/followers.json"))
 
-      @user.followers_count.should == 14
+      @user.followers_count.should == 0
     end
 
     it "should response to followers without limits (without fetch_all)" do
       stub_request(:get, "https://graph.facebook.com/me/subscribers?access_token=abc&limit=5000").
          to_return(:status => 200, :body => fixture("facebook/followers.json"))
 
-      @user.followers.size.should == 13
+      @user.followers.size.should == 0
     end
 
     it "should response to followers without limits (with fetch_all)" do
       stub_request(:get, "https://graph.facebook.com/me/subscribers?access_token=abc&limit=5000").
          to_return(:status => 200, :body => fixture("facebook/followers.json"))
 
-      @user.followers(:fetch_all => true).size.should == 13
+      @user.followers(:fetch_all => true).size.should == 0
     end
 
     it "should response to followers list with limits" do
@@ -53,7 +53,7 @@ describe SocialProfile::People::Facebook do
       stub_request(:get, "https://graph.facebook.com/me/subscribers?access_token=abc&after=MTAwMDA0NDI3NDY3NjIx&limit=5").
          to_return(:status => 200, :body => fixture("facebook/followers_5_15.json"))
 
-      @user.followers(:limit => 5, :fetch_all => true).size.should == 13
+      @user.followers(:limit => 5, :fetch_all => true).size.should == 0
     end
 
     it "should response to first_post_exists?" do
