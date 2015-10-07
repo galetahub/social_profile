@@ -92,7 +92,7 @@ module SocialProfile
           last_created_time = posts.last.created_time
         end
 
-        posts.select { |p| p.created_time > date }
+        posts.select { |p| p.created_time && p.created_time > date }
       end
 
       # Get all friends list
