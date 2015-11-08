@@ -17,6 +17,7 @@ module SocialProfile
         when "facebook" then People::Facebook
         when "vkontakte" then People::Vkontakte
         when "twitter" then People::Twitter
+        when "instagram" then People::Instagram
         else Person
       end
     

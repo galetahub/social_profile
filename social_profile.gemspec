@@ -6,7 +6,7 @@ require 'social_profile/version'
 Gem::Specification.new do |spec|
   spec.name          = "social_profile"
   spec.version       = SocialProfile::VERSION
-  spec.authors       = ["Igor Galeta"]
+  spec.authors       = ["Igor Galeta", "Pavel Galeta"]
   spec.email         = ["galeta.igor@gmail.com"]
   spec.description   = %q{Wrapper for Omniauth profile hash, post photo to album}
   spec.summary       = %q{Wrapper for Omniauth profile hash}
@@ -24,6 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "fb_graph", '~> 2.7.16'
   spec.add_dependency "vkontakte", '~> 0.0.6'
   spec.add_dependency "twitter", '~> 5.11.0'
+  spec.add_dependency "instagram", '~> 1.1.6'
   spec.add_dependency "httpclient"
   spec.add_dependency "multi_json"
 end
