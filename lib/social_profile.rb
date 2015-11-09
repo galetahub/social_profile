@@ -18,6 +18,7 @@ module SocialProfile
     autoload :Facebook, "social_profile/people/facebook"
     autoload :Vkontakte, "social_profile/people/vkontakte"
     autoload :Twitter, "social_profile/people/twitter"
+    autoload :Instagram, "social_profile/people/instagram"
   end
     
   def self.get(auth_hash, options = {})
