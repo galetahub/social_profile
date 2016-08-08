@@ -1,8 +1,6 @@
 require "rspec"
 require "social_profile"
-require 'fb_graph/mock'
-
-include FbGraph::Mock
+require 'webmock/rspec'
 
 # Load support files
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
