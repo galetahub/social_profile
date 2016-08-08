@@ -1,7 +1,249 @@
 {
   "data": [
     {
-      "friend_count": 230
+      "name": "Eugene Koshevoy",
+      "id": "545778644"
+    },
+    {
+      "name": "Sasha Yatsenko",
+      "id": "547332829"
+    },
+    {
+      "name": "Borisov Kirill",
+      "id": "10153093142651662"
+    },
+    {
+      "name": "Kos Chekanov",
+      "id": "582680904"
+    },
+    {
+      "name": "Anna Petrova",
+      "id": "634769245"
+    },
+    {
+      "name": "Andrew Volovyk",
+      "id": "665885244"
+    },
+    {
+      "name": "Maksym Paraska",
+      "id": "682378737"
+    },
+    {
+      "name": "Andriy Yaroshenko",
+      "id": "685815706"
+    },
+    {
+      "name": "Mike Podgorniy",
+      "id": "694308193"
+    },
+    {
+      "name": "Dima Shvets",
+      "id": "815127247"
+    },
+    {
+      "name": "Sasha Chervonnaya",
+      "id": "844948619"
+    },
+    {
+      "name": "Dmitrij Odnokoz",
+      "id": "1061020626"
+    },
+    {
+      "name": "Maxim  Balter",
+      "id": "1087671204"
+    },
+    {
+      "name": "Pavlo Pedenko",
+      "id": "1101865920"
+    },
+    {
+      "name": "Iurii Gladkyi",
+      "id": "1110428611"
+    },
+    {
+      "name": "Ivan Kucherenko",
+      "id": "1154110218"
+    },
+    {
+      "name": "Yuri Babich",
+      "id": "1259841049"
+    },
+    {
+      "name": "Juriy Kolomiyets",
+      "id": "1261927378"
+    },
+    {
+      "name": "Юджин Власов",
+      "id": "10206834744172225"
+    },
+    {
+      "name": "Dmitriy Pustovalov",
+      "id": "10206562048040150"
+    },
+    {
+      "name": "Yuriy Kachkarda",
+      "id": "1570795596"
+    },
+    {
+      "name": "Yuriy Romanyukha",
+      "id": "1671304176"
+    },
+    {
+      "name": "Yaroslav Korets",
+      "id": "10202827068552546"
+    },
+    {
+      "name": "Marat Tyncherov",
+      "id": "1702527121"
+    },
+    {
+      "name": "Galya Fesenko",
+      "id": "100000034524504"
+    },
+    {
+      "name": "Olga Polyakh",
+      "id": "100000079483665"
+    },
+    {
+      "name": "Dima Nikulin",
+      "id": "100000313477419"
+    },
+    {
+      "name": "Valentine Hrytsenko",
+      "id": "100000387894888"
+    },
+    {
+      "name": "Vadym Dzekunov",
+      "id": "100000389469252"
+    },
+    {
+      "name": "Yura Glushakov",
+      "id": "100000398199408"
+    },
+    {
+      "name": "Anna Kalinina",
+      "id": "100000595299107"
+    },
+    {
+      "name": "Vitaly Tkach",
+      "id": "100000639477252"
+    },
+    {
+      "name": "Dmytro Yevdokymov",
+      "id": "1113230018709990"
+    },
+    {
+      "name": "Natalie Vasylchenko",
+      "id": "100000744252267"
+    },
+    {
+      "name": "Kostya Alekseev",
+      "id": "100000820303483"
+    },
+    {
+      "name": "Renat Ziganshyn",
+      "id": "828323723871639"
+    },
+    {
+      "name": "Taras Parandii",
+      "id": "100001171241046"
+    },
+    {
+      "name": "Ana Prykhodko",
+      "id": "100001174874311"
+    },
+    {
+      "name": "Artem Pochepetsky",
+      "id": "100001415232830"
+    },
+    {
+      "name": "Slava Balbek",
+      "id": "877359342324659"
+    },
+    {
+      "name": "Eugene Zingerman",
+      "id": "836922379708720"
+    },
+    {
+      "name": "Dmitry Kornilov",
+      "id": "100001743198982"
+    },
+    {
+      "name": "Сергей Червонопильский",
+      "id": "792831290785009"
+    },
+    {
+      "name": "Stas Matviyenko",
+      "id": "100001747086412"
+    },
+    {
+      "name": "Игорь Шороп",
+      "id": "100001804116923"
+    },
+    {
+      "name": "Vitalii Malets",
+      "id": "100001853105079"
+    },
+    {
+      "name": "Pavel Matvienko",
+      "id": "100001869376766"
+    },
+    {
+      "name": "Евгений Красник",
+      "id": "100001871265273"
+    },
+    {
+      "name": "Kate Alexeyeva",
+      "id": "100001930447129"
+    },
+    {
+      "name": "Serhiy Matchuk",
+      "id": "840706946007392"
+    },
+    {
+      "name": "Andrew  Litvin",
+      "id": "100002236334033"
+    },
+    {
+      "name": "Dasha  Samoilenko",
+      "id": "100002296845982"
+    },
+    {
+      "name": "Pavlo Kuznetsov",
+      "id": "100002854099899"
+    },
+    {
+      "name": "Andrey Solopchuk",
+      "id": "100002858024403"
+    },
+    {
+      "name": "Alesya  Karpuk",
+      "id": "100003959264633"
+    },
+    {
+      "name": "Anna Polishchuk",
+      "id": "100004485101723"
+    },
+    {
+      "name": "Maryna Tyshkevych",
+      "id": "100008037484267"
+    },
+    {
+      "name": "Дмитрий Миняйло",
+      "id": "196593574005953"
+    },
+    {
+      "name": "Supsay Ivan",
+      "id": "170045356726370"
     }
-  ]
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QVFIUndSUHZArRWVtbERubUV4LVByRm9uaE5Sa0VqaW4yYnNDQnJGQ05SRm1nSW0zVWNRZAUQ5dWRGOWxLWEhGVTJsR0QZD",
+      "after": "QVFIUjRIOXN3WWFYQVVZAcllkRUNGOWZAFRlQ2Rk1pRHlvaW1wX0xxMU0ya3lyeXNDSkVYSEd2TUoxQ1lKMzBLYXg5V0x4V0otaFp2OExFZA1Bwa0FmSjFvOTVR"
+    }
+  },
+  "summary": {
+    "total_count": 328
+  }
 }
