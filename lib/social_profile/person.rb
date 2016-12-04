@@ -3,7 +3,7 @@ require "social_profile/version"
 module SocialProfile
   class Person
     attr_reader :uid, :access_token, :options
-      
+
     def initialize(uid, access_token, options = {})
       @uid = uid
       @access_token = access_token
@@ -18,17 +18,18 @@ module SocialProfile
         when "vkontakte" then People::Vkontakte
         when "twitter" then People::Twitter
         when "instagram" then People::Instagram
+        when "google_oauth2" then People::Google
         else Person
       end
-    
+
       klass.new(uid, access_token, options)
     end
-    
+
     # Find album by id
     def fetch_album(album_id)
       raise NotImplementedError("Subclasses should implement this!")
     end
-    
+
     # Create new album id
     def album!(options = {})
       raise NotImplementedError("Subclasses should implement this!")
@@ -38,7 +39,7 @@ module SocialProfile
       return if album_id.nil?
 
       begin
-        fetch_album(album_id) 
+        fetch_album(album_id)
       rescue Exception => e
         return nil
       end
@@ -46,7 +47,7 @@ module SocialProfile
 
     def find_or_create_album(album_id, options = {})
       record = find_album(album_id)
-      record ||= album!(options)  
+      record ||= album!(options)
       record
     end
 
