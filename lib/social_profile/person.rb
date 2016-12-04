@@ -18,7 +18,7 @@ module SocialProfile
         when "vkontakte" then People::Vkontakte
         when "twitter" then People::Twitter
         when "instagram" then People::Instagram
-        when "google_oauth2" then People::Google
+        when "google" then People::Google
         else Person
       end
 

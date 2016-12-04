@@ -7,7 +7,7 @@ describe SocialProfile::People::Google do
 
   context "google" do
     before(:each) do
-      @user = SocialProfile::Person.get(:google_oauth2, "123456", "abc")
+      @user = SocialProfile::Person.get(:google, "123456", "abc")
 
       stub_request(:get, "https://www.googleapis.com/youtube/v3/channels?mine=true&part=statistics").
         to_return(:status => 200, :body => fixture('google/channels.json'))

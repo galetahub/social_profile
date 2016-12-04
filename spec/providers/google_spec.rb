@@ -9,7 +9,7 @@ describe SocialProfile::Providers::Google do
   context "google" do
     before(:each) do
       hash = {
-          :provider => "google_oauth2",
+          :provider => "google",
           :uid => "123456789",
           :info => {
               :name => "John Doe",

@@ -32,7 +32,7 @@ module SocialProfile
       when "twitter" then Providers::Twitter
       when "instagram" then Providers::Instagram
       when "odnoklassniki" then Providers::Odnoklassniki
-      when "google_oauth2" then Providers::Google
+      when "google" then Providers::Google
       else Providers::Base
     end
 
