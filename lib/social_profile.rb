@@ -4,6 +4,7 @@ module SocialProfile
   autoload :Utils, "social_profile/utils"
   autoload :Response, "social_profile/response"
   autoload :Person, "social_profile/person"
+  autoload :RubyInstagramScraper, "social_profile/ruby-instagram-scraper"
 
   module Providers
     autoload :Base, "social_profile/providers/base"
@@ -20,6 +21,7 @@ module SocialProfile
     autoload :Vkontakte, "social_profile/people/vkontakte"
     autoload :Twitter, "social_profile/people/twitter"
     autoload :Instagram, "social_profile/people/instagram"
+    autoload :InstagramParser, "social_profile/people/instagram_parser"
     autoload :Google, "social_profile/people/google"
   end
 

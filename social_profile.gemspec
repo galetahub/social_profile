@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "vkontakte", '~> 0.0.6'
   spec.add_dependency "twitter", '~> 5.11.0'
   spec.add_dependency "instagram", '~> 1.1.6'
-  spec.add_dependency "google-api-client", '~> 0.9'
+  spec.add_dependency "google-api-client", '~> 0.9.28'
   spec.add_dependency "httpclient"
   spec.add_dependency "multi_json"
 end

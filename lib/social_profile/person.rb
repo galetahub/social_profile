@@ -18,6 +18,7 @@ module SocialProfile
         when "vkontakte" then People::Vkontakte
         when "twitter" then People::Twitter
         when "instagram" then People::Instagram
+        when "instagram_parser" then People::InstagramParser
         when "google" then People::Google
         else Person
       end
