@@ -29,7 +29,7 @@ module SocialProfile
       # Get friends count
       #
       def friends_count
-        @friends_count ||= friends(limit: 1).summary['total_count']
+        @friends_count ||= friends(limit: 1).summary.try(:[], 'total_count').to_i
       end
 
       # Get followers count
