@@ -28,7 +28,7 @@ module SocialProfile
       params = ""
       params = "&max_id=#{ max_id }" if max_id
 
-      JSON.parse( open( "#{url}#{params}" ).read )["user"]
+      JSON.parse( open( "#{url}#{params}" ).read )["graphql"]["user"]
     end
 
     def self.get_tag_media_nodes ( tag, max_id = nil )

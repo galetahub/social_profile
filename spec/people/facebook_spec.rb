@@ -19,7 +19,7 @@ describe SocialProfile::People::Facebook do
     end
 
     it "should response to friends_count" do
-      stub_request(:get, "https://graph.facebook.com/v2.3/me/friends?limit=1").
+      stub_request(:get, "https://graph.facebook.com/v2.8/me/friends?limit=1").
          to_return(:status => 200, :body => fixture("facebook/friends_count.json"))
 
       @user.friends_count.should == 328
@@ -48,7 +48,7 @@ describe SocialProfile::People::Facebook do
     it "should response to last_posts" do
       fields = SocialProfile::People::Facebook::LAST_POSTS_FIELDS.join(",")
 
-      stub_request(:get, "https://graph.facebook.com/v2.3/me/feed?fields=#{fields}&limit=600").
+      stub_request(:get, "https://graph.facebook.com/v2.8/me/feed?fields=#{fields}&limit=600").
          to_return(:status => 200, :body => fixture("facebook/last_posts.json"))
 
       posts = @user.last_posts(600)
@@ -61,11 +61,11 @@ describe SocialProfile::People::Facebook do
       fields = SocialProfile::People::Facebook::LAST_POSTS_FIELDS.join(",")
       fields2 = fields.gsub('.fields(created_time)', '')
 
-      stub_request(:get, "https://graph.facebook.com/v2.3/me/feed?fields=#{fields}&limit=5").
+      stub_request(:get, "https://graph.facebook.com/v2.8/me/feed?fields=#{fields}&limit=5").
          to_return(:status => 200, :body => fixture("facebook/last_5_posts.json"))
-      stub_request(:get, "https://graph.facebook.com/v2.3/me/feed?fields=#{fields2}&limit=5&until=1394475325").
+      stub_request(:get, "https://graph.facebook.com/v2.8/me/feed?fields=#{fields2}&limit=5&until=1394475325").
          to_return(:status => 200, :body => fixture("facebook/last_5_posts_page_2.json"))
-      stub_request(:get, "https://graph.facebook.com/v2.3/me/feed?fields=#{fields2}&limit=5&until=1394439420").
+      stub_request(:get, "https://graph.facebook.com/v2.8/me/feed?fields=#{fields2}&limit=5&until=1394439420").
          to_return(:status => 200, :body => fixture("facebook/last_5_posts_page_3.json"))
 
       posts = @user.last_post_by_days(10, :limit => 5, :date_end => DateTime.new(2014, 3, 15))
@@ -80,9 +80,9 @@ describe SocialProfile::People::Facebook do
                 "shares",
                 "status_type"]
 
-      stub_request(:get, "https://graph.facebook.com/v2.3/me/feed?fields=#{fields.join(',')}&limit=1000").
+      stub_request(:get, "https://graph.facebook.com/v2.8/me/feed?fields=#{fields.join(',')}&limit=1000").
          to_return(:status => 200, :body => fixture("facebook/last_posts_big.json"))
-      stub_request(:get, "https://graph.facebook.com/v2.3/me/feed?fields=#{fields.join(',')}&limit=1000&until=1394789304").
+      stub_request(:get, "https://graph.facebook.com/v2.8/me/feed?fields=#{fields.join(',')}&limit=1000&until=1394789304").
          to_return(:status => 200, :body => fixture("facebook/last_posts_big2.json"))
 
       posts = @user.last_post_by_days(30, :limit => 1000, :date_end => DateTime.new(2014, 4, 6), :fields => fields)
@@ -93,7 +93,7 @@ describe SocialProfile::People::Facebook do
     end
 
     it "should get friends list" do
-      stub_request(:get, "https://graph.facebook.com/v2.3/me/friends?limit=100000").
+      stub_request(:get, "https://graph.facebook.com/v2.8/me/friends?limit=100000").
          to_return(:status => 200, :body => fixture("facebook/friends.json"))
 
       friends = @user.friends(:limit => 100000)

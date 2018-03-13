@@ -18,7 +18,7 @@ describe SocialProfile::People::InstagramParser do
     it "should response to last_posts" do
       posts = @user.last_posts
 
-      expect(posts.size).to eq(20)
+      expect(posts.size).to eq(12)
     end
 
     it "should response to user" do
@@ -29,7 +29,7 @@ describe SocialProfile::People::InstagramParser do
     end
 
     it "should response to friends_count" do
-      expect(@user.friends_count).to eq(93)
+      expect(@user.friends_count).to eq(102)
     end
   end
 end
