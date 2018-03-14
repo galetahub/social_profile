@@ -6,6 +6,10 @@ module SocialProfile
         user['edge_owner_to_timeline_media'].try(:[], 'edges')
       end
 
+      def get_post(post_uid)
+        RubyInstagramScraper.get_media(post_uid)
+      end
+
       def friends_count
         user['edge_followed_by']['count']
       end
