@@ -15,7 +15,7 @@ module SocialProfile
       end
 
       def user
-        RubyInstagramScraper.get_user(self.uid)
+        RubyInstagramScraper.get_user(self.uid, @options)
       end
     end
   end

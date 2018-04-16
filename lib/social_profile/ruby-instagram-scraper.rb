@@ -23,12 +23,10 @@ module SocialProfile
       JSON.parse( open( "#{url}#{params}" ).read )
     end
 
-    def self.get_user ( username, max_id = nil )
+    def self.get_user ( username, options = {} )
       url = "#{BASE_URL}/#{ username }/?__a=1"
-      params = ""
-      params = "&max_id=#{ max_id }" if max_id
 
-      JSON.parse( open( "#{url}#{params}" ).read )["graphql"]["user"]
+      JSON.parse( open( url, options ).read )["graphql"]["user"]
     end
 
     def self.get_tag_media_nodes ( tag, max_id = nil )
