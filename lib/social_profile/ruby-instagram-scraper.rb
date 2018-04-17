@@ -24,9 +24,10 @@ module SocialProfile
     end
 
     def self.get_user ( username, options = {} )
-      url = "#{BASE_URL}/#{ username }/?__a=1"
+      url = "#{BASE_URL}/#{ username }"
 
-      JSON.parse( open( url, options ).read )["graphql"]["user"]
+      resp = open( url, options ).read.split("window._sharedData = ")[1].split(";</script>")[0]
+      JSON.parse(resp)['entry_data']['ProfilePage'][0]['graphql']['user']
     end
 
     def self.get_tag_media_nodes ( tag, max_id = nil )

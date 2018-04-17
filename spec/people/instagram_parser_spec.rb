@@ -8,8 +8,8 @@ describe SocialProfile::People::InstagramParser do
 
       stub_request(:get, "https://www.instagram.com/pavel_galeta/media/").
         to_return(:status => 200, :body => fixture('instagram_parser/media.json'))
-      stub_request(:get, "https://www.instagram.com/pavel_galeta/?__a=1").
-        to_return(:status => 200, :body => fixture('instagram_parser/user.json'))
+      stub_request(:get, "https://www.instagram.com/pavel_galeta").
+        to_return(:status => 200, :body => fixture('instagram_parser/user.html'))
       stub_request(:get, "https://www.instagram.com/p/#{@post_uid}/?__a=1").
         to_return(:status => 200, :body => fixture('instagram_parser/post.json'))
     end
@@ -32,7 +32,7 @@ describe SocialProfile::People::InstagramParser do
     end
 
     it "should response to friends_count" do
-      expect(@user.friends_count).to eq(102)
+      expect(@user.friends_count).to eq(106)
     end
 
     it "should response to get_post" do
