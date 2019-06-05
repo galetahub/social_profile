@@ -1,6 +1,7 @@
 require "rspec"
 require "social_profile"
 require 'webmock/rspec'
+require 'byebug'
 
 # Load support files
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
@@ -11,7 +12,7 @@ RSpec.configure do |config|
   require 'rspec/expectations'
   config.include RSpec::Matchers
 
-  # WebMock.allow_net_connect!
+  WebMock.allow_net_connect!
 
   # == Mock Framework
   config.mock_with :rspec

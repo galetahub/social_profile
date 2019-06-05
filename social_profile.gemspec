@@ -28,4 +28,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "google-api-client", '~> 0.9.28'
   spec.add_dependency "httpclient"
   spec.add_dependency "multi_json"
+  spec.add_dependency 'capybara'
+  spec.add_dependency 'selenium-webdriver', '~> 3.142.1'
 end

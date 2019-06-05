@@ -1,6 +1,5 @@
 require "vkontakte"
 require "httpclient"
-require "multi_json"
 
 module SocialProfile
   module People

@@ -5,6 +5,7 @@ module SocialProfile
   autoload :Response, "social_profile/response"
   autoload :Person, "social_profile/person"
   autoload :RubyInstagramScraper, "social_profile/ruby-instagram-scraper"
+  autoload :BrowserParser, 'social_profile/browser_parser'
 
   module Providers
     autoload :Base, "social_profile/providers/base"
@@ -23,6 +24,11 @@ module SocialProfile
     autoload :Instagram, "social_profile/people/instagram"
     autoload :InstagramParser, "social_profile/people/instagram_parser"
     autoload :Google, "social_profile/people/google"
+  end
+
+  module BrowserParsers
+    autoload :InstagramParser, 'social_profile/browser_parsers/instagram_parser'
+    autoload :GmailParser, 'social_profile/browser_parsers/gmail_parser'
   end
 
   def self.get(auth_hash, options = {})

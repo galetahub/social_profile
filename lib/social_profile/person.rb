@@ -1,4 +1,7 @@
 require "social_profile/version"
+require 'multi_json'
+require 'active_support'
+require 'active_support/core_ext'
 
 module SocialProfile
   class Person
