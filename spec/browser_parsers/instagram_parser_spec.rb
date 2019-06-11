@@ -25,11 +25,26 @@ describe SocialProfile::BrowserParsers::InstagramParser do
         allow(parser).to receive(:click_button)
         allow(parser).to receive(:assert_no_selector)
         allow(parser).to receive(:fill_in)
+        allow(parser).to receive(:person_confirmation?)
       end
 
       it 'verifies user' do
         expect(parser).to receive(:verification_process)
         expect { parser.login }.not_to raise_error
+      end
+    end
+
+    context 'when instagram requires to confirm person' do
+      before do
+        allow(parser).to receive(:visit)
+        allow(parser).to receive(:accept_alert_if_present)
+        allow(parser).to receive(:person_confirmation?).and_return(true)
+        allow(parser).to receive(:logged_in?).and_return(true)
+      end
+
+      it 'clicks "This Was Me" button' do
+        expect(parser).to receive(:click_button).with('This Was Me')
+        expect(parser.login).to be_truthy
       end
     end
   end

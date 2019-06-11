@@ -21,7 +21,7 @@ module SocialProfile
           "//span[contains(@email, 'security@mail.instagram.com')]"
         assert_selector(:xpath, email_path, wait: 30)
         first(:xpath, email_path).click
-        with_error_handling(return_on_fail: '') { first('font').text }
+        with_error_handling(return_on_fail: '') { all('font', wait: 5).last.text }
       end
 
       private
@@ -34,6 +34,7 @@ module SocialProfile
         wait_if_loading
         find(:xpath, "//input[contains(@type, '#{title}')]", visible: true, wait: 5).set(value)
         find(:xpath, "//*[contains(@name, 'signIn') or contains(@id, 'Next')]").click
+        wait_if_loading
       end
 
       def wait_if_loading

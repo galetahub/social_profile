@@ -5,6 +5,8 @@ module SocialProfile
 
       def login(attempts = 3)
         visit @url
+
+        click_button 'This Was Me' if person_confirmation?
         with_error_handling(return_on_fail: false) do
           accept_alert_if_present
           return true if logged_in?
@@ -57,8 +59,14 @@ module SocialProfile
         has_text? 'This Account is Private'
       end
 
+      def person_confirmation?
+        has_text? 'We Detected An Unusual Login Attempt'
+      end
+
       def verification_process
-        click_on 'Send Security Code' unless code_sent?
+        # We are requesting a new code, because the old one may be invalid already
+        action_title = code_sent? ? 'Get a new one' : 'Send Security Code'
+        click_on action_title
 
         code = nil
         within_new_window do
@@ -67,7 +75,9 @@ module SocialProfile
         end
 
         find(:xpath, "//input[contains(@aria-label, 'Security code')]").set(code)
-        click_on 'Submit'
+        submit_title = 'Submit'
+        click_on submit_title
+        assert_no_selector(:xpath, "//*[contains(text(), '#{submit_title}')]", wait: 10)
       end
 
       def followers
@@ -76,6 +86,7 @@ module SocialProfile
 
       def load_followers(count)
         scrolls_count = count
+        assert_selector(:xpath, FOLLOWER_XPATH, wait: 15)
         loop do
           with_error_handling do
             first(:xpath, FOLLOWER_XPATH).send_keys(:down)
