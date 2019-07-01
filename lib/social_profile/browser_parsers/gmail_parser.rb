@@ -21,7 +21,7 @@ module SocialProfile
           "//span[contains(@email, 'security@mail.instagram.com')]"
         assert_selector(:xpath, email_path, wait: 30)
         first(:xpath, email_path).click
-        with_error_handling(return_on_fail: '') { all('font', wait: 5).last.text }
+        with_error_handling(return_on_fail: '') { all('font', wait: 10, minimum: 1).last.text }
       end
 
       private

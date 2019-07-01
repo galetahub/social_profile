@@ -36,7 +36,7 @@ describe SocialProfile::BrowserParsers::GmailParser do
         allow(parser).to receive(:login)
         allow(parser).to receive(:assert_selector)
         allow(parser).to receive(:first).and_return(double(click: nil))
-        allow(parser).to receive(:all).with('font', wait: 5).
+        allow(parser).to receive(:all).with('font', wait: 10, minimum: 1).
           and_raise Selenium::WebDriver::Error::StaleElementReferenceError
       end
 

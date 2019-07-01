@@ -44,7 +44,7 @@ module SocialProfile
       private
 
       def browser_parser
-        BrowserParsers::InstagramParser.new RubyInstagramScraper::BASE_URL
+        BrowserParsers::InstagramParser.new RubyInstagramScraper::BASE_URL, cookies: options[:cookies]
       end
     end
   end

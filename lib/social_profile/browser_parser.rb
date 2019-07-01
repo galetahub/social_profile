@@ -1,16 +1,19 @@
 require 'capybara/dsl'
 require 'selenium/webdriver'
+require 'yaml'
+require 'fileutils'
 
 module SocialProfile
   # This class provide logic for parsing data using browser
   class BrowserParser
     include Capybara::DSL
 
-    def initialize(url)
+    def initialize(url, options = {})
       register_driver
       Capybara.run_server = false
       Capybara.current_driver = :chrome
 
+      @cookies = options[:cookies] || get_cookies
       @url = url
       @username = env_variable 'username'
       @password = env_variable 'password'
@@ -48,6 +51,29 @@ module SocialProfile
       # Exception means that alert not present on the page
     end
 
+    def add_cookies(cookies = [])
+      cookies.each do |cookie|
+        Capybara.current_session.driver.browser.manage.add_cookie(
+          name: cookie[:name],
+          value: cookie[:value],
+          domain: cookie[:domain]
+        )
+      end
+    end
+
+    def save_cookies(cookies = [])
+      return unless cookies.any?
+
+      FileUtils.mkdir_p(tmp_path.join('cookies'))
+      File.open(cookies_path, 'wb') { |f| f.write cookies.to_yaml }
+    end
+
+    def get_cookies
+      return [] unless File.exists? cookies_path
+
+      YAML.load_file(cookies_path)
+    end
+
     def env_variable(name)
       ENV["#{service_name}_#{name}".upcase]
     end
@@ -70,11 +96,19 @@ module SocialProfile
       opts.add_argument('--disable-gpu')
       opts.add_argument('--disable-dev-shm-usage')
       opts.add_argument('--window-size=1400,1400')
-      opts.add_argument("--user-data-dir=/tmp/social_profile/#{service_name}")
+      opts.add_argument("--user-data-dir=#{tmp_path.join(service_name)}")
       opts.add_argument('--enable-features=NetworkService,NetworkServiceInProcess')
       opts.add_option('prefs', 'intl.accept_languages': 'en-US')
 
       opts
+    end
+
+    def cookies_path
+      tmp_path.join("cookies/#{service_name}.yml")
+    end
+
+    def tmp_path
+      Pathname.new '/tmp/social_profile'
     end
   end
 end
