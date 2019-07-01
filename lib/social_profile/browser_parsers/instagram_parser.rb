@@ -12,7 +12,7 @@ module SocialProfile
           return true if logged_in?
 
           click_link 'Log in'
-          assert_no_selector(:xpath, "//button[contains(., 'Sign up')]", wait: 5)
+          assert_no_selector(:xpath, "//button[contains(., 'Sign up') or contains(., 'Next')]", wait: 5)
           fill_in 'username', with: @username
           fill_in 'password', with: @password
           click_button 'Log In'
@@ -40,6 +40,8 @@ module SocialProfile
 
         with_error_handling(return_on_fail: []) { followers.map(&:text) }
       end
+
+      at_exit { Capybara.current_session.driver.quit }
 
       private
 
