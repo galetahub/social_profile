@@ -6,6 +6,10 @@ module SocialProfile
       def login(attempts = 3)
         visit @url
 
+        if @cookies.any? && !logged_in?
+          add_cookies @cookies
+          visit @url
+        end
         click_button 'This Was Me' if person_confirmation?
         with_error_handling(return_on_fail: false) do
           accept_alert_if_present
@@ -17,6 +21,7 @@ module SocialProfile
           fill_in 'password', with: @password
           click_button 'Log In'
           verification_process if need_verification? || code_sent?
+          save_cookies Capybara.current_session.driver.browser.manage.all_cookies
 
           true
         end
@@ -35,7 +40,7 @@ module SocialProfile
         return [] if private_account?
 
         count = fetch_count > followers_count ? followers_count : fetch_count
-        click_link 'followers'
+        find(:xpath, "//a[contains(., 'followers')]", visible: true, wait: 5).click
         load_followers count
 
         with_error_handling(return_on_fail: []) { followers.map(&:text) }
