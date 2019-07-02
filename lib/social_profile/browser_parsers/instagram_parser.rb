@@ -4,19 +4,18 @@ module SocialProfile
       FOLLOWER_XPATH = "//div[contains(., 'Followers')]/following-sibling::div/ul//li//div/a[not(img)]".freeze
 
       def login(attempts = 3)
-        visit @url
+        login_url = "#{@url}/accounts/login"
+        visit login_url
 
         if @cookies.any? && !logged_in?
           add_cookies @cookies
-          visit @url
+          visit login_url
         end
         click_button 'This Was Me' if person_confirmation?
         with_error_handling(return_on_fail: false) do
           accept_alert_if_present
           return true if logged_in?
 
-          click_link 'Log in'
-          assert_no_selector(:xpath, "//button[contains(., 'Sign up') or contains(., 'Next')]", wait: 5)
           fill_in 'username', with: @username
           fill_in 'password', with: @password
           click_button 'Log In'
