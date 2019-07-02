@@ -9,9 +9,10 @@ module SocialProfile
     include Capybara::DSL
 
     def initialize(url, options = {})
+      @current_driver = ENV['SOCIAL_PROFILE_BROWSER'].eql?('chrome') ? :chrome : :firefox
       register_driver
       Capybara.run_server = false
-      Capybara.current_driver = :chrome
+      Capybara.current_driver = @current_driver
 
       @cookies = options[:cookies] || get_cookies
       @url = url
@@ -83,14 +84,14 @@ module SocialProfile
     end
 
     def register_driver
-      Capybara.register_driver :chrome do |app|
-        driver = Capybara::Selenium::Driver.new(app, browser: :chrome, options: chrome_options)
-        driver
+      Capybara.register_driver @current_driver do |app|
+        Capybara::Selenium::Driver.new(app, browser: @current_driver, options: browser_options)
       end
     end
 
-    def chrome_options
-      opts = Selenium::WebDriver::Chrome::Options.new
+    def browser_options
+      opts_class_str = "::Selenium::WebDriver::#{@current_driver.capitalize}::Options"
+      opts = Object.const_get(opts_class_str).new
       opts.add_argument('--headless') unless ENV['UI']
       opts.add_argument('--no-sandbox')
       opts.add_argument('--disable-gpu')

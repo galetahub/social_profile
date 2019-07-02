@@ -4,7 +4,9 @@ describe SocialProfile::BrowserParsers::InstagramParser do
   let(:parser) { described_class.new('https://www.instagram.com') }
 
   describe '#login' do
-    it { expect { parser.login }.not_to raise_error }
+    it 'logins successfully' do
+      expect(parser.login).to be_truthy
+    end
 
     context 'when user already logged in' do
       before { allow(parser).to receive(:logged_in?).and_return(true) }
