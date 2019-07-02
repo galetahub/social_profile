@@ -53,6 +53,8 @@ user.friends(count: 100)
 
 `count` is 200 by default.
 
+Firefox browser is used by default. To set chrome `export SOCIAL_PROFILE_BROWSER='chrome'`
+
 ## Contributing
 
 1. Fork it
