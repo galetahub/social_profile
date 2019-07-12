@@ -40,20 +40,24 @@ user.share_photo!(album_id, filepath, {
 
 ```
 
-For parsing instagram followers you should to set `ENV['INSTAGRAM_USERNAME']`, `ENV['INSTAGRAM_PASSWORD']`,
+For parsing instagram followers via browser you should to set `ENV['INSTAGRAM_USERNAME']`, `ENV['INSTAGRAM_PASSWORD']`,
 `ENV['GMAIL_USERNAME']` and `ENV['GMAIL_PASSWORD']` with your instagram and gmail credentials (email which linked to instagram account).
 Instagram credentials needed for instagram authentication, and gmail credentials for cases
 when instagram requires to fill in verification code from email during the login.
 And then You can to fetch followers from the instagram account.
 
 ```ruby
-user = SocialProfile::Person.get(:instagram_parser, uid, access_token)
+user = SocialProfile::Person.get(:instagram_parser, uid, access_token, browser_parsing: true)
 user.friends(count: 100)
 ```
 
 `count` is 200 by default.
 
 Firefox browser is used by default. To set chrome `export SOCIAL_PROFILE_BROWSER='chrome'`
+
+By default instagram followers are parsing without browser.
+To parse followers you need to set env variable with path to file with authorized cookies `export INSTAGRAM_COOKIES_PATH=/path/to/cookies`
+You can to get cookies string from the browser from Developer Tools Network tab.
 
 ## Contributing
 

@@ -1,4 +1,5 @@
 require "social_profile/version"
+require 'yaml'
 
 module SocialProfile
   autoload :Utils, "social_profile/utils"
@@ -6,6 +7,8 @@ module SocialProfile
   autoload :Person, "social_profile/person"
   autoload :RubyInstagramScraper, "social_profile/ruby-instagram-scraper"
   autoload :BrowserParser, 'social_profile/browser_parser'
+  autoload :HTTPParser, 'social_profile/http_parser'
+  autoload :AuthorizationError, 'social_profile/exceptions'
 
   module Providers
     autoload :Base, "social_profile/providers/base"
@@ -29,6 +32,10 @@ module SocialProfile
   module BrowserParsers
     autoload :InstagramParser, 'social_profile/browser_parsers/instagram_parser'
     autoload :GmailParser, 'social_profile/browser_parsers/gmail_parser'
+  end
+
+  module HTTPParsers
+    autoload :InstagramParser, 'social_profile/http_parsers/instagram_parser'
   end
 
   def self.get(auth_hash, options = {})

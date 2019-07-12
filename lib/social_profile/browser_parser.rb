@@ -1,6 +1,5 @@
 require 'capybara/dsl'
 require 'selenium/webdriver'
-require 'yaml'
 require 'fileutils'
 
 module SocialProfile
