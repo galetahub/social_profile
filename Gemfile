@@ -13,5 +13,7 @@ gem 'byebug'
 gem 'capybara'
 gem 'selenium-webdriver', '~> 3.142.1'
 
+gem 'faraday'
+
 gem 'rack', '~> 1.6', '>= 1.6.4'
 gem 'activesupport', '~> 4.0', '>= 4.0.13'

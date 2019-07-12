@@ -31,7 +31,7 @@ module SocialProfile
       end
 
       def friends(count: 200)
-        friends = browser_parser.followers_usernames(username,
+        friends = parser.followers_usernames(username,
                                                      fetch_count: count,
                                                      followers_count: friends_count)
         friends.map { |uid| self.class.new(uid, nil) }
@@ -43,8 +43,11 @@ module SocialProfile
 
       private
 
-      def browser_parser
-        BrowserParsers::InstagramParser.new RubyInstagramScraper::BASE_URL, cookies: options[:cookies]
+      def parser
+        url = RubyInstagramScraper::BASE_URL
+        return BrowserParsers::InstagramParser.new(url, cookies: options[:cookies]) if @options[:browser_parsing]
+
+        SocialProfile::HTTPParsers::InstagramParser.new(url, ENV['INSTAGRAM_COOKIES_PATH'])
       end
     end
   end
