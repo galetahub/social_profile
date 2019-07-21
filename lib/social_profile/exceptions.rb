@@ -8,4 +8,10 @@ module SocialProfile
       "#{@klass} not authorized!"
     end
   end
+
+  class ProfileInternalError < StandardError
+    def message
+      'Something went wrong'
+    end
+  end
 end

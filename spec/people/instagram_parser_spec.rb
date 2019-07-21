@@ -8,7 +8,7 @@ describe SocialProfile::People::InstagramParser do
     before do
       stub_request(:get, 'https://www.instagram.com/pavel_galeta/media/').
         to_return(status: 200, body: fixture('instagram_parser/media.json'))
-      stub_request(:get, 'https://www.instagram.com/pavel_galeta').
+      stub_request(:get, 'https://www.instagram.com/pavel_galeta/').
         to_return(status: 200, body: fixture('instagram_parser/user.html'))
       stub_request(:get, "https://www.instagram.com/p/#{post_uid}/?__a=1").
         to_return(status: 200, body: fixture('instagram_parser/post.json'))
@@ -53,20 +53,20 @@ describe SocialProfile::People::InstagramParser do
         expect(post['taken_at_timestamp']).to eq(1521031947)
       end
     end
+  end
 
-    describe '#friends' do
-      let(:friends) { user.friends(count: 10) }
-      let(:follower_friends) { friends.first.friends(count: 10) }
+  describe '#friends' do
+    let(:friends) { user.friends(count: 10) }
+    let(:follower_friends) { friends.first.friends(count: 10) }
 
-      it 'returns a list of friends' do
-        expect(friends.size).to be >= 10
-        expect(friends).to all(be_an(described_class))
-      end
+    it 'returns a list of friends' do
+      expect(friends.size).to be >= 10
+      expect(friends).to all(be_an(described_class))
+    end
 
-      it 'returns a list of follower friends' do
-        expect(follower_friends.size).to be >= 10
-        expect(follower_friends).to all(be_an(described_class))
-      end
+    it 'returns a list of follower friends' do
+      expect(follower_friends.size).to be >= 10
+      expect(follower_friends).to all(be_an(described_class))
     end
   end
 end

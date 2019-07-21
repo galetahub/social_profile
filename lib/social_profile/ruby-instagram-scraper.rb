@@ -24,9 +24,13 @@ module SocialProfile
     end
 
     def self.get_user ( username, options = {} )
-      url = "#{BASE_URL}/#{ username }"
+      body = if options[:client]
+        options[:client].get("#{username}/").body
+      else
+        open("#{BASE_URL}/#{ username }").read
+      end
+      resp = body.split("window._sharedData = ")[1].split(";</script>")[0]
 
-      resp = open( url, options ).read.split("window._sharedData = ")[1].split(";</script>")[0]
       JSON.parse(resp)['entry_data']['ProfilePage'][0]['graphql']['user']
     end
 

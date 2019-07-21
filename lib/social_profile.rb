@@ -9,6 +9,7 @@ module SocialProfile
   autoload :BrowserParser, 'social_profile/browser_parser'
   autoload :HTTPParser, 'social_profile/http_parser'
   autoload :AuthorizationError, 'social_profile/exceptions'
+  autoload :ProfileInternalError, 'social_profile/exceptions'
 
   module Providers
     autoload :Base, "social_profile/providers/base"
