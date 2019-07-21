@@ -1,7 +1,7 @@
 module SocialProfile
   module HTTPParsers
     class InstagramParser < SocialProfile::HTTPParser
-      def followers_usernames(username, fetch_count: 1000, followers_count: 1000)
+      def followers_usernames(username, attempts = 3, fetch_count: 1000, followers_count: 1000)
         raise SocialProfile::AuthorizationError, self.class unless logged_in?
 
         user_page = client.get("#{username}/").body
@@ -9,7 +9,8 @@ module SocialProfile
         loop do
           response = client.get(followers_endpoint(user_id(username), query_hash(user_page), next_page_token))
           json = JSON.parse response.body
-          followers << json.dig('data', 'user', 'edge_followed_by', 'edges').map do |edge|
+          edges = json.dig('data', 'user', 'edge_followed_by', 'edges')
+          followers << edges.map do |edge|
             edge.dig('node', 'username')
           end
           followers.flatten!
@@ -20,6 +21,10 @@ module SocialProfile
         end
 
         followers.uniq
+      rescue SocialProfile::ProfileInternalError
+        return [] if attempts.zero?
+
+        followers_usernames(username, attempts - 1, fetch_count: fetch_count, followers_count: followers_count)
       end
 
       private
@@ -36,16 +41,16 @@ module SocialProfile
       end
 
       def user_id(username)
-        @user_id ||= SocialProfile::RubyInstagramScraper.get_user(username)['id']
+        SocialProfile::RubyInstagramScraper.get_user(username, client: client)['id']
       end
 
       def query_hash(user_page)
-        return @query_hash if @query_hash
-
         js_endpoint = user_page[/src\s*\=\s*(?:\'|\")([\w\W]{,100}Consumer\.js[\w\W]{,100}\.js)/, 1]
+        raise SocialProfile::ProfileInternalError unless js_endpoint
+
         js_content = client.get(js_endpoint).body
         regex = /mutualUsers[\w\W]+?(?:var|const)\s*t\s*\=\s*\\?(?:\'|\")([A-z0-9]+?)(?:\'|\")\s*\,n/
-        @query_hash = js_content[regex, 1]
+        js_content[regex, 1]
       end
     end
   end

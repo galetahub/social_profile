@@ -16,5 +16,19 @@ describe SocialProfile::HTTPParsers::InstagramParser do
           to raise_error SocialProfile::AuthorizationError, "#{described_class} not authorized!"
       end
     end
+
+    context 'when page does not contain js file with query hash' do
+      before do
+        allow(parser).to receive(:query_hash).and_raise SocialProfile::ProfileInternalError
+        allow(parser).to receive(:logged_in?).and_return(true)
+        allow(parser).to receive(:client).and_return(double(get: double(body: '')))
+        allow(parser).to receive(:user_id)
+      end
+
+      it 'returns the empty array after 3 attempts to retry' do
+        expect(parser).to receive(:followers_usernames).at_least(3).times.and_call_original
+        expect(parser.followers_usernames('pavel_galeta', fetch_count: 100, followers_count: 100)).to be_empty
+      end
+    end
   end
 end

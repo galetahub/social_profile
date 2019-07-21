@@ -38,7 +38,7 @@ module SocialProfile
       end
 
       def user
-        RubyInstagramScraper.get_user(self.uid, @options)
+        RubyInstagramScraper.get_user(self.uid, @options.merge({ client: parser.client }))
       end
 
       private
@@ -47,7 +47,7 @@ module SocialProfile
         url = RubyInstagramScraper::BASE_URL
         return BrowserParsers::InstagramParser.new(url, cookies: options[:cookies]) if @options[:browser_parsing]
 
-        SocialProfile::HTTPParsers::InstagramParser.new(url, ENV['INSTAGRAM_COOKIES_PATH'])
+        SocialProfile::HTTPParsers::InstagramParser.new(url, ENV['INSTAGRAM_COOKIES_PATH'], @options)
       end
     end
   end
