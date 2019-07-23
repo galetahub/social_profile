@@ -32,13 +32,15 @@ module SocialProfile
 
       def friends(count: 200)
         friends = parser.followers_usernames(username,
-                                                     fetch_count: count,
-                                                     followers_count: friends_count)
+                                             fetch_count: count,
+                                             followers_count: friends_count)
         friends.map { |uid| self.class.new(uid, nil) }
       end
 
       def user
-        RubyInstagramScraper.get_user(self.uid, @options.merge({ client: parser.client }))
+        @options[:client] = parser.client unless @options[:client]
+
+        RubyInstagramScraper.get_user(self.uid, @options)
       end
 
       private
@@ -47,7 +49,8 @@ module SocialProfile
         url = RubyInstagramScraper::BASE_URL
         return BrowserParsers::InstagramParser.new(url, cookies: options[:cookies]) if @options[:browser_parsing]
 
-        SocialProfile::HTTPParsers::InstagramParser.new(url, ENV['INSTAGRAM_COOKIES_PATH'], @options)
+        cookies = @options[:cookies] || ENV['INSTAGRAM_COOKIES_PATH']
+        SocialProfile::HTTPParsers::InstagramParser.new(url, cookies, @options)
       end
     end
   end
