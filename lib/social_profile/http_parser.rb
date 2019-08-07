@@ -3,7 +3,7 @@ require 'cgi'
 
 module SocialProfile
   class HTTPParser
-    def initialize(url, cookies_path, options = {})
+    def initialize(url, cookies_path = nil, options = {})
       @url = url
       @cookies_path = cookies_path
       @options = options
@@ -14,7 +14,7 @@ module SocialProfile
       @client ||= Faraday.new(@url, options) do |request|
         request.request :url_encoded
         request.adapter Faraday.default_adapter
-        request.headers['Cookie'] = cookies
+        request.headers['Cookie'] = cookies if @cookies_path
         request.proxy @options[:proxy] if @options[:proxy]
       end
     end
@@ -22,7 +22,11 @@ module SocialProfile
     private
 
     def cookies
-      @cookies ||= File.read(@cookies_path)
+      if @cookies_path
+        return @cookies ||= @cookies_path unless File.exists?(@cookies_path)
+
+        @cookies ||= File.read(@cookies_path)
+      end
     end
   end
 end
