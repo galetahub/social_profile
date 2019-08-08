@@ -19,6 +19,7 @@ module SocialProfile
     autoload :Instagram, "social_profile/providers/instagram"
     autoload :Odnoklassniki, "social_profile/providers/odnoklassniki"
     autoload :Google, "social_profile/providers/google"
+    autoload :Linkedin, 'social_profile/providers/linkedin'
   end
 
   module People
@@ -42,15 +43,8 @@ module SocialProfile
   def self.get(auth_hash, options = {})
     provider = auth_hash["provider"].to_s.downcase if auth_hash && auth_hash["provider"]
 
-    klass = case provider
-      when "facebook" then Providers::Facebook
-      when "vkontakte" then Providers::Vkontakte
-      when "twitter" then Providers::Twitter
-      when "instagram" then Providers::Instagram
-      when "odnoklassniki" then Providers::Odnoklassniki
-      when "google" then Providers::Google
-      else Providers::Base
-    end
+    klass_str = "Providers::#{provider.capitalize}"
+    klass = const_defined?(klass_str) ? const_get(klass_str) : Provider::Base
 
     klass.new(auth_hash, options)
   end
