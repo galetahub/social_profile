@@ -44,7 +44,7 @@ module SocialProfile
     provider = auth_hash["provider"].to_s.downcase if auth_hash && auth_hash["provider"]
 
     klass_str = "Providers::#{provider.capitalize}"
-    klass = const_defined?(klass_str) ? const_get(klass_str) : Provider::Base
+    klass = const_defined?(klass_str) ? const_get(klass_str) : Providers::Base
 
     klass.new(auth_hash, options)
   end
