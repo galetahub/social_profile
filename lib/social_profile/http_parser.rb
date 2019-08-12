@@ -10,6 +10,8 @@ module SocialProfile
     end
 
     def client
+      return @options[:client] if @options[:client]
+
       options = { ssl: { verify: false }, request: { timeout: 10 } }
       @client ||= Faraday.new(@url, options) do |request|
         request.request :url_encoded
