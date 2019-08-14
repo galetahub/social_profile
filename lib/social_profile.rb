@@ -20,6 +20,7 @@ module SocialProfile
     autoload :Odnoklassniki, "social_profile/providers/odnoklassniki"
     autoload :Google, "social_profile/providers/google"
     autoload :Linkedin, 'social_profile/providers/linkedin'
+    autoload :Twitch, 'social_profile/providers/twitch'
   end
 
   module People
