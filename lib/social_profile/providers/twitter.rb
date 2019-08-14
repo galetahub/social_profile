@@ -9,6 +9,21 @@ module SocialProfile
           end
         end
       end
+
+      def profile_url
+        @profile_url ||= begin
+          urls = info('urls')
+          urls.nil? ? nil : urls['Twitter']
+        end
+      end
+      
+      def picture_url
+        @picture_url ||= begin
+          url = info('image').split('?').shift()
+          check_url([url, "type=large"].join('?'))
+        end
+      end
+
     end
   end  
 end
