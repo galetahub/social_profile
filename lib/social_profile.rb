@@ -30,6 +30,7 @@ module SocialProfile
     autoload :Instagram, "social_profile/people/instagram"
     autoload :InstagramParser, "social_profile/people/instagram_parser"
     autoload :Google, "social_profile/people/google"
+    autoload :Twitch, 'social_profile/people/twitch'
   end
 
   module BrowserParsers
