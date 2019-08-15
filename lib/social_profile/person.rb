@@ -16,15 +16,8 @@ module SocialProfile
     def self.get(provider, uid, access_token, options = {})
       return if provider.nil?
 
-      klass = case provider.to_s
-        when "facebook" then People::Facebook
-        when "vkontakte" then People::Vkontakte
-        when "twitter" then People::Twitter
-        when "instagram" then People::Instagram
-        when "instagram_parser" then People::InstagramParser
-        when "google" then People::Google
-        else Person
-      end
+      klass_str = "SocialProfile::People::#{classify(provider)}"
+      klass = const_defined?(klass_str) ? const_get(klass_str) : Person
 
       klass.new(uid, access_token, options)
     end
@@ -81,6 +74,16 @@ module SocialProfile
     # Get followers count
     def followers_count(options = {})
       nil
+    end
+
+    private
+
+    def self.classify(klass_str)
+      klass_str.to_s.split('_').map(&:capitalize).join
+    end
+
+    def classify(klass_str)
+      self.classify(klass_str)
     end
   end
 end

@@ -17,6 +17,7 @@ module SocialProfile
         request.request :url_encoded
         request.adapter Faraday.default_adapter
         request.headers['Cookie'] = cookies if @cookies_path
+        request.headers['Authorization'] = "Bearer #{@options[:access_token]}" if @options[:access_token]
         request.proxy @options[:proxy] if @options[:proxy]
       end
     end
