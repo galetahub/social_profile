@@ -21,6 +21,7 @@ module SocialProfile
     autoload :Google, "social_profile/providers/google"
     autoload :Linkedin, 'social_profile/providers/linkedin'
     autoload :Twitch, 'social_profile/providers/twitch'
+    autoload :Telegram, 'social_profile/providers/telegram'
   end
 
   module People
