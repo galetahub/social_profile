@@ -40,7 +40,7 @@ module SocialProfile
       def user
         @options[:client] = parser.client unless @options[:client]
 
-        RubyInstagramScraper.get_user(self.uid, @options)
+        @user ||= RubyInstagramScraper.get_user(self.uid, @options)
       end
 
       private
