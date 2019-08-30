@@ -16,6 +16,7 @@ module SocialProfile
           followers.flatten!
           next_page_token = json.dig('data', 'user', 'edge_followed_by', 'page_info', 'end_cursor')
           next_page_token = CGI.escape(next_page_token) if next_page_token
+          sleep @options[:delay].to_i if @options[:delay]
 
           break if followers.count >= fetch_count || next_page_token.nil?
         end
@@ -41,16 +42,18 @@ module SocialProfile
       end
 
       def user_id(username)
-        SocialProfile::RubyInstagramScraper.get_user(username, client: client)['id']
+        @user_id ||= SocialProfile::RubyInstagramScraper.get_user(username, client: client)['id']
       end
 
       def query_hash(user_page)
+        return @query_hash if @query_hash
+
         js_endpoint = user_page[/src\s*\=\s*(?:\'|\")([\w\W]{,100}Consumer\.js[\w\W]{,100}\.js)/, 1]
         raise SocialProfile::ProfileInternalError unless js_endpoint
 
         js_content = client.get(js_endpoint).body
         regex = /mutualUsers[\w\W]+?(?:var|const)\s*t\s*\=\s*\\?(?:\'|\")([A-z0-9]+?)(?:\'|\")\s*\,n/
-        js_content[regex, 1]
+        @query_hash = js_content[regex, 1]
       end
     end
   end
