@@ -1,0 +1,20 @@
+{
+  "localizedLastName": "Vykhor",
+  "lastName": {
+    "localized": { "ru_RU" : "Vykhor" },
+    "preferredLocale": { "country": "RU", "language": "ru" }
+  },
+  "vanityName": "oleksii-vykhor-935aaa156",
+  "firstName": {
+    "localized": { "ru_RU": "Oleksii" },
+    "preferredLocale": { "country": "RU", "language": "ru" }
+  },
+  "profilePicture": { "displayImage": "urn:li:digitalmediaAsset:C5603AQFR_BnUD5ItUg" },
+  "localizedHeadline": "ruby dev",
+  "id": "UUiKjtZXr-",
+  "headline": {
+    "localized": { "ru_RU": "ruby dev" },
+    "preferredLocale": { "country": "RU", "language": "ru"}
+  },
+  "localizedFirstName": "Oleksii"
+}
