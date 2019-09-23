@@ -25,6 +25,7 @@ describe SocialProfile::People::Twitch do
     it { expect(profile.status).to be_nil }
     it { expect(profile.game).to be_nil }
     it { expect(profile.video_count).to be_nil }
+    it { expect(profile.last_videos).to eq [] }
 
     it 'uses helix client' do
       expect(profile).not_to receive(:kraken_client)
@@ -35,6 +36,10 @@ describe SocialProfile::People::Twitch do
 
     it 'receives username' do
       expect(profile.username).to eq 'marvellous_li'
+    end
+
+    it 'receives picture url' do
+      expect(profile.picture_url).to eq 'https://static-cdn.jtvnw.net/jtv_user_pictures/b64c0353-f7ef-48ec-a1bb-6959e4ce4d3c-profile_image-300x300.jpg'
     end
 
     it 'receives view count' do
@@ -73,6 +78,7 @@ describe SocialProfile::People::Twitch do
       stub_request(:get, "https://api.twitch.tv/kraken/channels/#{uid}").
         to_return(status: 200, body: fixture('twitch/kraken_user.json'))
       stub_request(:get, "https://api.twitch.tv/kraken/channels/#{uid}/videos").
+        with(query: { limit: 100 }).
         to_return(status: 200, body: fixture('twitch/kraken_videos.json'))
     end
 
@@ -85,6 +91,15 @@ describe SocialProfile::People::Twitch do
 
     it 'receives username' do
       expect(profile.username).to eq 'marvellous_li'
+    end
+
+    it 'receives picture url' do
+      expect(profile.picture_url).to eq 'https://static-cdn.jtvnw.net/jtv_user_pictures/b64c0353-f7ef-48ec-a1bb-6959e4ce4d3c-profile_image-300x300.jpg'
+    end
+
+    it 'receives last videos' do
+      expect(profile.last_videos.count).to eq 100
+      expect(profile.last_videos).to all(be_a Hash)
     end
 
     it 'receives status' do
@@ -100,7 +115,7 @@ describe SocialProfile::People::Twitch do
     end
 
     it 'receives video count' do
-      expect(profile.video_count).to eq 88
+      expect(profile.video_count).to eq 118
     end
 
     it 'receives view count' do

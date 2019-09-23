@@ -20,6 +20,14 @@ module SocialProfile
         user['login'] || user['name']
       end
 
+      def picture_url
+        user['profile_image_url'] || user['logo']
+      end
+
+      def last_videos
+        channel_videos['videos'] || []
+      end
+
       def status
         user['status']
       end
@@ -33,10 +41,7 @@ module SocialProfile
       end
 
       def video_count
-        return unless kraken?
-
-        body = get_json kraken_client.get("kraken/channels/#{uid}/videos")
-        body['_total']
+        channel_videos['_total']
       end
 
       def view_count
@@ -83,6 +88,12 @@ module SocialProfile
         end
 
         _follows.map { |f| self.class.new(f[follow_id_key], access_token, @options) }
+      end
+
+      def channel_videos
+        return {} unless kraken?
+
+        @channel_videos ||= get_json kraken_client.get("kraken/channels/#{uid}/videos", limit: 100)
       end
 
       %i[helix kraken].each do |method|
