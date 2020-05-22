@@ -9,6 +9,10 @@ module SocialProfile
           end
         end
       end
+      
+      def nickname
+        @nickname ||= info('username')
+      end
     end
   end  
 end
