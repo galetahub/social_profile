@@ -23,15 +23,16 @@ module SocialProfile
       JSON.parse( open( "#{url}#{params}" ).read )
     end
 
-    def self.get_user ( username, options = {} )
-      body = if options[:client]
-        options[:client].get("#{username}/").body
-      else
-        open("#{BASE_URL}/#{ username }").read
-      end
-      resp = body.split("window._sharedData = ")[1].split(";</script>")[0]
+    def self.get_user(username, options = {})
+      json_path = "#{username}/?__a=1&__d=dis"
 
-      JSON.parse(resp)['entry_data']['ProfilePage'][0]['graphql']['user']
+      body = if options[:client]
+               options[:client].get(json_path).body
+             else
+               open(File.join(BASE_URL, json_path)).read
+             end
+
+      JSON.parse(body)['graphql']['user']
     end
 
     def self.get_tag_media_nodes ( tag, max_id = nil )
