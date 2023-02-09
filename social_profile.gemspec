@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'capybara', '~> 2.18.0'
   spec.add_dependency 'fb_graph2', '~> 0.9.1'
-  spec.add_dependency 'google-api-client', '~> 0.53.0'
+  spec.add_dependency 'google-api-client', '~> 0.49.0'
   spec.add_dependency 'httpclient'
   # spec.add_dependency 'instagram', '~> 1.1.6'
   spec.add_dependency 'multi_json'
