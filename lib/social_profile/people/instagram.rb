@@ -1,4 +1,4 @@
-require "instagram"
+# require "instagram"
 
 module SocialProfile
   module People
@@ -12,9 +12,10 @@ module SocialProfile
       end
 
       protected
-      
+
         def client
-          ::Instagram.client(access_token: access_token)
+          raise 'impelement instagram client'
+          # ::Instagram.client(access_token: access_token)
         end
     end
   end

@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'fb_graph2', '~> 0.9.1'
   spec.add_dependency 'google-api-client', '~> 0.9.28'
   spec.add_dependency 'httpclient'
-  spec.add_dependency 'instagram', '~> 1.1.6'
+  # spec.add_dependency 'instagram', '~> 1.1.6'
   spec.add_dependency 'multi_json'
   spec.add_dependency 'twitter', '~> 6.2.0'
   spec.add_dependency 'vkontakte', '~> 0.0.6'
