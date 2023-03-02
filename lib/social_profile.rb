@@ -22,6 +22,7 @@ module SocialProfile
     autoload :Linkedin, 'social_profile/providers/linkedin'
     autoload :Twitch, 'social_profile/providers/twitch'
     autoload :Telegram, 'social_profile/providers/telegram'
+    autoload :Tiktok, 'social_profile/providers/tiktok'
   end
 
   module People
@@ -33,6 +34,7 @@ module SocialProfile
     autoload :Google, "social_profile/people/google"
     autoload :Twitch, 'social_profile/people/twitch'
     autoload :Linkedin, 'social_profile/people/linkedin'
+    autoload :Tiktok, 'social_profile/people/tiktok'
   end
 
   module BrowserParsers
